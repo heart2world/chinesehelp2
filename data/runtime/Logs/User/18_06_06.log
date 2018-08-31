@@ -1,0 +1,36 @@
+[ 2018-06-06T11:22:50+08:00 ] 113.251.19.232 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:22:50 Use 1.047701 s 
+
+[ 2018-06-06T11:32:06+08:00 ] 61.151.226.62 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:32:06 Use 1.138856 s 
+
+[ 2018-06-06T14:37:17+08:00 ] 113.251.19.232 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=071NWWIK0YXqE52DZcLK0NxLIK0NWWIk&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:37:17 Use 1.046284 s 
+
+[ 2018-06-06T14:38:14+08:00 ] 113.251.19.232 /index.php?g=user&m=center&a=changeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:38:14 Use 1.044076 s 
+
+[ 2018-06-06T14:38:27+08:00 ] 101.226.93.193 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:38:27 Use 1.045253 s 
+
+[ 2018-06-06T14:39:05+08:00 ] 113.251.19.232 /index.php?g=user&m=center&a=msg
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:39:05 Use 1.034205 s 
+
+[ 2018-06-06T14:39:21+08:00 ] 113.251.19.232 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:39:21 Use 1.042860 s 
+
+[ 2018-06-06T14:44:12+08:00 ] 113.251.19.232 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=071D3vdz0Rp7if1taNez0g6Mdz0D3vdM&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:44:12 Use 1.048692 s 
+
+[ 2018-06-06T14:48:58+08:00 ] 113.251.19.232 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=071X3pqD0H3V9e2zNfoD0g08qD0X3pqe&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:48:58 Use 1.043632 s 
+
+[ 2018-06-06T14:59:12+08:00 ] 113.251.19.232 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=021k1qmN0HZxE32wA6nN0cRlmN0k1qm3&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:59:12 Use 1.043370 s 
+
+[ 2018-06-06T15:22:59+08:00 ] 113.251.19.232 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=021JDUq72HhBmK0RgFq72me1r72JDUqQ&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:22:59 Use 1.049548 s 
+
+[ 2018-06-06T15:24:02+08:00 ] 113.251.19.232 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=0710rWX30zqVnC1nBJW30iSZX300rWXX&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:24:02 Use 1.044245 s 
+

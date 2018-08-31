@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>我的解答</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="好问达">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="好问达学生端">
+	<meta name="description" content="好问达学生端">
+	<link rel="stylesheet" href="__PUBLIC__/style/base.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/style/app.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/weui.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/jquery-weui.css">
+	<script src="__PUBLIC__/libs/jq.min.js"></script>
+	<script src="__PUBLIC__/libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	
+	<section id="app">
+		<nav class="top-nav app-flex">
+			<div :class="{'cur':cur_index == 1}" class="nav-cell app-basis" @click="change_tab($event,'1');">待解答</div>
+			<div :class="{'cur':cur_index == 2}" class="nav-cell app-basis" @click="change_tab($event,'2');">我的解答</div>
+		</nav>	
+		<!--待解答-->
+		<section v-if="cur_index == 1" class="problem-container" v-cloak>
+			<ul class="problem-ull">
+				<volist name="unlist" id="va">
+				<li class="problem-item">
+					<a href="{:U('Portal/Problem/answerinfo',array('id'=>$va['id']))}">
+						<div class="problem-top app-flex">
+							<h4 class="app-basis" style="font-size:.8rem;line-height:1.7rem;color:#595959">{$va.addtime|date='Y-m-d',###}</h4>
+							<h5>待解答</h5>
+						</div>
+						<div class="problem-info">
+							<p class="ellipsis" style="font-size:.8rem">{$va.title}</p>
+						</div>
+					</a>
+				</li>
+				</volist>
+			</ul>
+		</section>
+		<!--我的解答-->
+		<section v-if="cur_index == 2" class="problem-container" v-cloak>
+			<ul class="problem-ull">
+				<volist name="plist" id="va">
+				<li class="problem-item">
+					<a href="{:U('Portal/Problem/detail',array('id'=>$va['id']))}">
+						<div class="problem-top app-flex">
+							<h4 class="app-basis" style="font-size:.8rem;line-height:1.7rem;color:#595959">{$va.addtime2|date='Y-m-d',###}</h4>
+							<h5><if condition="$va['isfree'] eq 1">私密回答</if><if condition="$va['isfree'] eq 2">公开回答</if><if condition="$va['isfree'] eq 0">请选择</if></h5>
+						</div>
+						<div class="problem-info">
+							<p style="font-size:.8rem">{$va.title}</p>
+							<p style="font-size:.8rem;">回答满意度 : <span style="color:#999">{$va.star}</span></p>
+							<p class="problem-info-num">
+								<span class="ck">{$va.clicknum}<if condition="$va['clicknum'] gt '999'">+</if></span>
+								<span class="sc">{$va.colcount}<if condition="$va['colcount'] gt '999'">+</if></span>
+							</p>
+						</div>
+					</a>
+				</li>
+				</volist>				
+			</ul>
+		</section>	
+		<div v-if="cur_index == 1" class="data-text" v-text="data_text"></div>
+		<div v-if="cur_index == 2" class="data-text" v-text="data_text"></div>
+	</section>
+</body>
+<script src="__PUBLIC__/libs/fixed.js"></script>
+<script src="__PUBLIC__/libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:sessionStorage.getItem("status") ? sessionStorage.getItem("status") : 1,
+			data_text:'没有更多了~'
+
+		},
+		methods:{
+			change_tab:function(evt,index){
+				this.cur_index = index;
+			}
+		}
+	});
+</script>
+</html>

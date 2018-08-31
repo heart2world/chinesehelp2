@@ -1,0 +1,15 @@
+[ 2018-07-08T09:54:12+08:00 ] 183.3.226.234 /index.php?g=api&m=mobileverify&a=send_msg
+ERR: Cron:测试执行定时任务 Runat 2018-07-08 09:54:12 Use 1.046630 s 
+
+[ 2018-07-08T12:59:26+08:00 ] 111.85.7.189 /index.php?g=api&m=mobileverify&a=send_msg
+ERR: Cron:测试执行定时任务 Runat 2018-07-08 12:59:26 Use 1.049972 s 
+
+[ 2018-07-08T13:55:47+08:00 ] 113.96.231.120 /index.php?g=api&m=mobileverify&a=send_msg
+ERR: Cron:测试执行定时任务 Runat 2018-07-08 13:55:47 Use 1.048939 s 
+
+[ 2018-07-08T17:27:44+08:00 ] 14.116.137.166 /index.php?g=api&m=mobileverify&a=send_msg
+ERR: Cron:测试执行定时任务 Runat 2018-07-08 17:27:44 Use 1.037959 s 
+
+[ 2018-07-08T20:11:45+08:00 ] 183.3.255.28 /index.php?g=api&m=mobileverify&a=send_msg
+ERR: Cron:测试执行定时任务 Runat 2018-07-08 20:11:45 Use 1.048274 s 
+

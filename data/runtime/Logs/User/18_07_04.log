@@ -1,0 +1,12 @@
+[ 2018-07-04T00:08:55+08:00 ] 113.96.219.247 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:08:55 Use 1.046032 s 
+
+[ 2018-07-04T19:31:48+08:00 ] 223.104.25.230 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=081rid491961rR11Rc491sp8491rid4x&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0grmWMBaDp_sRLebP0IN07E','http://thirdwx.qlogo.cn/mmopen/vi_32/g6JNv2xEAXRCYPy7LSP3ouqKtMpXU7UXibB9mTqNN8YhTiaDhx8U0uSMicn6GtSEGPZ8dlvNRG74YMEKbnnWqz7Gw/132','1530703908','0','2018-09','###b428c292dceeff68a3b464e43b2d8694','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0grmWMBaDp_sRLebP0IN07E','http://thirdwx.qlogo.cn/mmopen/vi_32/g6JNv2xEAXRCYPy7LSP3ouqKtMpXU7UXibB9mTqNN8YhTiaDhx8U0uSMicn6GtSEGPZ8dlvNRG74YMEKbnnWqz7Gw/132','1530703908','0','2018-09','###b428c292dceeff68a3b464e43b2d8694','0')
+
+[ 2018-07-04T19:32:46+08:00 ] 101.226.86.154 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 19:32:46 Use 1.045592 s 
+

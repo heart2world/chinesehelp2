@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>提现</title>
+		<link rel="stylesheet" href="../../lib/weui/jquery-weui.css" />
+		<link rel="stylesheet" href="../../lib/weui/weui.min.css" />
+		<link rel="stylesheet" href="../../css/public.css" />
+		<link rel="stylesheet" href="../../css/style.css" />
+		<script type="text/javascript" src="../../lib/jq/jquery-1.10.2.js" ></script>
+		<script type="text/javascript" src="../../lib/weui/jquery-weui.js" ></script>
+		<script type="text/javascript" src="../../js/common.js" ></script>
+	</head>
+	<style>
+		.weui-btn-area{ margin: 15px;}
+		.weui-btn_primary{ background: #3CC8FE;}
+		.weui-btn_primary:not(.weui-btn_disabled):active{ background: #3CC8FE;}
+	</style>
+	<body>
+		
+		<section class="tixianSec">
+			<div class="weui-cells weui-cells_form">
+	            <div class="weui-cell">
+	                <div class="weui-cell__hd"><label class="weui-label">可提现金额</label></div>
+	                <div class="weui-cell__bd">
+	                    <input class="weui-input" type="number" pattern="[0-9]*" value="999.99" readonly>
+	                </div>
+	            </div>
+	            <div class="weui-cell">
+	                <div class="weui-cell__hd"><label class="weui-label">提现金额</label></div>
+	                <div class="weui-cell__bd">
+	                    <input class="weui-input" type="number" pattern="[0-9]*">
+	                </div>
+	            </div>
+	        </div>
+	        <div class="weui-btn-area">
+	            <a class="weui-btn weui-btn_primary" href="javascript:" >确定</a>
+	        </div>
+		</section>
+		
+	</body>
+</html>
+<script>
+	bgImg('ewmImg',1);
+</script>

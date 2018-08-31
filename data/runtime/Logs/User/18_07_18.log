@@ -1,0 +1,6 @@
+[ 2018-07-18T14:18:32+08:00 ] 61.151.226.61 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-07-18 14:18:32 Use 1.057763 s 
+
+[ 2018-07-18T18:58:32+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-18 18:58:32 Use 1.050685 s 
+

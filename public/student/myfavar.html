@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>我的收藏</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app">
+		<nav class="top-nav app-flex">
+			<div :class="{'cur':cur_index == 1}" class="nav-cell app-basis" @click="change_tab($event,'1');">收藏的老师</div>
+			<div :class="{'cur':cur_index == 2}" class="nav-cell" @click="change_tab($event,'2');">收藏的回答/微课/资源</div>
+		</nav>
+		<!--收藏的老师-->
+		<ul class="teacher-list" v-if="cur_index == 1">
+			<li class="list-item">
+				<a href="teacher_info.html?teacher_id=100" class="app-flex app-vertical-center">
+					<div class="teacher-avatar">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn favared"></div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a href="#" class="app-flex app-vertical-center">
+					<div class="teacher-avatar busy">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn favared" @click="add_favar_or_cancel($event);"></div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a href="#" class="app-flex app-vertical-center">
+					<div class="teacher-avatar offline">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn favared"></div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a href="#" class="app-flex app-vertical-center">
+					<div class="teacher-avatar busy">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn favared"></div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a href="#" class="app-flex app-vertical-center">
+					<div class="teacher-avatar">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn favared"></div>
+				</a>
+			</li>
+		</ul>
+		<!--收藏的回答/微课/资源-->
+		<article class="content-panel hot-panel" v-if="cur_index == 2">
+			<ul class="content-list">
+				<li class="content-item" data-type="mrolesson">
+					<a href="lesson_info.html?lid=1">
+						<div class="content-top app-flex app-vertical-center">
+							<h4 class="app-basis">《文言文常见通假字释义》</h4>
+							<h5>微课</h5>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>微课类型:  </h4>
+							<h5 class="app-basis">名校真题</h5>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>课程简介:  </h4>
+							<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+						</div>
+						<div class="content-info-num app-flex app-vertical-center">
+							<h4>查看次数: <span>999+</span></h4>
+							<h5>收藏次数: <span>299</span></h5>
+						</div>
+					</a>
+				</li>
+				<li class="content-item" data-type="resource">
+					<a href="#">
+						<div class="content-top app-flex app-vertical-center">
+							<h4 class="app-basis">《文言文常见通假字释义》</h4>
+							<h5>资源</h5>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>资源类型: </h4>
+							<h5 class="app-basis">名校真题</h5>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>资源简介: </h4>
+							<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+						</div>
+						<div class="content-info-num app-flex app-vertical-center">
+							<h4>查看次数: <span>999+</span></h4>
+							<h5>收藏次数: <span>299</span></h5>
+						</div>
+					</a>
+				</li>
+				<li class="content-item" data-type="requestion">
+					<a href="#">
+						<div class="content-top app-flex app-vertical-center">
+							<h4 class="app-basis">《文言文常见通假字释义》</h4>
+							<h5>问答</h5>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>回答满意度:  <span>4.8</span></h4>
+						</div>
+						<div class="content-info-num app-flex app-vertical-center">
+							<h4>查看次数: <span>999+</span></h4>
+							<h5>收藏次数: <span>299</span></h5>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</article>
+		<div class="data-text" v-text="data_text"></div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:1,
+			data_text:'没有更多了~'
+
+		},
+		methods:{
+			change_tab:function(evt,index){
+				this.cur_index = index;
+			}
+		}
+	});
+</script>
+</html>

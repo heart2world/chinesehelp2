@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>我的收入</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮教师端">
+	<meta name="description" content="语文帮教师端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<!--我的收入信息-->
+	<section id="app">
+		<!--头部信息-->
+		<header class="income-hd">
+			<h4>收入总额：<span v-text="allmoney"></span>元</h4>
+			<div class="income-info app-flex app-vertical-center app-content-justify">
+				<div class="info-navitem app-basis">已提现：<span v-text="getmoney_all"></span>元</div>
+				<div class="info-navitem app-basis">未提现：<span v-text="unmoney_all"></span>元</div>
+			</div>
+			<div class="more-note">
+				<a href="withdrawals_note.html">查看提现记录</a>
+			</div>
+			<div class="widthdrawals-btn" @click="pop_alert($event);">提现申请</div>
+		</header>
+		<aside class="filter-time app-flex app-vertical-center app-content-justify">
+			<h4>收入记录</h4>
+			<h5 class="app-flex app-vertical-center">
+				<div class="input-date app-basis">
+					<input type="text" id="date1" placeholder="日期" data-toggle='date' readonly v-model="datestart">
+				</div>
+				<div>至</div>
+				<div class="input-date app-basis">
+					<input type="text" id="date2" placeholder="日期" data-toggle='date' readonly v-model="enddate">
+				</div>
+			</h5>
+		</aside>
+		<!--提现记录-->
+		<section class="list-wrap">
+			<ul class="getmoney-list">
+				<li class="list-item app-flex app-vertical-center">
+					<div class="list-info app-basis">
+						<h4>TA充电: <span>￥2.00</span></h4>
+						<p>问题: 孔子的夫人是谁？</p>
+						<p>2017-12-29  16:00</p>
+					</div>
+					<div class="list-status in">未提现</div>
+				</li>
+				<li class="list-item app-flex app-vertical-center">
+					<div class="list-info app-basis">
+						<h4>TA充电: <span>￥2.00</span></h4>
+						<p>问题: 孔子的夫人是谁？</p>
+						<p>2017-12-29  16:00</p>
+					</div>
+					<div class="list-status in">未提现</div>
+				</li>
+				<li class="list-item app-flex app-vertical-center">
+					<div class="list-info app-basis">
+						<h4>TA充电: <span>￥2.00</span></h4>
+						<p>问题: 孔子的夫人是谁？</p>
+						<p>2017-12-29  16:00</p>
+					</div>
+					<div class="list-status">已提现</div>
+				</li>
+				<li class="list-item app-flex app-vertical-center">
+					<div class="list-info app-basis">
+						<h4>TA充电: <span>￥2.00</span></h4>
+						<p>问题: 孔子的夫人是谁？</p>
+						<p>2017-12-29  16:00</p>
+					</div>
+					<div class="list-status in">申请中</div>
+				</li>
+			</ul>
+		</section>
+		<div v-if="show_layer" class="cover-layer" v-cloak></div>
+		<div v-if="show_layer" class="apply-result" v-cloak>
+			<span>提现成功！<br/>收入已提现到微信钱包~</span>
+		</div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	var app = new Vue({
+		el:'#app',
+		data:{
+			allmoney:'9999.99',
+			getmoney_all:'1000.00',
+			unmoney_all:'999.00',
+			datestart:'',
+			enddate:'',
+			starttimestape:'',
+			endtimestape:'',
+			show_layer:false
+		},
+		mounted:function(){
+			var that = this;
+			Vue.nextTick(function(){
+				$("#date1").calendar({
+					onChange:function(p,values,displayValues){
+						that.datestart = values[0];
+						that.starttimestape = displayValues[0];
+						that.compara_each_date();
+					}
+				});
+				$("#date2").calendar({
+					onChange:function(p,values,displayValues){
+						that.enddate = values[0];
+						that.endttimestape = displayValues[0];
+						that.compara_each_date();
+					}
+				});
+			});
+		},
+		methods:{
+			compara_each_date:function(){
+				var time1 = Date.parse(new Date(app.datestart));
+				var time2 = Date.parse(new Date(app.enddate));
+				if(time1 != '' && time2 != ''){
+					console.log(time1,time2);
+					if(time1 >= time2){
+						$.toast("结束日期应大于起始日期",'text');
+						app.enddate = '';
+						return;
+					}
+					if(time2 <= time1){
+						$.toast("起始日期应小于结束日期",'text');
+						app.datestart = '';
+						return;
+					}
+					//筛选后显示金额
+				}
+			},
+			pop_alert:function(evt){
+				var that = this;
+				$.confirm({
+					title:'提现金额：660.00元',
+					text:'确认提现到微信钱包！',
+					onOK:function(){
+						//确认到账
+						setTimeout(function(){
+							that.show_layer = true;
+						},300);
+
+						setTimeout(function(){
+							that.show_layer = false;
+						},3000);
+					}
+				});
+			}
+		}
+	});
+	
+</script>
+</html>

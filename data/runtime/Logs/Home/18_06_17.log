@@ -1,0 +1,213 @@
+[ 2018-06-17T00:31:59+08:00 ] 113.251.57.64 /index.php?g=home&m=index&a=index&parentid=55
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:31:59 Use 1.050396 s 
+
+[ 2018-06-17T00:33:17+08:00 ] 113.251.57.64 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:33:17 Use 1.046144 s 
+
+[ 2018-06-17T00:33:44+08:00 ] 113.251.57.64 /index.php?g=home&m=index&a=getbang&type=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:33:44 Use 1.047356 s 
+
+[ 2018-06-17T00:34:15+08:00 ] 113.251.57.64 /index.php?g=home&m=index&a=index&parentid=55
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:34:15 Use 1.047880 s 
+
+[ 2018-06-17T00:34:33+08:00 ] 113.251.57.64 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:34:33 Use 1.047708 s 
+
+[ 2018-06-17T00:34:44+08:00 ] 113.251.57.64 /index.php?g=home&m=teacher&a=getteacherlist
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:34:44 Use 1.048690 s 
+
+[ 2018-06-17T00:34:44+08:00 ] 61.151.225.242 /index.php?g=home&m=index&a=getbang&type=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:34:44 Use 1.044144 s 
+
+[ 2018-06-17T00:35:38+08:00 ] 58.247.206.157 /index.php?g=home&m=teacher&a=index&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:35:38 Use 1.046626 s 
+
+[ 2018-06-17T00:53:23+08:00 ] 120.204.17.72 /index.php?g=home&m=index&a=getbang&type=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 00:53:23 Use 1.220990 s 
+
+[ 2018-06-17T03:05:59+08:00 ] 58.16.42.108 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 03:05:59 Use 1.059127 s 
+
+[ 2018-06-17T08:25:58+08:00 ] 123.147.248.199 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 08:25:58 Use 1.197858 s 
+
+[ 2018-06-17T08:26:18+08:00 ] 123.147.248.199 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 08:26:18 Use 1.298598 s 
+
+[ 2018-06-17T08:27:17+08:00 ] 61.151.225.190 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 08:27:17 Use 1.048745 s 
+
+[ 2018-06-17T10:24:51+08:00 ] 183.226.70.122 /index.php?g=home&m=index&a=index&parentid=55
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:24:51 Use 1.057895 s 
+
+[ 2018-06-17T10:26:11+08:00 ] 113.96.218.50 /index.php?g=home&m=index&a=index&parentid=55
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:26:11 Use 1.046867 s 
+
+[ 2018-06-17T10:27:17+08:00 ] 61.151.178.166 /index.php?g=home&m=public&a=login&parentid=55
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:27:17 Use 1.046951 s 
+
+[ 2018-06-17T10:51:45+08:00 ] 183.3.255.28 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:51:45 Use 1.061452 s 
+
+[ 2018-06-17T10:52:00+08:00 ] 183.3.255.28 /index.php?g=home&m=center&a=myfavar
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:52:00 Use 1.046925 s 
+
+[ 2018-06-17T10:52:11+08:00 ] 183.3.255.28 /index.php?g=home&m=problem&a=detail&id=40&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:52:11 Use 1.048950 s 
+
+[ 2018-06-17T10:52:12+08:00 ] 183.3.255.28 /index.php?g=home&m=problem&a=detail&id=40&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:52:12 Use 1.044319 s 
+
+[ 2018-06-17T10:52:28+08:00 ] 140.207.54.76 /WxJsAPI/notify
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:52:28 Use 1.045957 s 
+
+[ 2018-06-17T10:53:18+08:00 ] 101.226.233.155 /index.php?g=&m=wx_js_a_p_i&a=jsapicall&orderNum=CH2018061748995051
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:53:18 Use 1.176119 s 
+
+[ 2018-06-17T10:53:29+08:00 ] 61.151.226.64 /Problem/detail/id/40
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 10:53:29 Use 1.047680 s 
+
+[ 2018-06-17T11:09:58+08:00 ] 117.185.117.52 /index.php?g=&m=wx_js_a_p_i&a=jsapicall&orderNum=CH2018061748995051
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 11:09:58 Use 1.048212 s 
+
+[ 2018-06-17T11:25:57+08:00 ] 113.96.219.247 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 11:25:57 Use 1.045622 s 
+
+[ 2018-06-17T11:27:01+08:00 ] 61.151.226.85 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 11:27:01 Use 1.046937 s 
+
+[ 2018-06-17T12:36:01+08:00 ] 183.3.255.28 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:36:01 Use 1.057921 s 
+
+[ 2018-06-17T12:36:32+08:00 ] 183.3.255.28 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:36:32 Use 1.048099 s 
+
+[ 2018-06-17T12:36:56+08:00 ] 183.3.255.28 /index.php?g=home&m=zhuantis&a=ztinfo&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:36:56 Use 1.055987 s 
+
+[ 2018-06-17T12:37:57+08:00 ] 101.227.131.247 /index.php?g=home&m=zhuantis&a=ztinfo&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:37:57 Use 1.045149 s 
+
+[ 2018-06-17T12:51:58+08:00 ] 113.96.219.247 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:51:58 Use 1.046221 s 
+
+[ 2018-06-17T12:52:22+08:00 ] 113.96.219.247 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:52:22 Use 1.048126 s 
+
+[ 2018-06-17T12:53:22+08:00 ] 117.185.117.60 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:53:22 Use 1.036361 s 
+
+[ 2018-06-17T12:55:39+08:00 ] 113.96.219.247 /index.php?g=home&m=zhuantis&a=ztinfo&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:55:39 Use 1.047202 s 
+
+[ 2018-06-17T12:56:39+08:00 ] 117.135.173.79 /index.php?g=home&m=zhuantis&a=ztinfo&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 12:56:39 Use 1.049262 s 
+
+[ 2018-06-17T13:51:52+08:00 ] 183.136.190.62 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 13:51:52 Use 1.047602 s 
+
+[ 2018-06-17T15:03:50+08:00 ] 47.92.116.44 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 15:03:50 Use 1.049865 s 
+
+[ 2018-06-17T18:09:01+08:00 ] 157.255.172.14 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 18:09:01 Use 1.049011 s 
+
+[ 2018-06-17T19:47:48+08:00 ] 101.132.177.30 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=0110rKgG1Gv4410B9qiG1HgKgG10rKgM&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 19:47:48 Use 1.081684 s 
+
+[ 2018-06-17T21:25:07+08:00 ] 14.106.174.67 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-17T21:25:27+08:00 ] 14.106.174.67 /media/9797.mp3
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 21:25:27 Use 1.048406 s 
+
+[ 2018-06-17T21:25:27+08:00 ] 14.106.174.67 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-17T21:25:40+08:00 ] 14.106.174.67 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-17T21:25:59+08:00 ] 14.106.174.67 /media/9797.mp3
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 21:25:59 Use 1.045224 s 
+
+[ 2018-06-17T21:25:59+08:00 ] 14.106.174.67 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-17T21:26:30+08:00 ] 58.250.137.191 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 21:26:30 Use 1.059377 s 
+
+[ 2018-06-17T21:26:47+08:00 ] 183.3.255.28 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-17T21:26:59+08:00 ] 183.3.255.28 /media/9797.mp3
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 21:26:59 Use 1.048855 s 
+
+[ 2018-06-17T21:26:59+08:00 ] 183.3.255.28 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-17T21:29:51+08:00 ] 113.96.219.250 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-17T22:28:40+08:00 ] 163.177.66.101 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:28:40 Use 1.047492 s 
+
+[ 2018-06-17T22:28:40+08:00 ] 14.116.133.168 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:28:40 Use 1.057516 s 
+
+[ 2018-06-17T22:29:03+08:00 ] 14.116.133.168 /index.php?g=home&m=index&a=getbang&type=9
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:29:03 Use 1.152281 s 
+
+[ 2018-06-17T22:29:25+08:00 ] 14.116.133.168 /index.php?g=home&m=zhuantis&a=ztinfo&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:29:25 Use 1.047277 s 
+
+[ 2018-06-17T22:29:44+08:00 ] 14.116.133.168 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:29:44 Use 1.047856 s 
+
+[ 2018-06-17T22:30:07+08:00 ] 61.151.226.53 /index.php?g=home&m=index&a=tasklist&type=9
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:30:07 Use 1.046174 s 
+
+[ 2018-06-17T22:30:20+08:00 ] 14.116.133.168 /index.php?g=home&m=problem&a=detail&id=41&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:30:20 Use 1.048667 s 
+
+[ 2018-06-17T22:30:31+08:00 ] 14.116.133.168 /index.php?g=home&m=problem&a=detail&id=36&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:30:31 Use 1.046432 s 
+
+[ 2018-06-17T22:30:44+08:00 ] 14.116.133.168 /index.php?g=home&m=problem&a=detail&id=31&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:30:44 Use 1.048136 s 
+
+[ 2018-06-17T22:31:06+08:00 ] 14.116.133.168 /index.php?g=home&m=problem&a=pub_question&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:31:06 Use 1.056415 s 
+
+[ 2018-06-17T22:31:20+08:00 ] 117.185.117.61 /index.php?g=home&m=problem&a=detail&id=41&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:31:20 Use 1.049414 s 
+
+[ 2018-06-17T22:31:32+08:00 ] 117.135.173.78 /index.php?g=home&m=problem&a=detail&id=36&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:31:32 Use 1.045852 s 
+
+[ 2018-06-17T22:31:44+08:00 ] 61.151.226.156 /index.php?g=home&m=problem&a=detail&id=31&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:31:44 Use 1.046103 s 
+
+[ 2018-06-17T22:32:06+08:00 ] 61.151.226.76 /index.php?g=home&m=problem&a=pub_question&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:32:06 Use 1.047179 s 
+
+[ 2018-06-17T22:35:03+08:00 ] 14.116.133.168 /index.php?g=home&m=problem&a=questionaddinfo
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:35:03 Use 1.046647 s 
+
+[ 2018-06-17T22:35:34+08:00 ] 14.116.133.168 /index.php?g=home&m=problem&a=detail&id=41&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:35:34 Use 1.046242 s 
+
+[ 2018-06-17T22:35:48+08:00 ] 14.116.133.168 /index.php?g=home&m=teacher&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:35:48 Use 1.052093 s 
+
+[ 2018-06-17T22:36:17+08:00 ] 183.3.255.28 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-17T22:48:46+08:00 ] 117.185.117.51 /index.php?g=home&m=teacher&a=teacher_info&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 22:48:46 Use 1.046632 s 
+
+[ 2018-06-17T23:40:32+08:00 ] 163.177.67.169 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 23:40:32 Use 1.059857 s 
+
+[ 2018-06-17T23:40:32+08:00 ] 121.51.14.27 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-17 23:40:32 Use 1.051136 s 
+

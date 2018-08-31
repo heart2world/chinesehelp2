@@ -1,0 +1,3 @@
+[ 2018-07-30T11:33:45+08:00 ] 61.129.8.179 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-07-30 11:33:45 Use 1.053612 s 
+

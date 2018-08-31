@@ -1,0 +1,39 @@
+[ 2018-07-27T00:03:16+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 00:03:16 Use 1.049572 s 
+
+[ 2018-07-27T00:04:14+08:00 ] 101.226.79.241 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 00:04:14 Use 1.050677 s 
+
+[ 2018-07-27T10:01:20+08:00 ] 125.82.164.215 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 10:01:20 Use 1.039686 s 
+
+[ 2018-07-27T10:01:47+08:00 ] 125.82.164.215 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 10:01:46 Use 1.049467 s 
+
+[ 2018-07-27T10:50:00+08:00 ] 113.96.219.247 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 10:50:00 Use 1.050965 s 
+
+[ 2018-07-27T11:26:10+08:00 ] 123.147.250.177 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 11:26:10 Use 1.051981 s 
+
+[ 2018-07-27T11:26:51+08:00 ] 123.147.250.177 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 11:26:51 Use 1.048807 s 
+
+[ 2018-07-27T11:30:02+08:00 ] 123.147.250.177 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 11:30:02 Use 1.050234 s 
+
+[ 2018-07-27T11:47:06+08:00 ] 223.104.250.46 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 11:47:06 Use 1.049082 s 
+
+[ 2018-07-27T12:46:39+08:00 ] 183.3.226.234 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 12:46:39 Use 1.061322 s 
+
+[ 2018-07-27T17:21:51+08:00 ] 113.96.231.120 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 17:21:51 Use 1.052386 s 
+
+[ 2018-07-27T19:47:36+08:00 ] 125.62.5.61 /Portal/Index/share_code/mid/112
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 19:47:36 Use 1.051742 s 
+
+[ 2018-07-27T19:48:35+08:00 ] 61.151.225.135 /Portal/Index/share_code/mid/112
+ERR: Cron:测试执行定时任务 Runat 2018-07-27 19:48:35 Use 1.051340 s 
+

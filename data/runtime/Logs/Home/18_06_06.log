@@ -1,0 +1,402 @@
+[ 2018-06-06T11:15:52+08:00 ] 113.251.19.232 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:15:52 Use 1.042725 s 
+
+[ 2018-06-06T11:15:58+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T11:16:04+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:16:04 Use 1.046168 s 
+
+[ 2018-06-06T11:16:04+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T11:16:06+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T11:16:19+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=searchquestion
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:16:19 Use 1.034638 s 
+
+[ 2018-06-06T11:16:55+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:16:55 Use 1.043934 s 
+
+[ 2018-06-06T11:16:55+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:16:55 Use 1.044339 s 
+
+[ 2018-06-06T11:18:17+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:18:17 Use 1.054006 s 
+
+[ 2018-06-06T11:18:29+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:18:29 Use 1.051380 s 
+
+[ 2018-06-06T11:18:36+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T11:20:00+08:00 ] 113.251.19.232 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:20:00 Use 1.049605 s 
+
+[ 2018-06-06T11:20:01+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T11:20:50+08:00 ] 113.251.19.232 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:20:50 Use 1.045210 s 
+
+[ 2018-06-06T11:20:50+08:00 ] 113.251.19.232 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:20:50 Use 1.042770 s 
+
+[ 2018-06-06T11:20:51+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T11:22:11+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:22:11 Use 1.045543 s 
+
+[ 2018-06-06T11:22:18+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T11:24:04+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T11:26:17+08:00 ] 113.96.219.249 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:26:17 Use 1.033334 s 
+
+[ 2018-06-06T11:26:30+08:00 ] 113.96.219.249 /index.php?g=home&m=teacher&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:26:30 Use 1.066836 s 
+
+[ 2018-06-06T11:26:46+08:00 ] 113.96.219.249 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:26:46 Use 1.036368 s 
+
+[ 2018-06-06T11:26:57+08:00 ] 113.96.219.249 /index.php?g=home&m=problem&a=pub_question&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:26:57 Use 1.047098 s 
+
+[ 2018-06-06T11:27:17+08:00 ] 61.151.218.119 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:27:17 Use 1.043375 s 
+
+[ 2018-06-06T11:27:30+08:00 ] 101.226.86.152 /index.php?g=home&m=teacher&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:27:30 Use 1.033817 s 
+
+[ 2018-06-06T11:27:42+08:00 ] 113.96.219.249 /index.php?g=home&m=problem&a=questionaddinfo
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:27:42 Use 1.045347 s 
+
+[ 2018-06-06T11:27:55+08:00 ] 101.226.233.145 /index.php?g=home&m=teacher&a=teacher_info&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:27:55 Use 1.044876 s 
+
+[ 2018-06-06T11:28:47+08:00 ] 101.226.93.198 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:28:47 Use 1.047567 s 
+
+[ 2018-06-06T11:29:28+08:00 ] 113.96.219.249 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:29:28 Use 1.045997 s 
+
+[ 2018-06-06T11:30:22+08:00 ] 113.96.219.249 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:30:22 Use 1.053791 s 
+
+[ 2018-06-06T11:31:21+08:00 ] 101.199.121.223 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:31:21 Use 1.046649 s 
+
+[ 2018-06-06T11:31:33+08:00 ] 220.181.132.198 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:31:33 Use 1.056068 s 
+
+[ 2018-06-06T11:33:25+08:00 ] 113.96.219.249 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T11:33:38+08:00 ] 113.96.219.249 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T11:33:50+08:00 ] 113.96.219.249 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:33:50 Use 1.047752 s 
+
+[ 2018-06-06T11:34:05+08:00 ] 113.96.219.249 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:34:05 Use 1.050921 s 
+
+[ 2018-06-06T11:34:19+08:00 ] 113.96.219.249 /index.php?g=home&m=problem&a=pub_question&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:34:19 Use 1.042936 s 
+
+[ 2018-06-06T11:34:51+08:00 ] 113.96.219.249 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T11:35:19+08:00 ] 101.226.86.164 /index.php?g=home&m=problem&a=pub_question&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:35:19 Use 1.044457 s 
+
+[ 2018-06-06T11:35:23+08:00 ] 113.96.219.249 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T11:35:30+08:00 ] 113.96.219.249 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:35:30 Use 1.042019 s 
+
+[ 2018-06-06T11:35:46+08:00 ] 113.96.219.249 /index.php?g=home&m=problem&a=give_score&id=122
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:35:46 Use 1.327123 s 
+
+[ 2018-06-06T11:35:56+08:00 ] 113.96.219.249 /index.php?g=home&m=problem&a=detail&id=122
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:35:56 Use 1.043856 s 
+
+[ 2018-06-06T11:36:34+08:00 ] 113.96.219.249 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T11:37:05+08:00 ] 113.96.219.249 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:37:05 Use 1.044570 s 
+
+[ 2018-06-06T11:37:16+08:00 ] 113.96.219.249 /index.php?g=home&m=problem&a=detail&id=122
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:37:16 Use 1.096171 s 
+
+[ 2018-06-06T11:48:25+08:00 ] 39.104.54.45 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 11:48:25 Use 1.043816 s 
+
+[ 2018-06-06T12:06:22+08:00 ] 220.181.132.195 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 12:06:22 Use 1.043507 s 
+
+[ 2018-06-06T12:06:41+08:00 ] 171.13.14.148 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 12:06:41 Use 1.044591 s 
+
+[ 2018-06-06T13:45:48+08:00 ] 113.96.219.249 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 13:45:48 Use 1.043376 s 
+
+[ 2018-06-06T13:46:00+08:00 ] 113.96.219.249 /index.php?g=home&m=teacher&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 13:46:00 Use 1.043779 s 
+
+[ 2018-06-06T13:46:50+08:00 ] 113.96.219.249 /index.php?g=home&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 13:46:50 Use 1.045097 s 
+
+[ 2018-06-06T13:47:06+08:00 ] 113.96.219.249 /index.php?g=home&m=problem&a=questionaddinfo
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 13:47:06 Use 1.044426 s 
+
+[ 2018-06-06T13:47:32+08:00 ] 113.96.219.249 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T13:49:12+08:00 ] 113.251.19.232 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T13:49:12+08:00 ] 113.251.19.232 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T14:39:05+08:00 ] 39.104.54.45 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:39:05 Use 1.047897 s 
+
+[ 2018-06-06T14:42:31+08:00 ] 113.251.19.232 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=061iPnsT0OInpY1G4MtT0JSEsT0iPnsZ&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:42:31 Use 1.042535 s 
+
+[ 2018-06-06T14:42:43+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:42:43 Use 1.033864 s 
+
+[ 2018-06-06T14:42:55+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=online_select_teacher
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:42:55 Use 1.042730 s 
+
+[ 2018-06-06T14:43:14+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=myfavar
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:43:14 Use 1.044966 s 
+
+[ 2018-06-06T14:43:43+08:00 ] 101.226.79.234 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:43:43 Use 1.045061 s 
+
+[ 2018-06-06T14:44:01+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=questionaddinfo
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:44:01 Use 1.043370 s 
+
+[ 2018-06-06T14:46:28+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:46:28 Use 1.043599 s 
+
+[ 2018-06-06T14:46:44+08:00 ] 113.251.19.232 /index.php?g=home&m=teacher&a=teacher_info&id=9
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:46:44 Use 1.064678 s 
+
+[ 2018-06-06T14:47:22+08:00 ] 113.251.19.232 /index.php?g=home&m=task&a=lesson_info&id=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:47:22 Use 1.236048 s 
+
+[ 2018-06-06T14:47:38+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=pub_question&id=9
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:47:38 Use 1.043008 s 
+
+[ 2018-06-06T14:48:12+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:48:12 Use 1.044068 s 
+
+[ 2018-06-06T14:48:23+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:48:23 Use 1.042209 s 
+
+[ 2018-06-06T14:48:27+08:00 ] 113.251.19.232 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T14:48:27+08:00 ] 113.251.19.232 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T14:48:29+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T14:49:09+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=detail&id=125
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:49:09 Use 1.044480 s 
+
+[ 2018-06-06T14:49:47+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=give_score&id=124
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:49:47 Use 1.042800 s 
+
+[ 2018-06-06T14:50:00+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=detail&id=124
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:50:00 Use 1.044718 s 
+
+[ 2018-06-06T14:50:12+08:00 ] 61.151.218.118 /index.php?g=home&m=problem&a=detail&id=124
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:50:12 Use 1.054008 s 
+
+[ 2018-06-06T14:50:47+08:00 ] 117.185.117.57 /index.php?g=home&m=problem&a=give_score&id=124
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:50:47 Use 1.044038 s 
+
+[ 2018-06-06T14:58:30+08:00 ] 113.251.19.232 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:58:30 Use 1.043073 s 
+
+[ 2018-06-06T14:58:48+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=give_score&id=125
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 14:58:48 Use 1.046023 s 
+
+[ 2018-06-06T15:04:29+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:04:29 Use 1.043316 s 
+
+[ 2018-06-06T15:04:48+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:04:48 Use 1.043648 s 
+
+[ 2018-06-06T15:05:07+08:00 ] 113.251.19.232 /index.php?g=home&m=teacher&a=teacher_info&id=9
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:05:07 Use 1.045527 s 
+
+[ 2018-06-06T15:06:08+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=questionaddinfo
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:06:08 Use 1.059853 s 
+
+[ 2018-06-06T15:10:05+08:00 ] 113.251.19.232 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=081b0sgm0POSmk1Bmehm0PSzgm0b0sgO&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:10:05 Use 1.050442 s 
+
+[ 2018-06-06T15:10:54+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:10:54 Use 1.045230 s 
+
+[ 2018-06-06T15:10:55+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:10:55 Use 1.043406 s 
+
+[ 2018-06-06T15:11:07+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:11:07 Use 1.041264 s 
+
+[ 2018-06-06T15:11:20+08:00 ] 117.185.117.61 /index.php?g=home&m=problem&a=pub_question&id=9&parentid=126
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:11:20 Use 1.044686 s 
+
+[ 2018-06-06T15:12:03+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:12:03 Use 1.044891 s 
+
+[ 2018-06-06T15:12:03+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:20:58+08:00 ] 113.251.19.232 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=0014NWSk18vExk05UIUk1He9Tk14NWSa&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:20:58 Use 1.043140 s 
+
+[ 2018-06-06T15:21:09+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=online_select_teacher
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:21:09 Use 1.043673 s 
+
+[ 2018-06-06T15:21:20+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=searchquestion
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:21:20 Use 1.043847 s 
+
+[ 2018-06-06T15:21:32+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=searchquestion
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:21:32 Use 1.044661 s 
+
+[ 2018-06-06T15:21:49+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=searchquestion
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:21:49 Use 1.045611 s 
+
+[ 2018-06-06T15:22:00+08:00 ] 113.251.19.232 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:22:00 Use 1.044742 s 
+
+[ 2018-06-06T15:22:13+08:00 ] 113.251.19.232 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:22:13 Use 1.044857 s 
+
+[ 2018-06-06T15:22:27+08:00 ] 113.251.19.232 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:22:27 Use 1.044506 s 
+
+[ 2018-06-06T15:23:00+08:00 ] 101.226.113.56 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:23:00 Use 1.043588 s 
+
+[ 2018-06-06T15:23:13+08:00 ] 117.135.173.80 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:23:13 Use 1.033050 s 
+
+[ 2018-06-06T15:23:14+08:00 ] 101.226.86.162 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:23:14 Use 1.044205 s 
+
+[ 2018-06-06T15:23:25+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:24:16+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:24:16 Use 1.050609 s 
+
+[ 2018-06-06T15:28:22+08:00 ] 113.251.19.232 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:28:22 Use 1.053689 s 
+
+[ 2018-06-06T15:29:27+08:00 ] 101.227.132.28 /index.php?g=home&m=teacher&a=teacher_info&id=18
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:29:27 Use 1.043463 s 
+
+[ 2018-06-06T15:29:48+08:00 ] 113.251.19.232 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:29:48 Use 1.047230 s 
+
+[ 2018-06-06T15:29:58+08:00 ] 113.251.19.232 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=061sLQg60DWcnJ1Mogj60KT1h60sLQgT&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:29:58 Use 1.035360 s 
+
+[ 2018-06-06T15:30:01+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:30:04+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:30:11+08:00 ] 113.251.19.232 /index.php?g=home&m=zhuantis&a=ztinfo&id=17
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:30:11 Use 1.044133 s 
+
+[ 2018-06-06T15:30:45+08:00 ] 113.251.19.232 /index.php?g=home&m=zhuantis&a=ztinfo&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:30:45 Use 1.044978 s 
+
+[ 2018-06-06T15:35:25+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:35:26+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:35:31+08:00 ] 113.251.19.232 /index.php?g=home&m=public&a=login&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:35:31 Use 1.054908 s 
+
+[ 2018-06-06T15:35:38+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:35:45+08:00 ] 113.251.19.232 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T15:37:21+08:00 ] 113.251.19.232 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T15:37:41+08:00 ] 113.251.19.232 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T15:38:46+08:00 ] 113.251.19.232 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-06T15:39:25+08:00 ] 183.3.226.234 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:39:25 Use 1.035106 s 
+
+[ 2018-06-06T15:40:10+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:40:10 Use 1.045155 s 
+
+[ 2018-06-06T15:40:10+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:40:24+08:00 ] 61.151.225.189 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:40:24 Use 1.045028 s 
+
+[ 2018-06-06T15:41:44+08:00 ] 183.3.226.234 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:41:44 Use 1.045334 s 
+
+[ 2018-06-06T15:42:00+08:00 ] 183.3.226.234 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:42:00 Use 1.045656 s 
+
+[ 2018-06-06T15:42:28+08:00 ] 183.3.226.234 /index.php?g=home&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:42:28 Use 1.043524 s 
+
+[ 2018-06-06T15:42:42+08:00 ] 183.3.226.234 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:42:42 Use 1.044601 s 
+
+[ 2018-06-06T15:42:43+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:42:43 Use 1.043667 s 
+
+[ 2018-06-06T15:42:43+08:00 ] 113.251.19.232 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-06T15:43:00+08:00 ] 117.144.245.12 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:43:00 Use 1.042637 s 
+
+[ 2018-06-06T15:53:56+08:00 ] 120.204.17.70 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 15:53:56 Use 1.048393 s 
+
+[ 2018-06-06T18:36:05+08:00 ] 183.61.51.63 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 18:36:05 Use 1.062895 s 
+
+[ 2018-06-06T20:53:43+08:00 ] 47.100.38.9 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=081I5MnH00xP4i2uk2nH0EvLnH0I5MnN&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 20:53:43 Use 1.046053 s 
+
+[ 2018-06-06T20:56:00+08:00 ] 101.132.182.68 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=0014NWSk18vExk05UIUk1He9Tk14NWSa&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-06 20:56:00 Use 1.045446 s 
+

@@ -1,0 +1,3 @@
+[ 2018-07-10T12:04:51+08:00 ] 113.96.218.51 /index.php?g=api&m=mobileverify&a=send_msg
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 12:04:51 Use 1.052697 s 
+

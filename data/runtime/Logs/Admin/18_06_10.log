@@ -1,0 +1,6 @@
+[ 2018-06-10T09:42:31+08:00 ] 183.69.237.32 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 09:42:31 Use 1.044367 s 
+
+[ 2018-06-10T09:42:42+08:00 ] 183.69.237.32 /index.php?g=admin&m=teacher&a=edit_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 09:42:42 Use 1.046819 s 
+

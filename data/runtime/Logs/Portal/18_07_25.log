@@ -1,0 +1,15 @@
+[ 2018-07-25T10:05:16+08:00 ] 123.147.248.173 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-25 10:05:16 Use 1.054364 s 
+
+[ 2018-07-25T10:06:16+08:00 ] 61.151.178.177 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-25 10:06:16 Use 1.054239 s 
+
+[ 2018-07-25T10:06:16+08:00 ] 61.151.226.67 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-25 10:06:16 Use 1.069357 s 
+
+[ 2018-07-25T19:01:18+08:00 ] 123.147.246.184 /Portal/Index/share_code/mid/112
+ERR: Cron:测试执行定时任务 Runat 2018-07-25 19:01:18 Use 1.048738 s 
+
+[ 2018-07-25T19:02:17+08:00 ] 101.227.131.247 /Portal/Index/share_code/mid/112
+ERR: Cron:测试执行定时任务 Runat 2018-07-25 19:02:17 Use 1.053247 s 
+

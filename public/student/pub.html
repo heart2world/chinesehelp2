@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>语文帮</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app" style="padding-bottom: 2.5rem;">
+		<!--头部筛选-->
+		<header class="fixed-top lesson-top app-flex app-vertical-center app-content-justify">
+			<div class="search-item app-basis">
+				<input type="text" placeholder="请在此输入你的问题" v-model="keywords" />
+				<div v-if="keywords !=''" class="clear" @click="keywords=''" v-cloak></div>
+			</div>
+			<div class="search-btn" @click="search($event);">搜索</div>
+		</header>
+		<!--微课列表-->
+		<div class="lesson-null app-flex app-flex-y app-vertical-center app-hrizontal-center" style="display: none;">
+			<h4>暂无该问题相关问答</h4>
+			<p>你可查看类似问题或直接向老师提问</p>
+			<div class="pub-btn">
+				<a href="online_select_teacher.html">直接提问</a>
+			</div>
+		</div>
+		<div class="pub-btn alone-btn">
+			<a href="online_select_teacher.html">直接提问</a>
+		</div>
+		<div class="content-list" style="padding-top: 2.15rem;">
+			<div class="content-item" data-type="requestion">
+				<a href="#">
+					<div class="content-top app-flex app-vertical-center">
+						<h4 class="app-basis">李白的夫人是杨贵妃吗？</h4>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>回答满意度:  <span>4.8</span></h4>
+					</div>
+					<div class="content-info-num app-flex app-vertical-center">
+						<h4>查看次数: <span>999+</span></h4>
+						<h5>收藏次数: <span>299</span></h5>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!--类似问题-->
+		<section class="online-teacher online-pub">
+			<div class="title-panel app-flex app-vertical-center app-content-justify">
+				<h4>类似问题</h4>
+			</div>
+			<ul class="content-list">
+				<li class="content-item" data-type="requestion">
+					<a href="#">
+						<div class="content-top app-flex app-vertical-center">
+							<h4 class="app-basis">李白的夫人是杨贵妃吗？</h4>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>回答满意度:  <span>4.8</span></h4>
+						</div>
+						<div class="content-info-num app-flex app-vertical-center">
+							<h4>查看次数: <span>999+</span></h4>
+							<h5>收藏次数: <span>299</span></h5>
+						</div>
+					</a>
+				</li>
+				<li class="content-item" data-type="requestion">
+					<a href="#">
+						<div class="content-top app-flex app-vertical-center">
+							<h4 class="app-basis">李白的夫人是杨贵妃吗？</h4>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>回答满意度:  <span>4.8</span></h4>
+						</div>
+						<div class="content-info-num app-flex app-vertical-center">
+							<h4>查看次数: <span>999+</span></h4>
+							<h5>收藏次数: <span>299</span></h5>
+						</div>
+					</a>
+				</li>
+				<li class="content-item" data-type="requestion">
+					<a href="#">
+						<div class="content-top app-flex app-vertical-center">
+							<h4 class="app-basis">李白的夫人是杨贵妃吗？</h4>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>回答满意度:  <span>4.8</span></h4>
+						</div>
+						<div class="content-info-num app-flex app-vertical-center">
+							<h4>查看次数: <span>999+</span></h4>
+							<h5>收藏次数: <span>299</span></h5>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="more">
+				<a href="javascript:void(0);">查看更多</a>
+			</div>
+		</section>
+		<section class="online-teacher">
+			<div class="title-panel app-flex app-vertical-center app-content-justify">
+				<h4>直接向在线老师提问</h4>
+			</div>
+			<ul class="teacher-list" style="padding-top: 0;">
+				<li class="list-item app-flex app-vertical-center">
+					<a href="#" class="app-basis app-flex app-vertical-center">
+						<div class="teacher-avatar">
+							<img src="../assets/touxiang@2x.png" alt="img">
+						</div>
+						<div class="teacher-info app-basis">
+							<h4>卡卡西</h4>
+							<p>全国公开课备课一等奖</p>
+							<p>综合评分: 4.8</p>
+							<div class="teacher-attention-num app-flex">
+								<h4>299次答题</h4>
+								<h5>299人收藏</h5>
+							</div>
+						</div>
+					</a>
+					<div class="question-now">
+						<a href="pub_question.html">立即提问</a>
+					</div>
+				</li>
+				<li class="list-item app-flex app-vertical-center">
+					<a href="#" class="app-basis app-flex app-vertical-center">
+						<div class="teacher-avatar">
+							<img src="../assets/touxiang@2x.png" alt="img">
+						</div>
+						<div class="teacher-info app-basis">
+							<h4>卡卡西</h4>
+							<p>全国公开课备课一等奖</p>
+							<p>综合评分: 4.8</p>
+							<div class="teacher-attention-num app-flex">
+								<h4>299次答题</h4>
+								<h5>299人收藏</h5>
+							</div>
+						</div>
+					</a>
+					<div class="question-now">
+						<a href="pub_question.html">立即提问</a>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<ul class="content-list ptop" style="display: none;">
+			<li class="content-item" data-type="mrolesson">
+				<a href="#">
+					<div class="content-top app-flex app-vertical-center">
+						<h4 class="app-basis">《文言文常见通假字释义》</h4>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>微课类型:  </h4>
+						<h5 class="app-basis">名校真题</h5>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>课程简介:  </h4>
+						<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+					</div>
+					<div class="content-info-num app-flex app-vertical-center">
+						<h4>查看次数: <span>999+</span></h4>
+						<h5>收藏次数: <span>299</span></h5>
+					</div>
+				</a>
+			</li>
+			<li class="content-item" data-type="mrolesson">
+				<a href="#">
+					<div class="content-top app-flex app-vertical-center">
+						<h4 class="app-basis">《文言文常见通假字释义》</h4>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>微课类型:  </h4>
+						<h5 class="app-basis">名校真题</h5>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>课程简介:  </h4>
+						<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+					</div>
+					<div class="content-info-num app-flex app-vertical-center">
+						<h4>查看次数: <span>999+</span></h4>
+						<h5>收藏次数: <span>299</span></h5>
+					</div>
+				</a>
+			</li>
+			<li class="content-item" data-type="mrolesson">
+				<a href="#">
+					<div class="content-top app-flex app-vertical-center">
+						<h4 class="app-basis">《文言文常见通假字释义》</h4>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>微课类型:  </h4>
+						<h5 class="app-basis">名校真题</h5>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>课程简介:  </h4>
+						<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+					</div>
+					<div class="content-info-num app-flex app-vertical-center">
+						<h4>查看次数: <span>999+</span></h4>
+						<h5>收藏次数: <span>299</span></h5>
+					</div>
+				</a>
+			</li>
+			<li class="content-item" data-type="mrolesson">
+				<a href="#">
+					<div class="content-top app-flex app-vertical-center">
+						<h4 class="app-basis">《文言文常见通假字释义》</h4>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>微课类型:  </h4>
+						<h5 class="app-basis">名校真题</h5>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>课程简介:  </h4>
+						<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+					</div>
+					<div class="content-info-num app-flex app-vertical-center">
+						<h4>查看次数: <span>999+</span></h4>
+						<h5>收藏次数: <span>299</span></h5>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<div class="data-text" v-text="data_text"></div>
+		<div v-if="show_layer" class="cover-layer transparent" @click="show_layer=false;cur_index = '0'"></div>
+	</section>
+	<!--应用固定导航-->
+	<section class="app-nav app-flex">
+		<a class="app-basis" href="index.html" data-home>
+			<p>首页</p>
+		</a>
+		<a class="app-basis active" href="pub.html" data-twen>
+			<p>我要提问</p>
+		</a>
+		<a class="app-basis" href="centre.html" data-centre>
+			<p>个人中心</p>
+		</a>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:0,
+			title:'课程类型',
+			show_layer:false,
+			keywords:'',
+			data_text:'没有更多了~'
+
+		},
+		methods:{
+			switch_tab:function(evt,index){
+				if(this.cur_index == index){
+					this.cur_index = 0;
+					this.show_layer = false;
+				}else{
+					this.cur_index = index;
+					this.show_layer = true;
+				}
+				
+			},
+			change_lesson:function(evt){
+				evt.stopPropagation();
+				var val = evt.currentTarget.dataset['item'];
+				this.title = val;
+				this.cur_index = 0;
+				this.show_layer = false;
+			},
+			search:function(evt){
+				$.showLoading("正在搜索...");
+
+				//调用数据
+				setTimeout(function(){
+					$.hideLoading();
+				},750);
+			}
+		}
+	});
+</script>
+</html>

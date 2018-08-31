@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>发表微课</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app">
+		<nav class="top-nav app-flex">
+			<div :class="{'cur':cur_index == 1}" class="nav-cell app-basis" @click="change_tab($event,'1');">发表微课</div>
+			<div :class="{'cur':cur_index == 2}" class="nav-cell app-basis" @click="change_tab($event,'2');">我的微课</div>
+		</nav>
+		<!--发表微课-->
+		<section v-if="cur_index == 1" class="pub-container form-container" v-cloak>
+			<div class="input-cell app-flex app-vertical-center">
+				<label>课程名称:</label>
+				<div class="input-control app-basis">
+					<input type="phone" name="phonenum" placeholder="请输入课程名称（20字以内）" maxlength="20">
+				</div>
+			</div>
+			<div class="input-cell app-flex app-vertical-center">
+				<label>课程类型:</label>
+				<div class="input-control app-basis">
+					<select name="lesson_type">
+						<option value="0">请选择课程类型</option>
+						<option value="1">中国文化趣谈</option>
+						<option value="2">西方文化趣谈</option>
+						<option value="3">基础知识应试技巧</option>
+						<option value="4">综合性学习应试技巧</option>
+						<option value="5">记叙文小说应试技巧</option>
+					</select>
+				</div>
+			</div>
+			<div class="input-cell app-flex">
+				<label>课程简介:</label>
+				<div class="input-control app-basis">
+					<textarea  placeholder="请输入课程简介（50字以内）" maxlength="50"></textarea>
+				</div>
+			</div>
+			<div class="input-cell app-flex">
+				<label>课程内容:</label>
+				<div class="input-control app-basis">
+					<textarea  placeholder="课程内容支持文字、语音、图片"></textarea>
+				</div>
+			</div>
+			<div class="input-cell app-flex app-vertical-center">
+				<label>课程价格:</label>
+				<div class="input-control app-basis">
+					<input type="number" name="price" pattern="[0-9]*" placeholder="单位（元）；可设置为'0'" maxlength="5">
+				</div>
+			</div>
+		</section>
+		<!--我的微课列表-->
+		<section v-if="cur_index == 2" class="mylesson" v-cloak>
+			<ul class="listview">
+				<li class="list-item">
+					<a href="#">
+						<div class="list-top app-flex app-vertical-center app-content-justify">
+							<h4>2018-01-23</h4>
+							<h5>未发布</h5>
+						</div>
+						<div class="list-middle">
+							<div class="list-title">《归去来兮辞》</div>
+							<div class="list-type app-flex">
+								<h4>微课类型:</h4>
+								<h5>课内古诗文导读</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>课程简介:</h4>
+								<h5>归去来兮，田园将芜胡不归？既自以心为形
+              役，奚惆怅而独悲？悟已往之不谏……</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>购买价格:</h4>
+								<h5>2元</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>查看数量：999+</h4>
+								<h5>收藏数量：999+</h5>
+							</div>
+						</div>
+						<div class="list-btm">
+							<button type="button" class="edit-info">编辑</button>
+							<button type="button" class="edit-info" @click="pub($event,'2018',false);">发布</button>
+						</div>
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="#">
+						<div class="list-top app-flex app-vertical-center app-content-justify">
+							<h4>2018-01-23</h4>
+							<h5>已发布</h5>
+						</div>
+						<div class="list-middle">
+							<div class="list-title">《归去来兮辞》</div>
+							<div class="list-type app-flex">
+								<h4>微课类型:</h4>
+								<h5>课内古诗文导读</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>课程简介:</h4>
+								<h5>归去来兮，田园将芜胡不归？既自以心为形
+              役，奚惆怅而独悲？悟已往之不谏……</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>购买价格:2元</h4>
+								<h5>归去来兮，田园将芜胡不归？既自以心为形
+              役，奚惆怅而独悲？悟已往之不谏……</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>查看数量：999+</h4>
+								<h5>收藏数量：999+</h5>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="#">
+						<div class="list-top app-flex app-vertical-center app-content-justify">
+							<h4>2018-01-23</h4>
+							<h5>已发布</h5>
+						</div>
+						<div class="list-middle">
+							<div class="list-title">《归去来兮辞》</div>
+							<div class="list-type app-flex">
+								<h4>微课类型:</h4>
+								<h5>课内古诗文导读</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>课程简介:</h4>
+								<h5>归去来兮，田园将芜胡不归？既自以心为形
+              役，奚惆怅而独悲？悟已往之不谏……</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>购买价格:2元</h4>
+								<h5>归去来兮，田园将芜胡不归？既自以心为形
+              役，奚惆怅而独悲？悟已往之不谏……</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>查看数量：999+</h4>
+								<h5>收藏数量：999+</h5>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<div v-if="cur_index == 1" class="price-desc">收费说明：学生支付查看微课后，平台将按<span>X%</span>的比例为你提成</div>
+		<div v-if="cur_index == 2" class="data-text" v-text="data_text"></div>
+
+		<div v-if="cur_index == 1" class="btm-btn pub-btm app-flex app-vertical-center app-hrizontal-center">
+			<div class="save-to-draft">
+				<a href="javascript:void(0);" @click="save_to_draft($event);">保存到草稿信箱</a>
+			</div>
+			<div class="give-score">
+				<a href="javascript:void(0);" @click="pub($event,'2018',false);">直接发布</a>
+			</div>
+		</div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:sessionStorage.getItem("status3") ? sessionStorage.getItem("status3") : 1,
+			data_text:'没有更多了~'
+
+		},
+		methods:{
+			change_tab:function(evt,index){
+				this.cur_index = index;
+			},
+			pub:function(evt,proid,fal){
+				$.confirm({
+					title:'',
+					text:'发布之后不能再修改~',
+					onOK:function(){
+						//发布成功
+						$.toast("发布成功~",'text',function(){
+							setTimeout(function(){
+								//设置session信息
+								try{
+									sessionStorage.setItem("status3",2);
+									if(sessionStorage.getItem("status3")){
+										if(!fal){
+											location.reload();
+											return;
+										}else{
+											location.href="pub_lesson.html"
+										}
+									}
+								}catch(e){
+									console.warn(e);
+								}
+							},1500);
+						});
+					}
+				});
+			},
+			save_to_draft:function(evt){
+				//保存成功跳转至我的资源页
+				setTimeout(function(){
+					//设置session信息
+					try{
+						sessionStorage.setItem("status3",2);
+						if(sessionStorage.getItem("status3")){
+							location.href="pub_lesson.html";
+						}
+					}catch(e){
+						console.warn(e);
+					}
+				},1500);
+			}
+		}
+	});
+</script>
+</html>

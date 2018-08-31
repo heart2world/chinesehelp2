@@ -1,0 +1,84 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('teacher/index')}">教师管理</a></li>
+			<!--<li><a href="{:U('teacher/add')}">新增教师</a></li>-->
+		</ul>
+        <form class="well form-search" method="post" action="{:U('teacher/index')}">
+            姓名:
+            <input type="text" name="nicename" style="width: 100px;" value="{:I('request.nicename/s','')}" placeholder="请输入姓名">&nbsp;
+            <!--职称:
+            <select name="title" style="width: 135px;">
+				<option value="">请选择职称</option>
+				<volist name="titlelist" id="va">
+				<option value="{$va.title}" <if condition="$va['title'] eq $title">selected</if>>{$va.title}</option>
+				</volist>
+            </select>&nbsp;-->			
+			学科:
+            <select name="xueke" style="width: 135px;">
+				<option value="">选择学科</option>
+				<volist name="xuekelist" id="va">
+				<option value="{$va.title}" <if condition="$va['title'] eq $title">selected</if>>{$va.title}</option>
+				</volist>
+            </select>&nbsp;
+            学校:
+            <select name="schoolname" style="width: 135px;">
+				<option value="">请选择学校类型</option>
+				<volist name="schollist" id="va">
+				<option value="{$va.schoolname}" <if condition="$va['schoolname'] eq $schoolname">selected</if>>{$va.schoolname}</option>
+				</volist>
+            </select>&nbsp;
+			注册时间：<input type="text" name="starttime"  class="js-date"  value="{:I('request.starttime')}" style="width: 90px;" autocomplete="off">-
+                      <input type="text" name="endtime" class="js-date" value="{:I('request.endtime')}" style="width: 90px;" autocomplete="off">
+            <input type="submit" class="btn btn-primary" value="查询" />
+            <a class="btn btn-danger" href="{:U('teacher/index')}">清空</a>
+        </form>
+		<table class="table table-hover table-bordered">
+			<thead><tr><th colspan='12'>合计：&nbsp;{$count}&nbsp;人</th></tr></thead>
+			<thead>
+				<tr>
+					<th style="text-align: center;">ID</th>
+					<th style="text-align: center;">姓名</th>
+					<th style="text-align: center;">账号</th>
+					<th style="text-align: center;">教龄</th>
+					<th style="text-align: center;">学科</th>
+					<th style="text-align: center;">职称</th>	
+					<th style="text-align: center;">当前学校</th>	
+					<th style="text-align: center;">TA的代理</th>	
+					<th style="text-align: center;">代理权限</th>								
+					<th style="text-align: center;">审核状态</th>
+					<th style="text-align: center;">{:L('ACTIONS')}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="list" item="vo">
+				<tr>
+				
+					<td style="text-align: center;">{$vo.id}</td>
+					<td style="text-align: center;">{$vo.nicename}</td>
+					<td style="text-align: center;">{$vo.mobile}</td>					
+					<td style="text-align: center;">{$vo.seniority}</td>
+					<td style="text-align: center;">{$vo.xueke}</td>
+					<td style="text-align: center;">{$vo.title}</td>
+					<td style="text-align: center;">{$vo.schoolname}</td>					
+					<td style="text-align: center;"><if condition="$vo['parentname'] neq ''">{$vo.parentname}<else/>暂无</if></td>
+					<td style="text-align: center;"><if condition="$vo['isdaili'] eq '1'">已开启<else/>未开启</if></td>
+					<td style="text-align: center;"><if condition="$vo['status'] eq 1">已审核<elseif condition="$vo['status'] eq 2"/>已驳回<else/>待审核</if></td>
+					<td style="text-align: center;">
+							<a class="btn js-ajax-delete"  style="padding: 2px 15px;color: black;" href="{:U('teacher/delete',array('id'=>$vo['id']))}">{:L('DELETE')}</a>	
+							<a href='{:U("teacher/edit",array("id"=>$vo["id"]))}' style="padding: 2px 15px;color: black;background-color: #bfc6cb;" class="btn btn-primary">{:L('EDIT')}</a> 
+							<a style="padding: 2px 15px;color: black;background-color: #bfc6cb;" class="btn btn-primary" href="{:U('teacher/detail',array('id'=>$vo['id']))}">详细</a>		
+					</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<if condition="$count gt 20">
+		<div class="pagination" style="float: right;">{$page}</div>		
+		</if>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

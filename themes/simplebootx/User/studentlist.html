@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>学生列表</title>
+		<link rel="stylesheet" href="__PUBLIC__/chhelp2/lib/weui/jquery-weui.css" />
+		<link rel="stylesheet" href="__PUBLIC__/chhelp2/lib/weui/weui.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/style/app.css" />
+		<link rel="stylesheet" href="__PUBLIC__/chhelp2/css/public.css" />
+		<link rel="stylesheet" href="__PUBLIC__/chhelp2/css/style.css" />
+		<script type="text/javascript" src="__PUBLIC__/chhelp2/lib/jq/jquery-1.10.2.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/chhelp2/lib/weui/jquery-weui.js" ></script>
+	</head>
+	<body>		
+		<section class="stuListSec">
+			<div class="weui-cells">
+				<volist name="list" id="va">
+	            <div class="weui-cell">
+	                <div class="weui-cell__hd"><img src="{$va.headimg}" alt="" style="width:2rem;height: 2rem;border-radius: 50%; margin-right:5px;display:block"></div>
+	                <div class="weui-cell__bd">
+	                    <p class="name">{$va.nicename}</p>
+	                    <p class="time">加入时间：{$va.addtime|date='Y-m-d H:i',###}</p>
+	                </div>
+	                <div class="weui-cell__ft"></div>
+	            </div>
+				</volist>				
+        	</div>
+			<!--<div style="text-align: center; font-size: 0.85rem; color: #595959; line-height: 2.2rem;">没有更多了~</div>-->
+			<div class="data-text">没有更多了~</div>
+		</section>
+		
+	</body>
+</html>

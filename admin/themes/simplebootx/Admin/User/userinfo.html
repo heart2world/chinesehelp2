@@ -1,0 +1,38 @@
+<admintpl file="header" />
+</head>
+<style type="text/css">
+.form-horizontal .control-group{margin-bottom: 10px;}
+</style>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('User/userinfo')}">用户详情</a></li>
+			<li><a href="javascript:history.go(-1);">返回</a></li>
+		</ul>
+		<form class="form-horizontal js-ajax-form" method="post" action="{:U('User/userinfo_post')}">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" >姓名：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$user_nicename}</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="input-birthday">手机号：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$user_login}</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="input-user_url">所属角色：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$rolename}</label>
+					</div>
+				</div>
+				
+			</fieldset>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

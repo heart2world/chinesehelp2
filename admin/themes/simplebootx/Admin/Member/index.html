@@ -1,0 +1,66 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('member/index')}">会员管理</a></li>
+		</ul>
+        <form class="well form-search" method="post" action="{:U('member/index')}">
+            微信昵称:
+            <input type="text" name="nicename" style="width: 100px;" value="{:I('request.nicename/s','')}" placeholder="请输入微信昵称">&nbsp;
+            学校:
+            <input type="text" name="schoolname" style="width: 100px;" value="{:I('request.schoolname/s','')}" placeholder="请输入学校名称">&nbsp;
+			注册时间：<input type="text" name="starttime"  class="js-date"  value="{:I('request.starttime')}" style="width: 90px;" autocomplete="off">-
+                      <input type="text" name="endtime" class="js-date" value="{:I('request.endtime')}" style="width: 90px;" autocomplete="off">
+            <input type="submit" class="btn btn-primary" value="查询" />
+            <a class="btn btn-danger" href="{:U('member/index')}">清空</a>
+        </form>
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th colspan="9">合计：&nbsp;{$count}&nbsp;人</th>
+				</tr>
+			</thead>
+			<thead>
+				<tr>
+					<th style="text-align: center;">ID</th>
+					<th style="text-align: center;">微信昵称</th>
+					<th style="text-align: center;">年龄</th>
+					<th style="text-align: center;">年级</th>
+					<th style="text-align: center;">性别</th>	
+					<th style="text-align: center;">学校</th>
+					<th style="text-align: center;">TA的教师</th>
+					<th style="text-align: center;">TA的代理</th>					
+					<th style="text-align: center;">{:L('ACTIONS')}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="member" item="vo">
+				<tr>
+				
+					<td style="text-align: center;">{$vo.id}</td>
+					<td style="text-align: center;">{$vo.nicename}</td>
+					<td style="text-align: center;">{$vo.age}</td>					
+					<td style="text-align: center;">{$vo.classname}</td>
+					<td style="text-align: center;">{$vo.sex}</td>
+					<td style="text-align: center;">{$vo.schoolname}</td>
+					<td style="text-align: center;"><if condition="$vo.teachername neq ''">{$vo.teachername}<else/>暂无</if></td>
+					<td style="text-align: center;"><if condition="$vo.parentname neq ''">{$vo.parentname}<else/>暂无</if></td>
+					<td style="text-align: center;">
+							<a style="padding: 2px 15px;color: black;background-color: #bfc6cb;" class="btn btn-primary" href="{:U('member/detail',array('id'=>$vo['id']))}">查看详情</a>							
+							<if condition="$vo['user_status'] eq 1">
+								<a href="{:U('member/ban',array('id'=>$vo['id']))}" class="btn js-ajax-dialog-btn" style="padding: 2px 15px;color: black;" data-msg="您确定要冻结此用户吗？">冻结</a> 
+							<else />
+								<a href="{:U('member/cancelban',array('id'=>$vo['id']))}" class="btn js-ajax-dialog-btn" style="padding: 2px 15px;color: black;" data-msg="您确定要解冻此用户吗？">解冻</a> 
+							</if>
+							<a href='{:U("member/edit",array("id"=>$vo["id"]))}' style="padding: 2px 15px;color: black;background-color: #bfc6cb;" class="btn btn-primary">{:L('EDIT')}</a> 
+					</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

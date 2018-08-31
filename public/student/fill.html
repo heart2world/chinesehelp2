@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>提交个人资料</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<!--提交个人资料-->
+	<section class="form-container" id="app">
+		<div class="input-cell app-flex app-vertical-center">
+			<label>昵称:</label>
+			<div class="input-control app-basis">
+				<input type="text" name="nickname" placeholder="请输入昵称" maxlength="10" v-model="nickname">
+			</div>
+		</div>
+		<div class="input-cell app-flex app-vertical-center">
+			<label>性别:</label>
+			<div class="input-control app-basis">
+				<select name="gender" v-model="gender">
+					<option value="0">请选择性别</option>
+					<option value="1">男生</option>
+					<option value="2">女生</option>
+					<option value="3">其他</option>
+				</select>
+			</div>
+		</div>
+		<div class="input-cell app-flex app-vertical-center">
+			<label>年龄:</label>
+			<div class="input-control app-basis">
+				<input type="number" name="age" pattern="[0-9]*" placeholder="请输入年龄" maxlength="3" v-model="age">
+			</div>
+		</div>
+		<div class="input-cell app-flex app-vertical-center">
+			<label>年级:</label>
+			<div class="input-control app-basis">
+				<input type="text" name="grade" placeholder="请输入年级" maxlength="10" v-model="grade">
+			</div>
+		</div>
+		<div class="input-cell app-flex app-vertical-center">
+			<label>学校:</label>
+			<div class="input-control app-basis">
+				<input type="text" name="grade" placeholder="请输入学校名称" maxlength="20" v-model="school">
+			</div>
+		</div>
+
+		<div class="form-btn">
+			<button type="button" @click="sub_info($event);">提交</button>
+		</div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			nickname:'',
+			gender:0,
+			age:'',
+			grade:'',
+			school:''
+		},
+		methods:{
+			sub_info:function(evt){
+				if(this.nickname == ''){
+					$.toptip("输入昵称",1500,'warning');
+					return;
+				}
+				if(this.gender == '0'){
+					$.toptip("选择性别",1500,'warning');
+					return;
+				}
+				if(this.age == ''){
+					$.toptip("输入年龄",1500,'warning');
+					return;
+				}
+				if(this.grade == ''){
+					$.toptip("输入年级",1500,'warning');
+					return;
+				}
+				if(this.school == ''){
+					$.toptip("输入学校",1500,'warning');
+					return;
+				}
+
+				$.showLoading("正在提交");
+
+				setTimeout(function(){
+					//提交信息成功
+					$.hideLoading();
+					$.toast("提交成功",'3000',function(){
+						//回到首页
+						location.href = "index.html";
+					});
+				},1500);
+			}
+		}
+	});
+</script>
+</html>

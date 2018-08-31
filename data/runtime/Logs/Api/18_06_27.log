@@ -1,0 +1,3 @@
+[ 2018-06-27T23:16:45+08:00 ] 119.113.124.28 /index.php?g=api&m=checkcode&a=index&length=4&font_size=20&width=248&height=42&use_noise=1&use_curve=0&time=0.14422184092880208
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 23:16:45 Use 1.047644 s 
+

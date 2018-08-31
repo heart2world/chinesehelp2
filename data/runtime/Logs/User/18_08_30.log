@@ -1,0 +1,12 @@
+[ 2018-08-30T17:43:54+08:00 ] 123.147.250.17 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-30 17:43:54 Use 1.067353 s 
+
+[ 2018-08-30T17:44:06+08:00 ] 123.147.250.17 /index.php?g=user&m=center&a=tixianlog
+ERR: Cron:测试执行定时任务 Runat 2018-08-30 17:44:06 Use 1.078133 s 
+
+[ 2018-08-30T17:44:53+08:00 ] 61.129.6.174 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-30 17:44:53 Use 1.066603 s 
+
+[ 2018-08-30T17:45:05+08:00 ] 61.151.178.165 /index.php?g=user&m=center&a=tixianlog
+ERR: Cron:测试执行定时任务 Runat 2018-08-30 17:45:05 Use 1.066331 s 
+

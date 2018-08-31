@@ -1,0 +1,18 @@
+[ 2018-06-19T12:23:43+08:00 ] 113.96.219.250 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=061dB1w60C8moJ189gt60nnIv60dB1wi&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-19 12:23:43 Use 1.127280 s 
+
+[ 2018-06-19T12:55:29+08:00 ] 61.151.226.156 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-06-19 12:55:29 Use 1.057974 s 
+
+[ 2018-06-19T16:14:12+08:00 ] 101.227.139.172 /index.php?g=user&m=center&a=addmobile
+ERR: Cron:测试执行定时任务 Runat 2018-06-19 16:14:12 Use 1.047458 s 
+
+[ 2018-06-19T16:14:24+08:00 ] 14.116.133.171 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-19 16:14:24 Use 1.046717 s 
+
+[ 2018-06-19T17:03:23+08:00 ] 182.131.11.250 /index.php?g=user&m=center&a=addmobile
+ERR: Cron:测试执行定时任务 Runat 2018-06-19 17:03:23 Use 1.046549 s 
+
+[ 2018-06-19T23:03:49+08:00 ] 61.151.226.167 /index.php?g=User&m=Wexin&a=get_user&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-19 23:03:49 Use 1.059728 s 
+

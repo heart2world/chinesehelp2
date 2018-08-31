@@ -1,0 +1,12 @@
+[ 2018-08-01T14:26:21+08:00 ] 14.116.142.143 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-01 14:26:21 Use 1.059958 s 
+
+[ 2018-08-01T14:26:43+08:00 ] 14.116.142.75 /index.php?g=admin&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-08-01 14:26:43 Use 1.059389 s 
+
+[ 2018-08-01T14:26:54+08:00 ] 14.116.142.78 /index.php?g=admin&m=member&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-01 14:26:54 Use 1.058484 s 
+
+[ 2018-08-01T14:42:35+08:00 ] 14.116.142.74 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-01 14:42:35 Use 1.058553 s 
+

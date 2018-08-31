@@ -1,0 +1,32 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="javascript:;">详情</a></li>
+			<li><a href="javascript:history.go(-1);">返回</a></li>
+		</ul>
+		<div class="row-fluid">
+				<div class="" style="width: 95%; margin: 0 auto;">
+					<table class="table table-bordered" width="100%">
+					
+						
+						<tr>
+							<th style="width:15%;text-align: right;">姓名:</th>
+							<td style="width:85%" colspan="3">{$user_nicename}</td>													
+						</tr>
+						<tr>
+							<th style="width:15%;text-align: right;">手机号:</th>
+							<td  style="width:85%" colspan="3">{$user_login}</td>													
+						</tr>	
+						<tr>
+							<th style="width:15%;text-align: right;">所属角色:</th>
+							<td style="width:85%" colspan="3">{$rolename}</td>													
+						</tr>							
+					</table>
+				</div>
+			</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,795 @@
+[ 2018-07-07T01:09:42+08:00 ] 58.250.137.193 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 01:09:42 Use 1.050834 s 
+
+[ 2018-07-07T01:09:42+08:00 ] 121.51.14.25 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 01:09:42 Use 1.050826 s 
+
+[ 2018-07-07T08:04:04+08:00 ] 39.104.54.45 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 08:04:04 Use 1.048726 s 
+
+[ 2018-07-07T09:37:20+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 09:37:20 Use 1.047910 s 
+
+[ 2018-07-07T09:37:37+08:00 ] 113.96.219.250 /index.php?g=home&m=teacher&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 09:37:37 Use 1.047702 s 
+
+[ 2018-07-07T09:38:11+08:00 ] 61.151.225.190 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 09:38:11 Use 1.061012 s 
+
+[ 2018-07-07T12:40:19+08:00 ] 125.62.5.159 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:40:19 Use 1.163976 s 
+
+[ 2018-07-07T12:41:00+08:00 ] 125.62.5.159 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:41:00 Use 1.048944 s 
+
+[ 2018-07-07T12:41:23+08:00 ] 61.151.226.61 /index.php?g=home&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:41:23 Use 1.050145 s 
+
+[ 2018-07-07T12:41:37+08:00 ] 125.62.5.159 /index.php?g=home&m=zhuantis&a=ztinfo&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:41:37 Use 1.049198 s 
+
+[ 2018-07-07T12:41:48+08:00 ] 125.62.5.159 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:41:48 Use 1.046545 s 
+
+[ 2018-07-07T12:42:14+08:00 ] 125.62.5.159 /index.php?g=home&m=teacher&a=teacher_info&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:42:14 Use 1.047951 s 
+
+[ 2018-07-07T12:42:33+08:00 ] 125.62.5.159 /index.php?g=home&m=task&a=lesson_info&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:42:33 Use 1.046560 s 
+
+[ 2018-07-07T12:43:33+08:00 ] 101.226.113.56 /index.php?g=home&m=task&a=lesson_info&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:43:33 Use 1.048692 s 
+
+[ 2018-07-07T12:48:17+08:00 ] 125.62.5.159 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:48:17 Use 1.047677 s 
+
+[ 2018-07-07T12:48:36+08:00 ] 125.62.5.159 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:48:36 Use 1.047005 s 
+
+[ 2018-07-07T12:48:50+08:00 ] 125.62.5.159 /index.php?g=home&m=teacher&a=teacher_info&id=110
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:48:50 Use 1.047670 s 
+
+[ 2018-07-07T12:49:03+08:00 ] 125.62.5.159 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:49:03 Use 1.047997 s 
+
+[ 2018-07-07T12:49:28+08:00 ] 125.62.5.159 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:49:28 Use 1.036180 s 
+
+[ 2018-07-07T12:49:39+08:00 ] 125.62.5.159 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:49:39 Use 1.048055 s 
+
+[ 2018-07-07T12:49:40+08:00 ] 61.151.226.67 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:49:40 Use 1.050988 s 
+
+[ 2018-07-07T12:50:38+08:00 ] 61.151.226.67 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 12:50:38 Use 1.047659 s 
+
+[ 2018-07-07T14:18:12+08:00 ] 101.132.126.80 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 14:18:12 Use 1.060457 s 
+
+[ 2018-07-07T14:20:39+08:00 ] 58.250.143.96 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 14:20:39 Use 1.057448 s 
+
+[ 2018-07-07T14:23:59+08:00 ] 113.96.219.247 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=001HWxEc2sXmRD0MNADc2aSGEc2HWxEH&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 14:23:59 Use 1.048068 s 
+
+[ 2018-07-07T15:13:07+08:00 ] 112.90.75.107 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 15:13:07 Use 1.047135 s 
+
+[ 2018-07-07T15:13:07+08:00 ] 121.51.14.27 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 15:13:07 Use 1.053691 s 
+
+[ 2018-07-07T15:13:35+08:00 ] 111.10.128.23 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 15:13:35 Use 1.047795 s 
+
+[ 2018-07-07T17:20:41+08:00 ] 106.15.229.102 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=081Z8GKq1fxQjo05G2Kq1JULKq1Z8GKk&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 17:20:41 Use 1.049863 s 
+
+[ 2018-07-07T19:48:09+08:00 ] 123.147.246.78 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:48:09 Use 1.049714 s 
+
+[ 2018-07-07T19:51:18+08:00 ] 14.116.137.170 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:51:18 Use 1.047470 s 
+
+[ 2018-07-07T19:51:31+08:00 ] 223.104.249.6 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=0717NYj60p2SEJ1Tbbn60FJ1k607NYj9&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:51:31 Use 1.053187 s 
+
+[ 2018-07-07T19:51:54+08:00 ] 125.62.5.25 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=081MbfV20SCpZD15V9Y20dq6V20MbfV0&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:51:54 Use 1.059060 s 
+
+[ 2018-07-07T19:52:18+08:00 ] 101.226.79.239 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:52:18 Use 1.049762 s 
+
+[ 2018-07-07T19:53:04+08:00 ] 223.104.250.251 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:53:04 Use 1.048896 s 
+
+[ 2018-07-07T19:53:17+08:00 ] 123.147.248.14 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:53:17 Use 1.050644 s 
+
+[ 2018-07-07T19:53:28+08:00 ] 223.104.249.241 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:53:28 Use 1.039242 s 
+
+[ 2018-07-07T19:53:40+08:00 ] 183.3.226.234 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:53:40 Use 1.038167 s 
+
+[ 2018-07-07T19:53:41+08:00 ] 223.104.249.6 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:53:41 Use 1.049962 s 
+
+[ 2018-07-07T19:53:55+08:00 ] 183.36.112.205 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:53:55 Use 1.046858 s 
+
+[ 2018-07-07T19:54:07+08:00 ] 223.104.248.3 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:54:07 Use 1.048635 s 
+
+[ 2018-07-07T19:54:23+08:00 ] 223.104.249.241 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:54:23 Use 1.047586 s 
+
+[ 2018-07-07T19:54:34+08:00 ] 101.226.79.225 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:54:34 Use 1.047922 s 
+
+[ 2018-07-07T19:54:59+08:00 ] 113.96.219.247 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=001SSzFk2GlO3F0jNTDk2L9QFk2SSzFU&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:54:59 Use 1.037920 s 
+
+[ 2018-07-07T19:54:59+08:00 ] 223.104.249.241 /index.php?g=home&m=teacher&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:54:59 Use 1.048115 s 
+
+[ 2018-07-07T19:55:48+08:00 ] 183.3.255.28 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:55:48 Use 1.049860 s 
+
+[ 2018-07-07T19:56:16+08:00 ] 113.96.219.249 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:56:16 Use 1.047388 s 
+
+[ 2018-07-07T19:59:00+08:00 ] 183.3.226.234 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=011Hc5rm1V5Mqj0Z4xom1PHIqm1Hc5rP&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:59:00 Use 1.071137 s 
+
+[ 2018-07-07T19:59:25+08:00 ] 223.104.248.0 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=071J0Fkl01wDul17Kdml0zkgkl0J0Fk5&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 19:59:25 Use 1.046531 s 
+
+[ 2018-07-07T20:00:09+08:00 ] 113.96.218.50 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:00:09 Use 1.050556 s 
+
+[ 2018-07-07T20:00:39+08:00 ] 101.226.79.235 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:00:39 Use 1.050698 s 
+
+[ 2018-07-07T20:02:05+08:00 ] 113.96.218.50 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:02:05 Use 1.049952 s 
+
+[ 2018-07-07T20:04:11+08:00 ] 183.36.112.205 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:04:11 Use 1.049025 s 
+
+[ 2018-07-07T20:04:28+08:00 ] 183.36.112.205 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:04:28 Use 1.048085 s 
+
+[ 2018-07-07T20:04:28+08:00 ] 183.36.112.205 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:04:28 Use 1.038668 s 
+
+[ 2018-07-07T20:04:39+08:00 ] 183.36.112.205 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:04:39 Use 1.049164 s 
+
+[ 2018-07-07T20:04:51+08:00 ] 113.96.218.50 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:04:51 Use 1.047863 s 
+
+[ 2018-07-07T20:05:09+08:00 ] 121.51.14.20 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:05:09 Use 1.036005 s 
+
+[ 2018-07-07T20:05:54+08:00 ] 58.250.143.191 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:05:54 Use 1.047118 s 
+
+[ 2018-07-07T20:06:08+08:00 ] 113.96.218.50 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:06:08 Use 1.049764 s 
+
+[ 2018-07-07T20:06:19+08:00 ] 113.96.218.50 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:06:19 Use 1.050322 s 
+
+[ 2018-07-07T20:06:58+08:00 ] 125.82.163.240 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:06:58 Use 1.037264 s 
+
+[ 2018-07-07T20:08:07+08:00 ] 14.116.137.167 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=021rBCiG1mE7H00QGRgG1evziG1rBCiB&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:08:07 Use 1.048851 s 
+
+[ 2018-07-07T20:08:42+08:00 ] 58.250.143.191 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:08:42 Use 1.047062 s 
+
+[ 2018-07-07T20:08:56+08:00 ] 101.227.131.139 /index.php?g=home&m=zhuantis&a=ztinfo&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:08:56 Use 1.036263 s 
+
+[ 2018-07-07T20:09:07+08:00 ] 223.104.250.252 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:09:07 Use 1.049299 s 
+
+[ 2018-07-07T20:09:19+08:00 ] 125.82.163.240 /index.php?g=home&m=index&a=getbang&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:09:19 Use 1.052125 s 
+
+[ 2018-07-07T20:09:30+08:00 ] 106.91.56.119 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:09:30 Use 1.049410 s 
+
+[ 2018-07-07T20:09:42+08:00 ] 223.104.249.253 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=0115Whmt1eydJc0E3bot18G6mt15WhmG&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:09:42 Use 1.048307 s 
+
+[ 2018-07-07T20:10:10+08:00 ] 61.151.226.143 /index.php?g=home&m=index&a=tasklist&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:10:10 Use 1.058976 s 
+
+[ 2018-07-07T20:10:37+08:00 ] 157.255.172.19 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:10:37 Use 1.058415 s 
+
+[ 2018-07-07T20:10:54+08:00 ] 106.91.56.119 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:10:54 Use 1.049249 s 
+
+[ 2018-07-07T20:11:08+08:00 ] 223.104.249.6 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:11:08 Use 1.048459 s 
+
+[ 2018-07-07T20:11:32+08:00 ] 223.104.249.6 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:11:32 Use 1.047334 s 
+
+[ 2018-07-07T20:11:50+08:00 ] 223.104.249.6 /index.php?g=home&m=resource&a=lesson_info&id=1592
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:11:50 Use 1.049560 s 
+
+[ 2018-07-07T20:12:14+08:00 ] 61.151.226.168 /index.php?g=home&m=task&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:12:14 Use 1.051552 s 
+
+[ 2018-07-07T20:12:28+08:00 ] 14.116.137.166 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=061DUFKb2yKLSO0Gd8Mb2bhIKb2DUFKg&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:12:28 Use 1.047496 s 
+
+[ 2018-07-07T20:12:39+08:00 ] 61.151.178.164 /index.php?g=home&m=resource&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:12:39 Use 1.048031 s 
+
+[ 2018-07-07T20:12:50+08:00 ] 101.226.79.226 /index.php?g=home&m=resource&a=lesson_info&id=1592
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:12:50 Use 1.056389 s 
+
+[ 2018-07-07T20:13:03+08:00 ] 125.80.128.58 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:13:03 Use 1.049418 s 
+
+[ 2018-07-07T20:13:14+08:00 ] 14.116.133.170 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:13:14 Use 1.047184 s 
+
+[ 2018-07-07T20:13:50+08:00 ] 183.3.255.28 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:13:50 Use 1.047491 s 
+
+[ 2018-07-07T20:14:24+08:00 ] 125.80.128.58 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:14:24 Use 1.048269 s 
+
+[ 2018-07-07T20:14:37+08:00 ] 14.116.133.170 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:14:37 Use 1.047273 s 
+
+[ 2018-07-07T20:15:00+08:00 ] 14.116.133.170 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=081sAJDg0mgBxz1clrCg0dQ0Eg0sAJDU&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:15:00 Use 1.049151 s 
+
+[ 2018-07-07T20:15:11+08:00 ] 157.255.172.18 /index.php?g=home&m=teacher&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:15:11 Use 1.046458 s 
+
+[ 2018-07-07T20:15:41+08:00 ] 157.255.172.18 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=081rAWzg2GrtYA0SINDg23nTzg2rAWzG&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:15:41 Use 1.048973 s 
+
+[ 2018-07-07T20:15:52+08:00 ] 223.104.249.57 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:15:52 Use 1.045412 s 
+
+[ 2018-07-07T20:16:07+08:00 ] 223.104.25.3 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:16:07 Use 1.046844 s 
+
+[ 2018-07-07T20:16:34+08:00 ] 223.104.249.57 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:16:34 Use 1.047872 s 
+
+[ 2018-07-07T20:16:49+08:00 ] 223.104.249.253 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:16:49 Use 1.049637 s 
+
+[ 2018-07-07T20:17:00+08:00 ] 223.104.249.57 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:17:00 Use 1.039802 s 
+
+[ 2018-07-07T20:17:24+08:00 ] 223.104.249.57 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:17:24 Use 1.048750 s 
+
+[ 2018-07-07T20:18:06+08:00 ] 101.226.79.232 /index.php?g=home&m=zhuantis&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:18:06 Use 1.047851 s 
+
+[ 2018-07-07T20:19:26+08:00 ] 113.250.236.224 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=0218L0FQ008oZ82PmLGQ06QWEQ08L0Fv&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:19:26 Use 1.038274 s 
+
+[ 2018-07-07T20:20:38+08:00 ] 223.104.249.253 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:20:38 Use 1.047481 s 
+
+[ 2018-07-07T20:20:50+08:00 ] 183.3.255.28 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:20:50 Use 1.047107 s 
+
+[ 2018-07-07T20:21:13+08:00 ] 223.104.249.253 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:21:13 Use 1.047261 s 
+
+[ 2018-07-07T20:21:40+08:00 ] 106.34.146.140 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=011KJp2M1XVkK51Wd13M1CfF2M1KJp2N&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:21:40 Use 1.049475 s 
+
+[ 2018-07-07T20:21:52+08:00 ] 223.104.249.253 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:21:52 Use 1.053173 s 
+
+[ 2018-07-07T20:22:16+08:00 ] 183.3.255.32 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=021bnQ701cG4R024To701HNP701bnQ7M&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:22:16 Use 1.049092 s 
+
+[ 2018-07-07T20:22:45+08:00 ] 113.96.219.250 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:22:45 Use 1.049077 s 
+
+[ 2018-07-07T20:23:04+08:00 ] 183.3.255.32 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:23:04 Use 1.048731 s 
+
+[ 2018-07-07T20:23:33+08:00 ] 183.3.255.32 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:23:33 Use 1.046707 s 
+
+[ 2018-07-07T20:24:42+08:00 ] 117.185.117.52 /index.php?g=home&m=zhuantis&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:24:42 Use 1.048670 s 
+
+[ 2018-07-07T20:25:40+08:00 ] 183.36.112.205 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:25:40 Use 1.048789 s 
+
+[ 2018-07-07T20:31:09+08:00 ] 183.3.226.234 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=061kdhAN0MO0d42aL2yN0hecAN0kdhAq&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:31:09 Use 1.048492 s 
+
+[ 2018-07-07T20:32:25+08:00 ] 157.255.172.22 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=081QnnrC0I86df2rOosC0OtqrC0QnnrQ&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:32:25 Use 1.055137 s 
+
+[ 2018-07-07T20:33:48+08:00 ] 14.116.137.166 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=001xD8rl0iAcBl1z6Isl0BP4rl0xD8r5&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:33:48 Use 1.050547 s 
+
+[ 2018-07-07T20:34:36+08:00 ] 113.96.219.243 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=081QK4vV1uJNkV0YHTrV10qQuV1QK4vF&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:34:36 Use 1.048035 s 
+
+[ 2018-07-07T20:35:06+08:00 ] 14.116.137.166 /index.php?g=home&m=task&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:35:06 Use 1.047745 s 
+
+[ 2018-07-07T20:35:32+08:00 ] 113.96.219.243 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:35:32 Use 1.046465 s 
+
+[ 2018-07-07T20:35:45+08:00 ] 14.116.137.166 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:35:45 Use 1.046958 s 
+
+[ 2018-07-07T20:37:00+08:00 ] 125.85.244.136 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:37:00 Use 1.047077 s 
+
+[ 2018-07-07T20:37:14+08:00 ] 113.96.219.243 /index.php?g=home&m=index&a=getbang&type=8
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:37:14 Use 1.047511 s 
+
+[ 2018-07-07T20:37:26+08:00 ] 113.96.219.243 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:37:26 Use 1.048824 s 
+
+[ 2018-07-07T20:37:43+08:00 ] 113.96.219.243 /index.php?g=home&m=index&a=getbang&type=7
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:37:43 Use 1.048724 s 
+
+[ 2018-07-07T20:38:14+08:00 ] 101.226.79.234 /index.php?g=home&m=index&a=getbang&type=8
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:38:14 Use 1.037077 s 
+
+[ 2018-07-07T20:38:28+08:00 ] 125.85.244.136 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:38:28 Use 1.048565 s 
+
+[ 2018-07-07T20:38:43+08:00 ] 113.96.219.243 /index.php?g=home&m=center&a=consume_note
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:38:43 Use 1.049703 s 
+
+[ 2018-07-07T20:38:43+08:00 ] 61.151.178.166 /index.php?g=home&m=index&a=getbang&type=7
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:38:43 Use 1.045971 s 
+
+[ 2018-07-07T20:39:34+08:00 ] 113.96.219.243 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:39:34 Use 1.048797 s 
+
+[ 2018-07-07T20:40:01+08:00 ] 113.96.219.243 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:40:01 Use 1.048740 s 
+
+[ 2018-07-07T20:40:16+08:00 ] 113.96.219.243 /index.php?g=home&m=index&a=getbang&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:40:16 Use 1.047946 s 
+
+[ 2018-07-07T20:40:30+08:00 ] 113.96.219.243 /index.php?g=home&m=index&a=tasklist&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:40:30 Use 1.049059 s 
+
+[ 2018-07-07T20:41:12+08:00 ] 14.116.137.166 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:41:12 Use 1.047659 s 
+
+[ 2018-07-07T20:41:26+08:00 ] 14.116.137.166 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:41:26 Use 1.048386 s 
+
+[ 2018-07-07T20:41:47+08:00 ] 14.116.137.166 /index.php?g=home&m=zhuantis&a=ztinfo&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:41:47 Use 1.046515 s 
+
+[ 2018-07-07T20:42:03+08:00 ] 14.116.137.166 /index.php?g=home&m=task&a=lesson_info&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:42:03 Use 1.060061 s 
+
+[ 2018-07-07T20:42:15+08:00 ] 125.85.244.136 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:42:15 Use 1.048392 s 
+
+[ 2018-07-07T20:42:16+08:00 ] 14.116.137.166 /index.php?g=home&m=zhuantis&a=ztinfo&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:42:16 Use 1.047544 s 
+
+[ 2018-07-07T20:42:47+08:00 ] 101.227.131.220 /index.php?g=home&m=zhuantis&a=ztinfo&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:42:47 Use 1.049395 s 
+
+[ 2018-07-07T20:43:03+08:00 ] 61.151.226.168 /index.php?g=home&m=task&a=lesson_info&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:43:03 Use 1.048005 s 
+
+[ 2018-07-07T20:43:14+08:00 ] 125.84.191.57 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:43:14 Use 1.049300 s 
+
+[ 2018-07-07T20:43:28+08:00 ] 223.104.248.0 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:43:28 Use 1.046456 s 
+
+[ 2018-07-07T20:44:05+08:00 ] 101.227.132.28 /index.php?g=home&m=index&a=articlelist
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:44:05 Use 1.049577 s 
+
+[ 2018-07-07T20:45:00+08:00 ] 113.96.218.51 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:45:00 Use 1.047619 s 
+
+[ 2018-07-07T20:45:32+08:00 ] 183.227.122.230 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:45:32 Use 1.049726 s 
+
+[ 2018-07-07T20:45:32+08:00 ] 123.147.250.180 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=0014Io2L0anAD52Oen0L0bDm2L04Io2f&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:45:32 Use 1.048183 s 
+
+[ 2018-07-07T20:45:44+08:00 ] 113.96.218.51 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:45:44 Use 1.045896 s 
+
+[ 2018-07-07T20:46:07+08:00 ] 113.96.218.51 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:46:07 Use 1.046468 s 
+
+[ 2018-07-07T20:46:19+08:00 ] 113.96.218.51 /index.php?g=home&m=teacher&a=index&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:46:19 Use 1.055002 s 
+
+[ 2018-07-07T20:46:43+08:00 ] 113.96.218.51 /index.php?g=home&m=index&a=getbang&type=7
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:46:43 Use 1.048206 s 
+
+[ 2018-07-07T20:47:08+08:00 ] 218.70.198.26 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:47:08 Use 1.046762 s 
+
+[ 2018-07-07T20:47:20+08:00 ] 117.185.117.60 /index.php?g=home&m=teacher&a=index&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:47:20 Use 1.046401 s 
+
+[ 2018-07-07T20:47:56+08:00 ] 123.147.250.180 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:47:56 Use 1.049189 s 
+
+[ 2018-07-07T20:48:09+08:00 ] 123.147.250.180 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:48:09 Use 1.049353 s 
+
+[ 2018-07-07T20:48:39+08:00 ] 218.70.198.26 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:48:39 Use 1.047644 s 
+
+[ 2018-07-07T20:49:30+08:00 ] 101.226.113.48 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:49:30 Use 1.048567 s 
+
+[ 2018-07-07T20:51:11+08:00 ] 183.227.122.230 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:51:11 Use 1.048490 s 
+
+[ 2018-07-07T20:51:35+08:00 ] 183.227.122.230 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:51:35 Use 1.036243 s 
+
+[ 2018-07-07T20:53:06+08:00 ] 106.84.8.203 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=081O1Yl00bGcoF1WmMk00bYWl00O1YlS&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:53:06 Use 1.051059 s 
+
+[ 2018-07-07T20:54:36+08:00 ] 111.10.136.136 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:54:36 Use 1.047773 s 
+
+[ 2018-07-07T20:54:51+08:00 ] 111.10.136.136 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:54:51 Use 1.047935 s 
+
+[ 2018-07-07T20:55:39+08:00 ] 111.161.57.107 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:55:39 Use 1.050676 s 
+
+[ 2018-07-07T20:55:39+08:00 ] 111.30.142.233 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:55:39 Use 1.048411 s 
+
+[ 2018-07-07T20:56:19+08:00 ] 106.84.8.203 /index.php?g=home&m=teacher&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:56:19 Use 1.057246 s 
+
+[ 2018-07-07T20:56:42+08:00 ] 106.84.8.203 /index.php?g=home&m=index&a=articlelist
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:56:42 Use 1.054081 s 
+
+[ 2018-07-07T20:57:47+08:00 ] 223.104.251.8 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:57:47 Use 1.047585 s 
+
+[ 2018-07-07T20:58:28+08:00 ] 223.104.251.8 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:58:28 Use 1.054564 s 
+
+[ 2018-07-07T20:59:01+08:00 ] 223.104.251.8 /index.php?g=home&m=problem&a=pub_question&id=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:59:01 Use 1.038606 s 
+
+[ 2018-07-07T20:59:13+08:00 ] 125.39.46.56 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 20:59:13 Use 1.047234 s 
+
+[ 2018-07-07T21:00:01+08:00 ] 113.96.218.51 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=071vLZpi1uzmAx0zXEqi1aR3qi1vLZpt&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:00:01 Use 1.036976 s 
+
+[ 2018-07-07T21:00:54+08:00 ] 223.104.250.135 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:00:54 Use 1.053013 s 
+
+[ 2018-07-07T21:01:10+08:00 ] 113.96.218.51 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:01:10 Use 1.049940 s 
+
+[ 2018-07-07T21:01:21+08:00 ] 113.96.218.51 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:01:21 Use 1.054400 s 
+
+[ 2018-07-07T21:01:57+08:00 ] 14.116.133.170 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=0712xNye0Ko0rB16dAze088zye02xNyI&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:01:57 Use 1.039377 s 
+
+[ 2018-07-07T21:02:49+08:00 ] 14.116.133.170 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:02:49 Use 1.049252 s 
+
+[ 2018-07-07T21:05:10+08:00 ] 113.96.218.51 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:05:10 Use 1.058229 s 
+
+[ 2018-07-07T21:07:51+08:00 ] 47.92.98.215 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=001SSzFk2GlO3F0jNTDk2L9QFk2SSzFU&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:07:51 Use 1.054872 s 
+
+[ 2018-07-07T21:08:18+08:00 ] 123.147.248.103 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:08:18 Use 1.051097 s 
+
+[ 2018-07-07T21:11:45+08:00 ] 113.96.219.247 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=071bF2qG0ezLbj2GJfoG0NL9qG0bF2qv&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:11:45 Use 1.050827 s 
+
+[ 2018-07-07T21:12:14+08:00 ] 223.104.25.73 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=061VEVMk1wFukm0jLSLk1mB9Nk1VEVMD&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:12:14 Use 1.046476 s 
+
+[ 2018-07-07T21:13:05+08:00 ] 113.96.219.247 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:13:05 Use 1.052536 s 
+
+[ 2018-07-07T21:13:05+08:00 ] 157.255.172.125 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:13:05 Use 1.053599 s 
+
+[ 2018-07-07T21:13:22+08:00 ] 223.104.250.166 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:13:22 Use 1.046419 s 
+
+[ 2018-07-07T21:14:56+08:00 ] 223.104.250.166 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:14:56 Use 1.047974 s 
+
+[ 2018-07-07T21:15:27+08:00 ] 223.104.250.166 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:15:27 Use 1.062735 s 
+
+[ 2018-07-07T21:18:42+08:00 ] 218.70.198.26 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:18:42 Use 1.046876 s 
+
+[ 2018-07-07T21:19:24+08:00 ] 14.116.137.166 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:19:24 Use 1.050900 s 
+
+[ 2018-07-07T21:20:05+08:00 ] 14.116.133.169 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:20:05 Use 1.048016 s 
+
+[ 2018-07-07T21:20:24+08:00 ] 14.116.137.166 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:20:24 Use 1.048385 s 
+
+[ 2018-07-07T21:20:35+08:00 ] 14.116.133.169 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:20:35 Use 1.048382 s 
+
+[ 2018-07-07T21:20:48+08:00 ] 14.116.133.169 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:20:48 Use 1.054760 s 
+
+[ 2018-07-07T21:21:02+08:00 ] 14.116.137.166 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:21:02 Use 1.048637 s 
+
+[ 2018-07-07T21:21:02+08:00 ] 218.70.198.26 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:21:02 Use 1.053401 s 
+
+[ 2018-07-07T21:21:27+08:00 ] 218.70.198.26 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:21:27 Use 1.047890 s 
+
+[ 2018-07-07T21:22:25+08:00 ] 14.116.137.166 /index.php?g=home&m=zhuantis&a=ztinfo&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:22:25 Use 1.060556 s 
+
+[ 2018-07-07T21:22:41+08:00 ] 14.116.137.166 /index.php?g=home&m=zhuantis&a=ztinfo&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:22:41 Use 1.046612 s 
+
+[ 2018-07-07T21:22:42+08:00 ] 14.116.137.166 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:22:42 Use 1.041519 s 
+
+[ 2018-07-07T21:53:00+08:00 ] 14.116.133.169 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=061LwFaC0rkovf28ct7C0t3JaC0LwFaL&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:53:00 Use 1.048287 s 
+
+[ 2018-07-07T21:55:56+08:00 ] 183.3.255.28 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:55:56 Use 1.045783 s 
+
+[ 2018-07-07T21:56:56+08:00 ] 183.3.255.28 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:56:56 Use 1.048829 s 
+
+[ 2018-07-07T21:57:22+08:00 ] 183.3.255.28 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:57:22 Use 1.047080 s 
+
+[ 2018-07-07T21:58:07+08:00 ] 113.96.219.250 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=081wZpGy1xM0mg0ky0Iy1zUvGy1wZpGU&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:58:07 Use 1.049703 s 
+
+[ 2018-07-07T21:58:52+08:00 ] 113.96.219.250 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:58:52 Use 1.047491 s 
+
+[ 2018-07-07T21:59:14+08:00 ] 113.96.219.250 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:59:14 Use 1.048287 s 
+
+[ 2018-07-07T21:59:25+08:00 ] 113.96.219.243 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:59:25 Use 1.049085 s 
+
+[ 2018-07-07T21:59:39+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 21:59:39 Use 1.049651 s 
+
+[ 2018-07-07T22:00:01+08:00 ] 125.80.228.242 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:00:01 Use 1.048246 s 
+
+[ 2018-07-07T22:00:16+08:00 ] 113.96.219.243 /index.php?g=home&m=zhuantis&a=ztinfo&id=1
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:00:16 Use 1.054374 s 
+
+[ 2018-07-07T22:00:31+08:00 ] 113.96.219.243 /index.php?g=home&m=task&a=lesson_info&id=14
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:00:31 Use 1.038326 s 
+
+[ 2018-07-07T22:01:08+08:00 ] 113.96.219.243 /index.php?g=home&m=task&a=give_score&id=14
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:01:08 Use 1.048825 s 
+
+[ 2018-07-07T22:01:28+08:00 ] 125.80.228.242 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:01:28 Use 1.047905 s 
+
+[ 2018-07-07T22:01:40+08:00 ] 125.80.228.242 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:01:40 Use 1.048969 s 
+
+[ 2018-07-07T22:01:41+08:00 ] 39.104.54.45 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:01:41 Use 1.047669 s 
+
+[ 2018-07-07T22:01:53+08:00 ] 113.96.219.243 /index.php?g=home&m=teacher&a=index&type=9
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:01:53 Use 1.050199 s 
+
+[ 2018-07-07T22:02:08+08:00 ] 101.226.86.162 /index.php?g=home&m=task&a=give_score&id=14
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:02:08 Use 1.048443 s 
+
+[ 2018-07-07T22:02:22+08:00 ] 113.96.219.243 /index.php?g=home&m=center&a=consume_note
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:02:22 Use 1.048254 s 
+
+[ 2018-07-07T22:02:39+08:00 ] 113.96.219.243 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:02:39 Use 1.048580 s 
+
+[ 2018-07-07T22:05:44+08:00 ] 223.104.250.178 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:05:44 Use 1.047292 s 
+
+[ 2018-07-07T22:06:04+08:00 ] 113.96.219.243 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:06:04 Use 1.048997 s 
+
+[ 2018-07-07T22:06:36+08:00 ] 223.104.250.178 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:06:36 Use 1.047318 s 
+
+[ 2018-07-07T22:06:59+08:00 ] 223.104.250.178 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:06:59 Use 1.048876 s 
+
+[ 2018-07-07T22:09:53+08:00 ] 223.104.250.178 /index.php?g=home&m=teacher&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:09:53 Use 1.039328 s 
+
+[ 2018-07-07T22:10:06+08:00 ] 223.104.250.178 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:10:06 Use 1.046494 s 
+
+[ 2018-07-07T22:10:20+08:00 ] 223.104.250.178 /index.php?g=home&m=zhuantis&a=index&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:10:20 Use 1.048591 s 
+
+[ 2018-07-07T22:11:10+08:00 ] 125.80.228.242 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:11:10 Use 1.047795 s 
+
+[ 2018-07-07T22:11:21+08:00 ] 61.151.226.110 /index.php?g=home&m=zhuantis&a=index&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:11:21 Use 1.047521 s 
+
+[ 2018-07-07T22:12:00+08:00 ] 125.80.228.242 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:12:00 Use 1.052762 s 
+
+[ 2018-07-07T22:12:54+08:00 ] 47.92.95.89 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=021rBCiG1mE7H00QGRgG1evziG1rBCiB&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:12:54 Use 1.048912 s 
+
+[ 2018-07-07T22:21:19+08:00 ] 112.90.78.126 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:21:19 Use 1.052894 s 
+
+[ 2018-07-07T22:38:52+08:00 ] 101.226.79.232 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:38:52 Use 1.048782 s 
+
+[ 2018-07-07T22:40:42+08:00 ] 106.92.85.110 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:40:42 Use 1.038116 s 
+
+[ 2018-07-07T22:41:19+08:00 ] 106.92.85.110 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:41:19 Use 1.048289 s 
+
+[ 2018-07-07T22:42:47+08:00 ] 113.96.231.120 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=021Ri4yc2pQNKD0PL8Ac2pZVxc2Ri4yA&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:42:47 Use 1.047377 s 
+
+[ 2018-07-07T22:43:17+08:00 ] 111.161.57.88 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:43:17 Use 1.062653 s 
+
+[ 2018-07-07T22:43:17+08:00 ] 111.30.142.233 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:43:17 Use 1.058443 s 
+
+[ 2018-07-07T22:43:32+08:00 ] 123.151.77.72 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:43:32 Use 1.048338 s 
+
+[ 2018-07-07T22:47:02+08:00 ] 113.251.61.152 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:47:02 Use 1.038929 s 
+
+[ 2018-07-07T22:47:54+08:00 ] 113.251.61.152 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:47:54 Use 1.046011 s 
+
+[ 2018-07-07T22:48:07+08:00 ] 101.227.131.247 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:48:07 Use 1.049132 s 
+
+[ 2018-07-07T22:55:36+08:00 ] 123.151.77.72 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:55:36 Use 1.059505 s 
+
+[ 2018-07-07T22:56:55+08:00 ] 123.151.77.72 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:56:55 Use 1.057904 s 
+
+[ 2018-07-07T22:57:28+08:00 ] 123.151.77.72 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:57:28 Use 1.051981 s 
+
+[ 2018-07-07T22:57:48+08:00 ] 123.151.77.72 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 22:57:48 Use 1.049626 s 
+
+[ 2018-07-07T23:01:04+08:00 ] 125.62.5.12 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:01:04 Use 1.049298 s 
+
+[ 2018-07-07T23:01:28+08:00 ] 125.62.5.12 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:01:28 Use 1.050810 s 
+
+[ 2018-07-07T23:06:02+08:00 ] 125.62.5.12 /index.php?g=home&m=index&a=getbang&type=9
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:06:02 Use 1.059031 s 
+
+[ 2018-07-07T23:06:29+08:00 ] 125.62.5.12 /index.php?g=home&m=index&a=articlelist
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:06:29 Use 1.048486 s 
+
+[ 2018-07-07T23:06:52+08:00 ] 125.62.5.12 /index.php?g=home&m=index&a=getbang&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:06:52 Use 1.038476 s 
+
+[ 2018-07-07T23:07:03+08:00 ] 125.62.5.12 /index.php?g=home&m=task&a=index&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:07:03 Use 1.049066 s 
+
+[ 2018-07-07T23:07:14+08:00 ] 125.62.5.12 /index.php?g=home&m=task&a=getweikelist
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:07:14 Use 1.049081 s 
+
+[ 2018-07-07T23:07:54+08:00 ] 101.226.233.147 /index.php?g=home&m=zhuantis&a=index&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:07:54 Use 1.070581 s 
+
+[ 2018-07-07T23:12:41+08:00 ] 47.92.151.67 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=071bF2qG0ezLbj2GJfoG0NL9qG0bF2qv&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:12:41 Use 1.057273 s 
+
+[ 2018-07-07T23:18:06+08:00 ] 120.204.17.72 /index.php?g=home&m=task&a=lesson_info&id=1056
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:18:06 Use 1.049758 s 
+
+[ 2018-07-07T23:34:11+08:00 ] 113.96.219.243 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:34:11 Use 1.049419 s 
+
+[ 2018-07-07T23:34:25+08:00 ] 113.96.219.243 /index.php?g=home&m=task&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:34:25 Use 1.048518 s 
+
+[ 2018-07-07T23:34:49+08:00 ] 113.96.219.243 /index.php?g=home&m=task&a=lesson_info&id=546
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:34:49 Use 1.049355 s 
+
+[ 2018-07-07T23:35:08+08:00 ] 113.96.219.243 /index.php?g=home&m=task&a=lesson_info&id=546
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:35:08 Use 1.071201 s 
+
+[ 2018-07-07T23:35:29+08:00 ] 101.227.131.219 /index.php?g=home&m=task&a=lesson_info&id=1059
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:35:29 Use 1.050132 s 
+
+[ 2018-07-07T23:35:46+08:00 ] 113.96.219.243 /index.php?g=home&m=problem&a=collect
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:35:45 Use 1.049750 s 
+
+[ 2018-07-07T23:35:57+08:00 ] 113.96.219.243 /index.php?g=home&m=task&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:35:57 Use 1.037307 s 
+
+[ 2018-07-07T23:36:11+08:00 ] 113.96.219.243 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:36:11 Use 1.048110 s 
+
+[ 2018-07-07T23:36:25+08:00 ] 113.96.219.243 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:36:25 Use 1.049095 s 
+
+[ 2018-07-07T23:36:44+08:00 ] 58.251.103.172 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:36:44 Use 1.066927 s 
+
+[ 2018-07-07T23:36:56+08:00 ] 14.116.137.168 /index.php?g=home&m=index&a=index&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:36:56 Use 1.048255 s 
+
+[ 2018-07-07T23:37:06+08:00 ] 14.116.137.168 /index.php?g=Home&m=Wexin&a=get_user&parentid=112&code=071iWVNj1gzuUl09dULj1VvdOj1iWVNB&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:37:06 Use 1.048745 s 
+
+[ 2018-07-07T23:37:17+08:00 ] 61.151.225.192 /index.php?g=home&m=task&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:37:17 Use 1.057256 s 
+
+[ 2018-07-07T23:40:56+08:00 ] 14.116.137.168 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:40:56 Use 1.049028 s 
+
+[ 2018-07-07T23:41:58+08:00 ] 14.116.137.168 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:41:58 Use 1.050789 s 
+
+[ 2018-07-07T23:42:13+08:00 ] 14.116.137.168 /index.php?g=home&m=index&a=tasklist&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:42:13 Use 1.048938 s 
+
+[ 2018-07-07T23:42:37+08:00 ] 14.116.137.168 /index.php?g=home&m=teacher&a=index&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:42:37 Use 1.047026 s 
+
+[ 2018-07-07T23:43:10+08:00 ] 14.116.137.168 /index.php?g=home&m=zhuantis&a=index&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:43:10 Use 1.048733 s 
+
+[ 2018-07-07T23:43:36+08:00 ] 61.151.225.191 /index.php?g=home&m=teacher&a=index&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-07 23:43:36 Use 1.048138 s 
+

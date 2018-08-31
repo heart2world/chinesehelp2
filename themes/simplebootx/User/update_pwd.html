@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>修改密码</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="好问达">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="好问达教师端">
+	<meta name="description" content="好问达教师端">
+	<link rel="stylesheet" href="__PUBLIC__/style/base.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/style/app.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/weui.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/jquery-weui.css">
+	<script src="__PUBLIC__/libs/jq.min.js"></script>
+	<script src="__PUBLIC__/libs/v.min.js"></script>
+</head>
+<style>
+	.weui-btn_primary{ background:#3cc8fe}
+	.weui-btn_primary:not(.weui-btn_disabled):active{ background:#3cc8fe}
+	.getCode.disabled{ color: #ccc !important; }
+</style>
+<body data-app="ChineseBang">
+	<!--修改密码-->
+	<section class="form-container" id="app" style="padding:0">
+		<div class="weui-cells weui-cells_form">
+            <div class="weui-cell">
+				<div class="weui-cell__hd">
+					<img src="__PUBLIC__/assets/mima.png" alt="" style="width:20px;margin-right:5px;display:block">
+				</div>
+                <div class="weui-cell__hd">
+                    <label class="weui-label">密码</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <input type="password" class="weui-input" name="pwd" placeholder="请输入密码" maxlength="20" v-model="pwd">
+                </div>
+            </div>
+            <div class="weui-cell">
+				<div class="weui-cell__hd">
+					<img src="__PUBLIC__/assets/quedingmima.png" alt="" style="width:20px;margin-right:5px;display:block">
+				</div>
+                <div class="weui-cell__hd">
+                    <label class="weui-label">确认密码</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <input type="password" class="weui-input" name="pwd2" placeholder="请再次输入密码" maxlength="20" v-model="pwd2">
+                </div>
+            </div>
+			<div class="weui-cell weui-cell_vcode">
+				<div class="weui-cell__hd">
+					<img src="__PUBLIC__/assets/yanzhengma.png" alt="" style="width:20px;margin-right:5px;display:block">
+				</div>
+                <div class="weui-cell__hd">
+                    <label class="weui-label">验证码</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" name="yzcode" placeholder="验证码" maxlength="6" v-model="yzcode">
+                </div>
+                <div class="weui-cell__ft">
+                    <button :class="{'disabled':!canuse}" class="weui-vcode-btn on getCode" @click="send_code($event);" style="color:#3cc8fe;font-size:14px">获取验证码</button>
+                </div>
+            </div>
+        </div>
+		<!--<div class="input-cell app-flex app-vertical-center">
+			<label>密码:</label>
+			<div class="input-control app-basis">
+				<input type="text" name="pwd" placeholder="请输入密码" maxlength="20" v-model="pwd">
+			</div>
+		</div>
+		<div class="input-cell app-flex app-vertical-center">
+			<label>确认密码:</label>
+			<div class="input-control app-basis">
+				<input type="text" name="pwd2" placeholder="请再次输入密码" maxlength="20" v-model="pwd2">
+			</div>
+		</div>
+		<div class="input-cell app-flex app-vertical-center">
+			<label>验证码:</label>
+			<div class="input-control app-basis">
+				<input type="text" name="yzcode" placeholder="验证码" maxlength="6" v-model="yzcode">
+			</div>
+			<div :class="{'disabled':!canuse}" class="send-code-btn" @click="send_code($event);">获取验证码</div>
+		</div>-->
+		<div class="weui-btn-area">
+			<input type="hidden" id="userid" value="{$id}">
+			<button class="weui-btn weui-btn_primary" type="button" @click="update($event);">确 认</button>
+		</div>
+	</section>
+</body>
+<script src="__PUBLIC__/libs/fixed.js"></script>
+<script src="__PUBLIC__/script/common.js"></script>
+<script src="__PUBLIC__/libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			pwd:'',
+			pwd2:'',
+			yzcode:'',
+			canuse:true,
+		},
+		methods:{
+			send_code:function(evt){
+				if($(evt.target).hasClass("disabled"))return;
+				var mobile ="{$mobile}";
+				$.ajax({
+                    url: "{:U('Api/Mobileverify/send_msg')}",
+                    data: {send_address:mobile,send_type:1},
+                    type:'POST',
+                    success: function (data) {
+                        if (data.state==1) {                               
+                            $.toast(data.error, 'forbidden');
+                            return;
+                        }else{
+                        	comJs._sending(evt.target,60,this.canuse,60); 
+                        }
+                    }
+                });		
+			},
+			update:function(evt){
+				if(this.pwd == ''){
+					$.toptip("输入密码",1500,'warning');
+					return;
+				}
+				if(this.pwd.length<6||this.pwd.length>20){
+					$.toptip("仅限6~20位数字，字母",1500,'warning');
+					return;
+				}
+				if(this.pwd2 == ''){
+					$.toptip("再次输入密码",1500,'warning');
+					return;
+				}
+				if(this.pwd != this.pwd2){
+					$.toptip("前后密码不一致",1500,'warning');
+					return;
+				}
+				if(this.yzcode == ''){
+					$.toptip("输入验证码",1500,'warning');
+					return;
+				}
+				var profileInfo = {                       
+                        "userid" :$("#userid").val(),
+                        "mobile" : '{$mobile}',
+                        "password" : this.pwd,
+                        "yzcode":this.yzcode
+                    };
+				$.showLoading("正在提交");
+				$.ajax({
+                        url: "{:U('User/Center/doupdatepwd')}",
+                        data: profileInfo,
+                        type:'POST',
+                        success: function (data) {
+                        	//console.log(data.msg);
+                            if (data.status==1) {                               
+                                //数据提交成功后关闭提示
+  								setTimeout(function(){
+  									$.hideLoading();
+  									$.toast("重置密码成功",'text',function(){
+  										setTimeout(function(){
+  											//跳转会员中心
+  											location.href=data.url;
+  										},500);
+  									})
+  								},1500)
+                            }
+                            else {
+                                //跳转到预定失败界面
+                                $.hideLoading();
+                                $.toast(data.msg,'forbidden');
+                            }
+                        }
+                });		
+			}
+		},
+		watch:{
+			pwd:function(evt){
+				var reg=/^[A-Za-z0-9]+$/;
+				if(!reg.test(evt)){
+					$.toast("仅限数字和字母","text");
+					this.pwd=this.pwd.substr(0,this.pwd.length-1);
+					return
+				}
+				
+			},
+			pwd2:function(evt){
+				var reg=/^[A-Za-z0-9]+$/;
+				if(!reg.test(evt)){
+					$.toast("仅限数字和字母","text");
+					this.pwd2=this.pwd2.substr(0,this.pwd2.length-1);
+					return
+				}
+			}
+		}
+	});
+</script>
+</html>

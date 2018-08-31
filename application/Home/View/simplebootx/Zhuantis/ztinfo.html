@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>专题详情</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="好问达">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="好问达学生端">
+	<meta name="description" content="好问达学生端">
+	<link rel="stylesheet" href="public/style/base.min.css">
+	<link rel="stylesheet" href="public/libs/weui/weui.min.css">
+	<link rel="stylesheet" href="public/libs/weui/jquery-weui.css">
+	<link rel="stylesheet" href="public/style/app.css">
+	<script src="public/libs/jq.min.js"></script>
+	<script src="public/libs/v.min.js"></script>
+</head>
+<style>
+	.content-list .content-item a{ display:block}
+	.content-item .content-inner-item h4{font-size:.8rem;margin-right:5px}
+	.content-item .content-inner-item h5,.content-item .content-inner-item h4>span{font-size:.8rem;color:#999}
+	.weui-btn_primary{ background:#3cc8fe}
+	.weui-btn_primary:not(.weui-btn_disabled):active{ background:#3cc8fe}
+	.content-list .content-item a:after{ left:0;right:0}
+	.content-list .content-item a:before{display:none}
+</style>
+<body data-app="ChineseBang">
+	<section id="app" class="pdbtm">
+		<!--教师头部信息-->
+		<header class="teacher-hd-info" style="padding:0">
+			<div class="teacher-top app-flex app-vertical-center" style="padding:.5rem 1rem 0">
+				<div class="teacher-image">
+					<img src="{$tinfo.headimg}" alt="img">
+				</div>
+				<div class="info-content app-basis">
+					<h4>{$tinfo.truename}</h4>
+					<div class="info-btm app-flex">
+						<h4 class="dati">{$tinfo.qcount}<if condition="$tinfo['qcount'] gt '999'">+</if></h4><!--答题次数-->
+						<h5 class="sc" id="tcolcount">{$tinfo.colcount}<if condition="$tinfo['colcount'] gt '999'">+</if></h5><!--收藏次数-->
+					</div>
+				</div>
+				<if condition="$tinfo['iscollect'] eq 0">
+				<div class="favar-btn" @click="add_favar_or_cancel($event,'{$tinfo.id}');"></div>
+				<else/>
+				<div class="favar-btn favared" @click="add_favar_or_cancel($event,'{$tinfo.id}');"></div>
+				</if>
+			</div>
+			<aside class="teacher-detail-info" style="padding:.5rem 1rem">
+				<div class="info-cell app-flex">
+					<h4>教<span class="zhanwei">占位</span>龄 :  </h4>
+					<h5>{$tinfo.seniority}年</h5>
+				</div>
+				<div class="info-cell app-flex">
+					<h4>职<span class="zhanwei">占位</span>称 :  </h4>
+					<h5>{$tinfo.title}</h5>
+				</div>
+				<div class="info-cell app-flex">
+					<h4>所在学校 : </h4>
+					<h5 class="app-basis">{$tinfo.schoolname}</h5>
+				</div>
+				<div class="info-cell app-flex">
+					<h4>擅长题型 : </h4>
+					<h5 class="app-basis Line2">{$tinfo.questiontype}</h5>
+				</div>
+				<div class="info-cell app-flex">
+					<h4>所获荣誉 : </h4>
+					<h5 class="app-basis Line2">{$tinfo.honors}</h5>
+				</div>
+			</aside>
+		</header>
+		<!--内容板块-->
+		<section class="content-module">
+			<!--题库-->
+			<article class="content-panel">
+				<ul class="content-list">
+					<li class="content-item" data-type="mrolesson">
+						<a href="javascript:void(0);" style="display:block">
+							<div class="content-top app-flex app-vertical-center">
+								<h4 class="app-basis" style="color:#595959;font-size:.8rem">{$info.title}</h4>
+							</div>
+							<if condition="$info['iscollect'] eq 0">
+							<div class="favar-btn" style="float: right;" @click="add_favar_or_cancel5($event,'{$info.id}');"></div>
+							<else/>
+							<div class="favar-btn favared" style="float: right;" @click="add_favar_or_cancel5($event,'{$info.id}');"></div>
+							</if>
+							<div class="content-inner-item app-flex">
+								<h4>专题简介 :&nbsp;</h4>
+								<h5 class="app-basis Line2" style="color:#999">{$info.desc}</h5>
+							</div>
+							<div class="content-inner-item app-flex">
+								<h4>专题评分 :&nbsp;</h4>
+								<h5 class="app-basis" style="color:#999"><if condition="$info['compoint'] neq '0.0'">{$info.compoint}<else/>暂无评分</if></h5>
+							</div>
+							<div class="content-info-num2 app-flex app-vertical-center">
+								<h4>{$info.clicknum}<if condition="$info['clicknum'] gt '999'">+</if></h4><!--查看次数-->
+								<h5 id="zcolcount">{$info.colcount}<if condition="$info['colcount'] gt '999'">+</if></h5><!--收藏次数-->
+							</div>
+						</a>						
+					</li>
+					<li style="padding:.75rem 1rem;font-size:.9rem;background:rgba(60,200,254,.5);font-size:.8rem;color:#fff">本专题包含以下内容</li>
+					<li class="content-item" data-type="mrolesson">
+						<volist name="list" id="va">
+						<if condition="$va['type'] eq '微课'">
+						<a href="{:U('Home/task/lesson_info',array('id'=>$va['id']))}" style="display:block">
+						<else/>
+						<a href="{:U('Home/Resource/lesson_info',array('id'=>$va['id']))}" style="display:block">
+						</if>
+							<div class="content-top app-flex app-vertical-center">
+								<h4 class="app-basis" style="color:#595959;font-size:.9rem">{$va.title}</h4>
+							</div>
+							<div class="content-inner-item app-flex">
+								<h4>{$va.type}类型 :&nbsp;</h4>
+								<h5 class="app-basis Line2" style="color:#999">{$va.classtype}</h5>
+							</div>
+							<div class="content-inner-item app-flex">
+								<h4>{$va.type}简介 :&nbsp;</h4>
+								<h5 class="app-basis Line2" style="color:#999">{$va.brief}</h5>
+							</div>
+							<div class="content-inner-item app-flex">
+								<h4>专题评分 :&nbsp;</h4>
+								<h5 class="app-basis" style="color:#999"><if condition="$va['star'] neq '0.0'">{$va.star}<else/>暂无评分</if></h5>
+							</div>
+							<div class="content-info-num2 app-flex app-vertical-center">
+								<h4>{$va.clicknum}<if condition="$va['clicknum'] gt '999'">+</if></h4><!--查看次数-->
+								<h5>{$va.colcount}<if condition="$va['colcount'] gt '999'">+</if></h5><!--收藏次数-->
+							</div>
+						</a>
+						</volist>
+					</li>
+				</ul>
+			</article>
+		</section>
+		
+		<!--<div class="btm-btn">
+			<a class="question-now" href="{:U('Home/Problem/pub_question',array('id'=>$tinfo['id']))}">立即提问</a>
+		</div>
+		<div class="weui-btn-area">
+            <a class="weui-btn weui-btn_primary" href="{:U('Home/Problem/pub_question',array('id'=>$tinfo['id']))}">提问</a>
+        </div>-->
+	</section>
+</body>
+<script src="public/libs/fixed.js"></script>
+<script src="public/libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:1,
+			data_text:'没有更多了~~',
+			show_layer:false
+
+		},
+		methods:{
+			
+			add_favar_or_cancel:function(evt,teacherid){
+				console.log(evt);
+				if($(evt.target).hasClass('favared')){
+					//数据操作
+					$.ajax({
+						url:"{:U('Home/Problem/collect')}",
+						data:{taskid:teacherid,type:2},
+						type:'POST',
+                        success: function (data) {
+                        	if(data.status == 1)
+                        	{
+								$("#tcolcount").html(data.collectnum);
+                        		$(evt.target).removeClass("favared");
+								$.toast("你已取消对TA的收藏",3000);
+                        	}
+                        }
+					})
+				}else{
+					//数据操作
+					$.ajax({
+						url:"{:U('Home/Problem/collect')}",
+						data:{taskid:teacherid,type:1},
+						type:'POST',
+                        success: function (data) {
+                        	if(data.status == 1)
+                        	{
+								$("#tcolcount").html(data.collectnum);
+                        		$(evt.target).addClass("favared");
+								$.toast("你已成功收藏TA~",3000);
+                        	}
+                        }
+					})
+				}
+			},
+			add_favar_or_cancel5:function(evt,teacherid){
+				console.log(evt);
+				if($(evt.target).hasClass('favared')){
+					//数据操作
+					$.ajax({
+						url:"{:U('Home/zhuantis/collect')}",
+						data:{taskid:teacherid,type:2},
+						type:'POST',
+                        success: function (data) {
+                        	if(data.status == 1)
+                        	{
+								$("#zcolcount").html(data.collectnum);
+                        		$(evt.target).removeClass("favared");
+								$.toast("你已取消对TA的收藏",3000);
+                        	}
+                        }
+					})
+				}else{
+					//数据操作
+					$.ajax({
+						url:"{:U('Home/zhuantis/collect')}",
+						data:{taskid:teacherid,type:1},
+						type:'POST',
+                        success: function (data) {
+                        	if(data.status == 1)
+                        	{
+								$("#zcolcount").html(data.collectnum);
+                        		$(evt.target).addClass("favared");
+								$.toast("你已成功收藏TA~",3000);
+                        	}
+                        }
+					})
+				}
+			}
+			
+		}
+	});
+</script>
+</html>

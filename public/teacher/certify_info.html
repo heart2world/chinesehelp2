@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>认证资料</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮教师端">
+	<meta name="description" content="语文帮教师端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<!--认证资料-->
+	<section class="info-container">
+		<div class="info-cell app-flex">
+			<h4>姓名：</h4>
+			<h5>卡卡西</h5>
+		</div>
+		<div class="info-cell app-flex">
+			<h4>电话：</h4>
+			<h5>13509450600</h5>
+		</div>
+		<div class="info-cell app-flex">
+			<h4>教龄:</h4>
+			<h5>9年</h5>
+		</div>
+		<div class="info-cell app-flex">
+			<h4>职称:</h4>
+			<h5>中级教师</h5>
+		</div>
+		<div class="info-cell app-flex">
+			<h4>学校：</h4>
+			<h5>市级重点中学</h5>
+		</div>
+		<div class="info-cell app-flex">
+			<h4>擅长：</h4>
+			<h5>论说文阅读；抒情散文写作</h5>
+		</div>
+		<div class="info-cell app-flex">
+			<h4>荣誉：</h4>
+			<h5>年级备课组长；市级赛课获奖；业内知名教师</h5>
+		</div>
+		<div class="info-cell app-flex">
+			<h4>职称照片：</h4>
+			<h5>
+				<img src="../assets/zhaopian@2x.png" alt="">
+			</h5>
+		</div>
+		<div class="info-cell app-flex">
+			<h4>工作证：</h4>
+			<h5>
+				<img src="../assets/zhaopian@2x.png" alt="">
+			</h5>
+		</div>
+		<div class="info-tip">如有变更请联系客服进行更新~</div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../script/common.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			phonenum:'',
+			pwd:'',
+		},
+		methods:{
+			login:function(evt){
+				if(this.phonenum == ''){
+					$.toptip("输入手机号",1500,'warning');
+					return;
+				}
+				if(!comJs._validateIsPhoneNum(this.phonenum)){
+					$.toptip("手机格式有误",1500,'warning');
+					return;
+				}
+				if(this.pwd == ''){
+					$.toptip("输入密码",1500,'warning');
+					return;
+				}
+
+				$.showLoading("登录中...");
+
+				setTimeout(function(){
+					//提交信息成功
+					$.hideLoading();
+					$.toast("登录成功",'3000',function(){
+						//回到首页
+						location.href = "index.html";
+					});
+				},1500);
+			}
+		}
+	});
+</script>
+</html>

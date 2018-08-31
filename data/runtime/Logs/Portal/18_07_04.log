@@ -1,0 +1,33 @@
+[ 2018-07-04T00:08:29+08:00 ] 113.96.219.247 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:08:29 Use 1.049391 s 
+
+[ 2018-07-04T00:09:14+08:00 ] 113.96.219.247 /index.php?g=portal&m=task&a=deltask
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:09:14 Use 1.045149 s 
+
+[ 2018-07-04T00:09:35+08:00 ] 101.226.79.240 /index.php?g=portal&m=problem&a=answerinfo&id=63
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:09:35 Use 1.048143 s 
+
+[ 2018-07-04T00:09:50+08:00 ] 113.96.219.247 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:09:50 Use 1.045920 s 
+
+[ 2018-07-04T00:10:01+08:00 ] 113.96.219.247 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:10:01 Use 1.047307 s 
+
+[ 2018-07-04T00:10:17+08:00 ] 113.96.219.247 /index.php?g=portal&m=task&a=fabu
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:10:17 Use 1.046433 s 
+
+[ 2018-07-04T00:10:28+08:00 ] 113.96.219.247 /index.php?g=portal&m=resource&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:10:28 Use 1.045366 s 
+
+[ 2018-07-04T00:10:45+08:00 ] 113.96.219.247 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:10:45 Use 1.046959 s 
+
+[ 2018-07-04T00:11:01+08:00 ] 113.96.219.247 /index.php?g=portal&m=resource&a=fabu
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 00:11:01 Use 1.047279 s 
+
+[ 2018-07-04T03:38:17+08:00 ] 101.132.131.7 /index.php?g=portal&m=problem&a=answerinfo&id=63
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 03:38:17 Use 1.051147 s 
+
+[ 2018-07-04T19:31:45+08:00 ] 223.104.25.230 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-04 19:31:45 Use 1.046592 s 
+

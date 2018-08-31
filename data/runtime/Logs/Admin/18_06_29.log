@@ -1,0 +1,36 @@
+[ 2018-06-29T08:50:01+08:00 ] 113.251.23.58 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:50:01 Use 1.048271 s 
+
+[ 2018-06-29T09:49:32+08:00 ] 113.251.23.58 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:49:32 Use 1.048450 s 
+
+[ 2018-06-29T09:49:48+08:00 ] 113.251.23.58 /index.php?g=admin&m=teacher&a=edit&id=78
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:49:48 Use 1.239472 s 
+
+[ 2018-06-29T09:49:58+08:00 ] 113.251.23.58 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:49:58 Use 1.064777 s 
+
+[ 2018-06-29T09:50:09+08:00 ] 113.251.23.58 /index.php?g=admin&m=teacher&a=donechange&id=78
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:50:09 Use 1.090713 s 
+
+[ 2018-06-29T11:42:31+08:00 ] 113.251.23.132 /index.php?g=admin&m=teacher&a=detail&id=78
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:42:31 Use 1.046555 s 
+
+[ 2018-06-29T11:43:21+08:00 ] 113.251.23.132 /index.php?g=admin&m=wclass&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:43:21 Use 1.048142 s 
+
+[ 2018-06-29T11:43:35+08:00 ] 113.251.23.132 /index.php?g=admin&m=wclass&a=delete&id=1283
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:43:35 Use 1.048056 s 
+
+[ 2018-06-29T11:43:48+08:00 ] 113.251.23.132 /index.php?g=admin&m=wclass&a=delete&id=1281
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:43:48 Use 1.048496 s 
+
+[ 2018-06-29T11:43:59+08:00 ] 113.251.23.132 /index.php?g=admin&m=wclass&a=detail&id=1275
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:43:59 Use 1.048223 s 
+
+[ 2018-06-29T11:44:18+08:00 ] 113.251.23.132 /index.php?g=admin&m=wclass&a=delete&id=1274
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:44:18 Use 1.115405 s 
+
+[ 2018-06-29T11:44:50+08:00 ] 113.251.23.132 /index.php?g=admin&m=wclass&a=delete&id=1272
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:44:50 Use 1.046879 s 
+

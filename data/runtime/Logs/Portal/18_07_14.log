@@ -1,0 +1,12 @@
+[ 2018-07-14T22:16:10+08:00 ] 113.96.219.243 /index.php?g=portal&m=index&a=index&from=groupmessage
+ERR: Cron:测试执行定时任务 Runat 2018-07-14 22:16:10 Use 1.061343 s 
+
+[ 2018-07-14T22:16:30+08:00 ] 113.96.219.243 /Portal/Index/share_code/mid/112?from=groupmessage
+ERR: Cron:测试执行定时任务 Runat 2018-07-14 22:16:30 Use 1.049057 s 
+
+[ 2018-07-14T22:17:09+08:00 ] 61.151.226.53 /index.php?g=portal&m=index&a=index&from=groupmessage
+ERR: Cron:测试执行定时任务 Runat 2018-07-14 22:17:09 Use 1.064502 s 
+
+[ 2018-07-14T22:17:30+08:00 ] 101.226.86.155 /Portal/Index/share_code/mid/112?from=groupmessage
+ERR: Cron:测试执行定时任务 Runat 2018-07-14 22:17:30 Use 1.066016 s 
+

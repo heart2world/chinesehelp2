@@ -1,0 +1,54 @@
+[ 2018-07-10T00:06:13+08:00 ] 123.147.246.206 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 00:06:13 Use 1.048887 s 
+
+[ 2018-07-10T00:07:10+08:00 ] 123.147.246.206 /index.php?g=portal&m=zhuantis&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 00:07:10 Use 1.048822 s 
+
+[ 2018-07-10T00:07:27+08:00 ] 123.147.246.206 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 00:07:27 Use 1.036947 s 
+
+[ 2018-07-10T00:07:55+08:00 ] 123.147.246.206 /index.php?g=portal&m=index&a=article&id=29
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 00:07:55 Use 1.047394 s 
+
+[ 2018-07-10T00:08:10+08:00 ] 61.151.226.61 /index.php?g=portal&m=zhuantis&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 00:08:10 Use 1.080420 s 
+
+[ 2018-07-10T00:27:14+08:00 ] 117.185.117.53 /index.php?g=portal&m=resource&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 00:27:14 Use 1.051179 s 
+
+[ 2018-07-10T07:12:49+08:00 ] 123.147.246.123 /Portal/Index/share_code/mid/112?from=groupmessage&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 07:12:49 Use 1.050811 s 
+
+[ 2018-07-10T07:13:21+08:00 ] 123.147.246.123 /index.php?g=portal&m=index&a=index&from=groupmessage&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 07:13:21 Use 1.050007 s 
+
+[ 2018-07-10T07:13:48+08:00 ] 120.204.200.83 /Portal/Index/share_code/mid/112?from=groupmessage&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 07:13:48 Use 1.048305 s 
+
+[ 2018-07-10T07:14:30+08:00 ] 61.151.226.110 /index.php?g=portal&m=index&a=index&from=groupmessage&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 07:14:30 Use 1.047275 s 
+
+[ 2018-07-10T08:16:19+08:00 ] 39.130.106.40 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 08:16:19 Use 1.069156 s 
+
+[ 2018-07-10T12:04:32+08:00 ] 113.96.218.51 /index.php?g=portal&m=index&a=index&from=singlemessage
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 12:04:32 Use 1.173029 s 
+
+[ 2018-07-10T15:10:22+08:00 ] 123.147.246.123 /index.php?g=portal&m=index&a=index&from=singlemessage&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 15:10:22 Use 1.060600 s 
+
+[ 2018-07-10T15:11:23+08:00 ] 101.227.143.143 /index.php?g=portal&m=index&a=index&from=singlemessage&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 15:11:23 Use 1.051109 s 
+
+[ 2018-07-10T15:32:52+08:00 ] 113.96.218.51 /index.php?g=portal&m=index&a=index&from=singlemessage
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 15:32:52 Use 1.048769 s 
+
+[ 2018-07-10T17:06:42+08:00 ] 47.92.146.203 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 17:06:42 Use 1.047408 s 
+
+[ 2018-07-10T17:23:10+08:00 ] 47.92.31.65 /index.php?g=portal&m=index&a=index&from=singlemessage
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 17:23:10 Use 1.049539 s 
+
+[ 2018-07-10T17:58:30+08:00 ] 125.84.187.138 /Portal/Index/share_code/mid/112?from=groupmessage&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-10 17:58:30 Use 1.037913 s 
+

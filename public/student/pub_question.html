@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>我要提问</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app">
+		<!--教师头部信息-->
+		<header class="teacher-hd-info del-border">
+			<div class="teacher-hd-title">指定答题老师</div>
+			<div class="teacher-top app-flex app-vertical-center">
+				<div class="teacher-image">
+					<img src="../assets/touxiang@2x.png" alt="img">
+				</div>
+				<div class="info-content tiwen app-basis">
+					<h4>卡卡西</h4>
+					<p>全国公开课备课一等奖</p>
+					<p>综合评分: 4.8</p>
+					<div class="info-btm app-flex">
+						<h4>299次答题</h4>
+						<h5>299人关注</h5>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--提问板块-->
+		<aside class="want-box">
+			<div class="want-panel app-flex app-vertical-center">
+				<label>问题：</label>
+				<div class="input-control app-basis">
+					<input type="text" name="qname" placeholder="请在此输入问题标题">
+				</div>
+			</div>
+			<div class="want-panel app-flex">
+				<label>描述：</label>
+				<div class="content-control app-basis" contenteditable></div>
+			</div>
+			<div class="subbtn">提问</div>
+		</aside>
+
+		<div class="insert-box app-flex app-vertical-center">
+			<div class="audio" data-type="audio"></div>
+			<div class="text-control app-basis">
+				<input type="text" placeholder="这里输入描述">
+			</div>
+			<div class="upload-img">上传图片</div>
+		</div>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:1,
+			data_text:'没有更多了~~',
+			show_layer:false
+
+		},
+		methods:{
+			
+		}
+	});
+</script>
+</html>

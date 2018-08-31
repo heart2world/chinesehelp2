@@ -1,0 +1,111 @@
+<admintpl file="header" />
+<style type="text/css">
+.pic-list li {
+	margin-bottom: 5px;
+}
+</style>
+</head>
+<body>
+	<div class="wrap js-check-wrap" id="app">
+		<ul class="nav nav-tabs">
+			<li class="active"><a>财务设置</a></li>
+		</ul>
+		<form class="form-horizontal" id="tagforms" method="post" enctype="multipart/form-data">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微课：</label>
+					<div class="controls">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+					教师微课的提成比例:&nbsp;<input type="number" style="width: 70px;" min="1" max="99.99" name="options[wxpersent]" value="{$wxpersent}">&nbsp;%
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">2.为TA充电：</label>
+					<div class="controls">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+					为TA充电教师的提成比例:&nbsp;<input type="number" style="width: 70px;" min="1" max="99.99" name="options[cdpersent]" value="{$cdpersent}">&nbsp;%
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">3.&nbsp;购买资源：</label>
+					<div class="controls">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+					教师资源的提成比例:&nbsp;<input type="number" style="width: 70px;" min="1" max="99.99" name="options[zypersent]" value="{$zypersent}">&nbsp;%
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">4&nbsp;分销佣金：</label>
+					<div class="controls">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+					代理教师提成比例:&nbsp;<input type="number" style="width: 70px;" min="1" max="99.99" name="options[teacherpersent]" value="{$teacherpersent}">&nbsp;%
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+					学生上级提成比例:&nbsp;<input type="number" style="width: 70px;" min="1" max="99.99" name="options[studentpersent]" value="{$studentpersent}">&nbsp;%
+					</div>
+				</div>
+			</fieldset>
+			<div class="form-actions">
+				<input type="button" @click="add()" class="btn btn-primary" value="保存"/>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script src="__PUBLIC__/js/vue.js"></script>
+	<script src="__PUBLIC__/js/content_addtop.js"></script>
+	<script src="__PUBLIC__/js/define_my.js"></script>
+	<script src="__PUBLIC__/js/artDialog/artDialog.js"></script>
+	<script>
+		var app = new Vue({
+			el:"#app",
+			data:{
+				info:{},				
+			},
+			created:function () {
+			},
+			methods:{
+				add:function () {	
+				     var tagvals=$('#tagforms').serialize();				
+					$.ajax({
+						url:'{:U("Fset/edit_post")}',
+						data:tagvals,
+						type:"POST",
+						dataType:"json",
+						success:function (res) {							
+							if(res.status==0){
+								$.dialog({id: 'popup', lock: true,icon:"succeed", content: res.msg, time: 2});
+								setInterval(function(){
+									location.href='{:U("Fset/index")}';
+								},3000)
+							}
+							else {
+								$.dialog({id: 'popup', lock: true,icon:"warning", content: res.msg, time: 2});
+							}
+						}
+
+					})
+				}
+			}
+		});	
+
+	</script>
+</body>
+</html>

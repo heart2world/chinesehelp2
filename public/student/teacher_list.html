@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>教师列表</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app">
+		<!--头部筛选-->
+		<header class="fixed-top app-flex app-vertical-center app-content-justify">
+			<div class="filter-item app-flex app-vertical-center">
+				<span class="" @click="switch_tab($event,'1');" style="max-width: 1.5rem;" v-text="title"></span><i></i>
+				<ul v-if="cur_index == 1" class="filter-list" v-cloak>
+					<li @click="change_honor($event);" data-item="职称">职称</li>
+					<li @click="change_honor($event);" data-item="初级教师">初级教师</li>
+					<li @click="change_honor($event);" data-item="中级教师">中级教师</li>
+					<li @click="change_honor($event);" data-item="高级教师">高级教师</li>
+				</ul>
+			</div>
+			<div class="filter-item app-flex app-vertical-center">
+				<span class="" @click="switch_tab($event,'2');" v-text="grade"></span><i></i>
+				<ul v-if="cur_index == 2" class="filter-list" v-cloak>
+					<li @click="change_grade($event);" data-item="学校等级">学校等级</li>
+					<li @click="change_grade($event);" data-item="市级重点中学">市级重点中学</li>
+					<li @click="change_grade($event);" data-item="区级重点中学">区级重点中学</li>
+					<li @click="change_grade($event);" data-item="区级普通中学">区级普通中学</li>
+				</ul>
+			</div>
+			<div class="filter-item app-flex app-vertical-center">
+				<span class="" @click="switch_tab($event,'3');" v-text="goodat"></span><i></i>
+				<ul v-if="cur_index == 3" class="filter-list" v-cloak>
+					<li @click="change_goodat($event);" data-item="教师擅长">教师擅长</li>
+					<li @click="change_goodat($event);" data-item="中国文化趣谈">中国文化趣谈</li>
+					<li @click="change_goodat($event);" data-item="西方文化趣谈">西方文化趣谈</li>
+					<li @click="change_goodat($event);" data-item="基础知识应试技巧">基础知识应试技巧</li>
+				</ul>
+			</div>
+			<div class="filter-item app-flex app-vertical-center">
+				<span class="" @click="switch_tab($event,'4');" v-text="qnum"></span><i></i>
+				<ul v-if="cur_index == 4" class="filter-list" v-cloak>
+					<li @click="change_qnum($event);" data-item="本周答题数">本周答题数</li>
+					<li @click="change_qnum($event);" data-item="20以上">20以上</li>
+					<li @click="change_qnum($event);" data-item="15-20">15-20</li>
+					<li @click="change_qnum($event);" data-item="11-15">11-15</li>
+					<li @click="change_qnum($event);" data-item="6-10">6-10</li>
+					<li @click="change_qnum($event);" data-item="0-5">0-5</li>
+				</ul>
+			</div>
+		</header>
+		<!--教师列表-->
+		<ul class="teacher-list">
+			<li class="list-item">
+				<a href="teacher_info.html?teacher_id=100" class="app-flex app-vertical-center">
+					<div class="teacher-avatar">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn" @click="add_favar_or_cancel($event);"></div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a href="#" class="app-flex app-vertical-center">
+					<div class="teacher-avatar busy">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn favared" @click="add_favar_or_cancel($event);"></div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a href="#" class="app-flex app-vertical-center">
+					<div class="teacher-avatar offline">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn"></div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a href="#" class="app-flex app-vertical-center">
+					<div class="teacher-avatar busy">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn favared"></div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a href="#" class="app-flex app-vertical-center">
+					<div class="teacher-avatar">
+						<img src="../assets/touxiang@2x.png" alt="img">
+					</div>
+					<div class="teacher-info app-basis">
+						<h4>卡卡西</h4>
+						<p>全国公开课备课一等奖</p>
+						<p>综合评分: 4.8</p>
+						<div class="teacher-attention-num app-flex">
+							<h4>299次答题</h4>
+							<h5>299人收藏</h5>
+						</div>
+					</div>
+					<div class="favar-btn"></div>
+				</a>
+			</li>
+		</ul>
+		<div v-if="show_layer" class="cover-layer transparent" @click="show_layer=false;cur_index = '0'"></div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:0,
+			title:'职称',
+			grade:'学校等级',
+			goodat:'教师擅长',
+			qnum:'本周答题数',
+			show_layer:false
+
+		},
+		methods:{
+			switch_tab:function(evt,index){
+				if(this.cur_index == index){
+					this.cur_index = 0;
+					this.show_layer = false;
+				}else{
+					this.cur_index = index;
+					this.show_layer = true;
+				}
+				
+			},
+			change_honor:function(evt){
+				evt.stopPropagation();
+				var val = evt.currentTarget.dataset['item'];
+				this.title = val;
+				this.cur_index = 0;
+				this.show_layer = false;
+			},
+			change_grade:function(evt){
+				evt.stopPropagation();
+				var val = evt.currentTarget.dataset['item'];
+				this.grade = val;
+				this.cur_index = 0;
+				this.show_layer = false;
+			},
+			change_goodat:function(evt){
+				evt.stopPropagation();
+				var val = evt.currentTarget.dataset['item'];
+				this.goodat = val;
+				this.cur_index = 0;
+				this.show_layer = false;
+			},
+			change_qnum:function(evt){
+				evt.stopPropagation();
+				var val = evt.currentTarget.dataset['item'];
+				this.qnum = val;
+				this.cur_index = 0;
+				this.show_layer = false;
+			},
+			add_favar_or_cancel:function(evt){
+				console.log(evt);
+				evt.preventDefault();
+				evt.stopPropagation();
+				if($(evt.target).hasClass('favared')){
+					//数据操作
+					$(evt.target).removeClass("favared");
+					$.toast("你已取消对TA的收藏",3000);
+				}else{
+					//数据操作
+					$(evt.target).addClass("favared");
+					$.toast("你已成功收藏TA~",3000);
+				}
+			}
+		}
+	});
+</script>
+</html>

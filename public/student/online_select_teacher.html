@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>我要提问</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app" style="padding-bottom: 2.5rem;">
+		<!--头部筛选-->
+		<header class="fixed-top lesson-top">
+			<h4 class="select-title">请选择答题老师</h4>
+		</header>
+		<!--老师选择板块-->
+		<section class="select-teacher">
+			<div class="select-cell app-flex app-vertical-center app-content-justify">
+				<h4>方式一：</h4>
+				<h5>
+					<a href="myfavar.html">选择我收藏的老师</a>
+				</h5>
+			</div>
+			<div class="select-cell app-flex app-vertical-center app-content-justify">
+				<h4>方式二：</h4>
+				<h5>
+					<a href="myfavar.html">平台为你推荐以下的老师</a>
+				</h5>
+			</div>
+			<ul class="teacher-list online-teacher" style="padding-top: 0;">
+				<li class="list-item app-flex app-vertical-center">
+					<a href="teacher_info.html?teacher_id=100" class="app-basis app-flex app-vertical-center">
+						<div class="teacher-avatar">
+							<img src="../assets/touxiang@2x.png" alt="img">
+						</div>
+						<div class="teacher-info app-basis">
+							<h4>卡卡西</h4>
+							<p>全国公开课备课一等奖</p>
+							<p>综合评分: 4.8</p>
+							<div class="teacher-attention-num app-flex">
+								<h4>299次答题</h4>
+								<h5>299人收藏</h5>
+							</div>
+						</div>
+					</a>
+					<div class="question-now">
+						<a href="pub_question.html">立即提问</a>
+					</div>
+				</li>
+				<li class="list-item app-flex app-vertical-center">
+					<a href="#" class="app-basis app-flex app-vertical-center">
+						<div class="teacher-avatar">
+							<img src="../assets/touxiang@2x.png" alt="img">
+						</div>
+						<div class="teacher-info app-basis">
+							<h4>卡卡西</h4>
+							<p>全国公开课备课一等奖</p>
+							<p>综合评分: 4.8</p>
+							<div class="teacher-attention-num app-flex">
+								<h4>299次答题</h4>
+								<h5>299人收藏</h5>
+							</div>
+						</div>
+					</a>
+					<div class="question-now">
+						<a href="pub_question.html">立即提问</a>
+					</div>
+				</li>
+				<li class="list-item app-flex app-vertical-center">
+					<a href="#" class="app-basis app-flex app-vertical-center">
+						<div class="teacher-avatar">
+							<img src="../assets/touxiang@2x.png" alt="img">
+						</div>
+						<div class="teacher-info app-basis">
+							<h4>卡卡西</h4>
+							<p>全国公开课备课一等奖</p>
+							<p>综合评分: 4.8</p>
+							<div class="teacher-attention-num app-flex">
+								<h4>299次答题</h4>
+								<h5>299人收藏</h5>
+							</div>
+						</div>
+					</a>
+					<div class="question-now">
+						<a href="pub_question.html">立即提问</a>
+					</div>
+				</li>
+			</ul>
+			<div class="select-cell app-flex app-vertical-center app-content-justify">
+				<h4>方式三：</h4>
+				<h5>
+					<a href="teacher_list.html">在教师列表中选择</a>
+				</h5>
+			</div>
+		</section>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			data_text:'没有更多了~'
+
+		},
+		methods:{
+			
+		}
+	});
+</script>
+</html>

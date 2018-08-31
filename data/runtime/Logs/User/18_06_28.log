@@ -1,0 +1,42 @@
+[ 2018-06-28T12:58:57+08:00 ] 101.226.227.170 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 12:58:57 Use 1.058672 s 
+
+[ 2018-06-28T14:50:34+08:00 ] 14.116.133.171 /index.php?g=user&m=center&a=dologinmobile
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 14:50:34 Use 1.047205 s 
+
+[ 2018-06-28T14:51:41+08:00 ] 101.226.79.223 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 14:51:41 Use 1.050490 s 
+
+[ 2018-06-28T15:18:41+08:00 ] 183.36.112.205 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 15:18:41 Use 1.047572 s 
+
+[ 2018-06-28T15:18:55+08:00 ] 183.36.112.205 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 15:18:55 Use 1.052637 s 
+
+[ 2018-06-28T15:19:26+08:00 ] 183.36.112.205 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 15:19:26 Use 1.049195 s 
+
+[ 2018-06-28T15:19:51+08:00 ] 61.151.226.64 /index.php?g=user&m=center&a=mystudent
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 15:19:51 Use 1.047646 s 
+
+[ 2018-06-28T15:20:27+08:00 ] 101.226.86.155 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 15:20:27 Use 1.061547 s 
+
+[ 2018-06-28T15:35:47+08:00 ] 117.144.246.149 /index.php?g=user&m=center&a=mystudent
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 15:35:47 Use 1.065377 s 
+
+[ 2018-06-28T16:49:19+08:00 ] 113.251.23.58 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:49:19 Use 1.124432 s 
+
+[ 2018-06-28T16:50:13+08:00 ] 113.251.23.58 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:50:13 Use 1.061312 s 
+
+[ 2018-06-28T17:10:30+08:00 ] 14.106.172.137 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 17:10:30 Use 1.125500 s 
+
+[ 2018-06-28T17:11:15+08:00 ] 101.226.226.221 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 17:11:15 Use 1.128183 s 
+
+[ 2018-06-28T19:54:11+08:00 ] 139.224.238.50 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=001irthu0jWtvc1ikuhu0Sbghu0irthd&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 19:54:11 Use 1.049328 s 
+

@@ -1,0 +1,24 @@
+[ 2018-07-16T15:14:08+08:00 ] 14.152.69.241 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-16 15:14:08 Use 1.050783 s 
+
+[ 2018-07-16T15:14:27+08:00 ] 14.152.69.206 /index.php?g=admin&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-07-16 15:14:27 Use 1.060681 s 
+
+[ 2018-07-16T15:14:54+08:00 ] 14.152.69.205 /index.php?g=admin&m=teacher&a=index&p=2
+ERR: Cron:测试执行定时任务 Runat 2018-07-16 15:14:54 Use 1.054085 s 
+
+[ 2018-07-16T15:15:05+08:00 ] 14.215.160.24 /index.php?g=admin&m=member&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-16 15:15:05 Use 1.052659 s 
+
+[ 2018-07-16T15:15:24+08:00 ] 14.152.69.240 /index.php?g=admin&m=teacher&a=detail&id=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-16 15:15:24 Use 1.049143 s 
+
+[ 2018-07-16T15:15:36+08:00 ] 14.215.160.19 /index.php?g=admin&m=teacher&a=detail&id=135
+ERR: Cron:测试执行定时任务 Runat 2018-07-16 15:15:36 Use 1.050782 s 
+
+[ 2018-07-16T15:15:47+08:00 ] 14.152.69.208 /index.php?g=admin&m=teacher&a=detail&id=162
+ERR: Cron:测试执行定时任务 Runat 2018-07-16 15:15:47 Use 1.064906 s 
+
+[ 2018-07-16T15:16:00+08:00 ] 14.152.69.241 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-16 15:16:00 Use 1.047605 s 
+

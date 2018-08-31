@@ -1,0 +1,49 @@
+<admintpl file="header" />
+</head>
+
+<body>
+	<div class="wrap" id="app">
+		<ul class="nav nav-tabs">
+			<li class="active"><a>图片详情</a></li>
+			<li><a href="javascript:history.go(-1);">返回</a></li>
+		</ul>
+		
+			<fieldset>
+				<div class="control-group">
+				<div>
+					<img src="{$info.titleimg}" style="display: block; margin: 0 auto; max-width: 45%;" id="preview-img">
+				</div>
+				<div class="btns" style="text-align: center; padding: 10px 0;">
+					<a class="btn btn-primary" href="javascript:rotate_img(this);">图片旋转</a></div>
+				</div>
+				</div>
+			</fieldset>
+	</div>
+	
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script>
+		var deg = 0;
+		var rotate_img = function(){
+			var preview_img = $("#preview-img");
+			deg+=90;
+			
+			preview_img.css({
+				"backface-visibility":"none",
+				"-webkit-backface-visibility":"none",
+				"-webkit-backface-visibility":"none",
+				"transform":"rotate("+deg+"deg)",
+				"-webkit-transform":"rotate("+deg+"deg)",
+				"-Moz-transform":"rotate("+deg+"deg)",
+				"-O-transform":"rotate("+deg+"deg)",
+				"-ms-transform":"rotate("+deg+"deg)",
+				"transition":"transform 0.725s ease",
+				"-webkit-transition":"transform 0.725s ease",
+				"-Moz-transition":"transform 0.725s ease",
+				"-O-transition":"transform 0.725s ease",
+				"-ms-transition":"transform 0.725s ease",
+			});
+		}
+	</script>
+	
+</body>
+</html>

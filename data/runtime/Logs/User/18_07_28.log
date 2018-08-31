@@ -1,0 +1,12 @@
+[ 2018-07-28T15:26:48+08:00 ] 123.147.248.90 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-07-28 15:26:48 Use 1.048992 s 
+
+[ 2018-07-28T15:27:41+08:00 ] 101.226.79.232 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-28 15:27:41 Use 1.048921 s 
+
+[ 2018-07-28T15:27:53+08:00 ] 101.227.131.207 /index.php?g=user&m=center&a=tixian
+ERR: Cron:测试执行定时任务 Runat 2018-07-28 15:27:53 Use 1.050266 s 
+
+[ 2018-07-28T17:47:58+08:00 ] 153.213.57.124 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-28 17:47:58 Use 1.054929 s 
+

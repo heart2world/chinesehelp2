@@ -1,0 +1,12 @@
+[ 2018-07-24T13:10:40+08:00 ] 47.92.115.203 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-24 13:10:40 Use 1.222802 s 
+
+[ 2018-07-24T14:12:07+08:00 ] 183.136.190.62 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-24 14:12:07 Use 1.051140 s 
+
+[ 2018-07-24T22:35:09+08:00 ] 183.3.227.100 /index.php?g=Home&m=Wexin&a=get_user&parentid=5&code=081YmyyG0th2gj2YKczG0YLGyG0Ymyyr&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-24 22:35:09 Use 1.051397 s 
+
+[ 2018-07-24T22:36:11+08:00 ] 61.151.226.63 /index.php?g=home&m=public&a=login&parentid=5
+ERR: Cron:测试执行定时任务 Runat 2018-07-24 22:36:11 Use 1.048918 s 
+

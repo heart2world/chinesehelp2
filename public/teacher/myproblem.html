@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>发表微课</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app">
+		<nav class="top-nav app-flex">
+			<div :class="{'cur':cur_index == 1}" class="nav-cell app-basis" @click="change_tab($event,'1');">待解答</div>
+			<div :class="{'cur':cur_index == 2}" class="nav-cell app-basis" @click="change_tab($event,'2');">我的解答</div>
+		</nav>	
+		<!--待解答-->
+		<section v-if="cur_index == 1" class="problem-container" v-cloak>
+			<ul class="problem-ull">
+				<li class="problem-item">
+					<a href="problem_detail.html">
+						<div class="problem-top app-flex">
+							<h4 class="app-basis">2018-01-23</h4>
+							<h5>待解答</h5>
+						</div>
+						<div class="problem-info">
+							<p>孔子的夫人是谁？</p>
+						</div>
+					</a>
+				</li>
+				<li class="problem-item">
+					<a href="problem_detail.html">
+						<div class="problem-top app-flex">
+							<h4 class="app-basis">2018-01-23</h4>
+							<h5>待解答</h5>
+						</div>
+						<div class="problem-info">
+							<p>孔子的夫人是谁？</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<!--我的解答-->
+		<section v-if="cur_index == 2" class="problem-container" v-cloak>
+			<ul class="problem-ull">
+				<li class="problem-item">
+					<a href="my_help_detail.html">
+						<div class="problem-top app-flex">
+							<h4 class="app-basis">2018-01-23</h4>
+							<h5>已解答</h5>
+						</div>
+						<div class="problem-info">
+							<p>孔子的夫人是谁？</p>
+							<p>回答满意度: 4.9</p>
+							<p>
+								<span>查看次数:999+</span>
+								<span>收藏次数:999+</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="problem-item">
+					<a href="problem_detail.html">
+						<div class="problem-top app-flex">
+							<h4 class="app-basis">2018-01-23</h4>
+							<h5>已解答</h5>
+						</div>
+						<div class="problem-info">
+							<p>孔子的夫人是谁？</p>
+							<p>回答满意度: 4.9</p>
+							<p>
+								<span>查看次数:999+</span>
+								<span>收藏次数:999+</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="problem-item">
+					<a href="problem_detail.html">
+						<div class="problem-top app-flex">
+							<h4 class="app-basis">2018-01-23</h4>
+							<h5>已解答</h5>
+						</div>
+						<div class="problem-info">
+							<p>孔子的夫人是谁？</p>
+							<p>回答满意度: 4.9</p>
+							<p>
+								<span>查看次数:999+</span>
+								<span>收藏次数:999+</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="problem-item">
+					<a href="problem_detail.html">
+						<div class="problem-top app-flex">
+							<h4 class="app-basis">2018-01-23</h4>
+							<h5>已解答</h5>
+						</div>
+						<div class="problem-info">
+							<p>孔子的夫人是谁？</p>
+							<p>回答满意度: 4.9</p>
+							<p>
+								<span>查看次数:999+</span>
+								<span>收藏次数:999+</span>
+							</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</section>	
+		<div v-if="cur_index == 2" class="data-text" v-text="data_text"></div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:sessionStorage.getItem("status") ? sessionStorage.getItem("status") : 1,
+			data_text:'没有更多了~'
+
+		},
+		methods:{
+			change_tab:function(evt,index){
+				this.cur_index = index;
+			}
+		}
+	});
+</script>
+</html>

@@ -1,0 +1,21 @@
+[ 2018-08-13T12:45:20+08:00 ] 113.96.219.250 /index.php?g=user&m=center&a=msg
+ERR: Cron:测试执行定时任务 Runat 2018-08-13 12:45:20 Use 1.055139 s 
+
+[ 2018-08-13T12:45:31+08:00 ] 101.226.79.225 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-08-13 12:45:31 Use 1.063214 s 
+
+[ 2018-08-13T12:45:44+08:00 ] 113.96.219.250 /index.php?g=user&m=center&a=mystudent
+ERR: Cron:测试执行定时任务 Runat 2018-08-13 12:45:44 Use 1.066021 s 
+
+[ 2018-08-13T12:46:15+08:00 ] 61.151.179.84 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-13 12:46:15 Use 1.052298 s 
+
+[ 2018-08-13T12:46:44+08:00 ] 61.151.225.191 /index.php?g=user&m=center&a=mystudent
+ERR: Cron:测试执行定时任务 Runat 2018-08-13 12:46:44 Use 1.054930 s 
+
+[ 2018-08-13T12:50:39+08:00 ] 61.151.178.177 /index.php?g=user&m=center&a=msg
+ERR: Cron:测试执行定时任务 Runat 2018-08-13 12:50:39 Use 15.498786 s 
+
+[ 2018-08-13T19:29:02+08:00 ] 47.98.97.81 /index.php?g=user&m=center&a=scode
+ERR: Cron:测试执行定时任务 Runat 2018-08-13 19:29:02 Use 1.070410 s 
+

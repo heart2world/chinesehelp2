@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>个人中心</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮教师端">
+	<meta name="description" content="语文帮教师端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<!--个人中心-->
+	<!--个人中心头部-->
+	<header class="centre-hd app-flex app-vertical-center" id="app">
+		<div class="centre-avatar">
+			<img :src="avatar_url" alt="avatar" @click="upload_avatar($event);">
+		</div>
+		<div class="centre-info app-basis">
+			<p>状态：
+				<select name="status" @change="change_online_status($event);">
+					<option value="0">在线</option>
+					<option value="1">忙碌</option>
+					<option value="2">离线</option>
+				</select>
+			</p>
+			<p>姓名：卡卡西</p>
+			<p>教龄：9年</p>
+			<p>职称：中级教师</p>
+		</div>
+		<div class="setting">
+			<a href="update_pwd.html">设置</a>
+		</div>
+	</header>
+
+	<!--个人中心导航-->
+	<nav class="centre-nav">
+		<a href="certify_info.html?uid=1001">认证资料</a>
+		<a href="myincome.html">我的收入<i class="point"></i></a>
+		<a href="msg.html">消息提醒<i class="point"></i></a>
+	</nav>
+	<div class="logout">
+		<a href="login.html">退出</a>
+	</div>
+	<!--应用固定导航-->
+	<section class="app-nav app-flex">
+		<a class="app-basis " href="index.html" data-home2>
+			<p>首页</p>
+		</a>
+		<a class="app-basis active" href="centre.html" data-centre>
+			<p>个人中心</p>
+		</a>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			avatar_url:'../assets/zhaopian@2x.png'
+		},
+		methods:{
+			upload_avatar:function(evt){
+				//微信上传图片修改头像
+				this.avatar_url = '../assets/touxiang@2x.png';
+			},
+			change_online_status:function(evt){
+				//状态更改成功 教师状态更改为对应的状态
+				$.toast("切换成功",'text',1500);
+			}
+		}
+	});
+</script>
+</html>

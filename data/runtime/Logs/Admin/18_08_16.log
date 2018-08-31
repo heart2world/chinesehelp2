@@ -1,0 +1,15 @@
+[ 2018-08-16T16:05:29+08:00 ] 113.251.18.180 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-16 16:05:29 Use 1.060038 s 
+
+[ 2018-08-16T16:05:43+08:00 ] 113.251.18.180 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-16 16:05:43 Use 1.056682 s 
+
+[ 2018-08-16T16:14:25+08:00 ] 61.151.226.65 /index.php?g=admin&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-08-16 16:14:25 Use 1.056516 s 
+
+[ 2018-08-16T16:14:37+08:00 ] 61.151.225.191 /index.php?g=admin&m=wclass&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-16 16:14:37 Use 1.058189 s 
+
+[ 2018-08-16T16:14:59+08:00 ] 101.226.79.225 /index.php?g=admin&m=main&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-08-16 16:14:59 Use 1.062819 s 
+

@@ -1,0 +1,12 @@
+<?php
+return array (
+  'PORTAL_ADMINPOST_ADD_POST' => '提交添加',
+  'PORTAL_ADMINPOST_BAN' => '下架',
+  'PORTAL_ADMINPOST_CANCELBAN' => '上架',
+  'PORTAL_ADMINPOST_DETAIL' => '查看详情',
+  'PORTAL_ADMINPOST_EDIT_POST' => '提交编辑',
+  'PORTAL_ADMINPOST_INDEX' => '平台信息',
+  'PORTAL_ADMINPOST_ADD' => '添加文章',
+  'PORTAL_ADMINPOST_DELETE' => '删除文章',
+  'PORTAL_ADMINPOST_EDIT' => '编辑文章',
+);

@@ -1,0 +1,84 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('zhuanti/index')}">专题管理</a></li>
+		</ul>
+        <form class="well form-search" method="post" action="{:U('zhuanti/index')}">
+            标题:
+            <input type="text" name="title" style="width: 100px;" value="{:I('request.title/s','')}" placeholder="请输入标题">&nbsp;
+            发布教师：
+            <input type="text" name="username" style="width: 100px;" value="{:I('request.username/s','')}" placeholder="请输入发布教师">
+            &nbsp;
+			学科:
+            <select name="xueke" style="width: 135px;">
+				<option value="">选择学科</option>
+				<volist name="xuekelist" id="va">
+				<option value="{$va.title}" <if condition="$va['title'] eq $xueke">selected</if>>{$va.title}</option>
+				</volist>
+            </select>&nbsp;
+			发布时间：<input type="text" name="starttime"  class="js-date"  value="{:I('request.starttime')}" style="width: 90px;" autocomplete="off">-
+                      <input type="text" name="endtime" class="js-date" value="{:I('request.endtime')}" style="width: 90px;" autocomplete="off">
+            <input type="submit" class="btn btn-primary" value="查询" />
+            <a class="btn btn-danger" href="{:U('zhuanti/index')}">清空</a>
+        </form>
+		<table class="table table-hover table-bordered">
+			<thead><tr><th colspan='12'>合计：&nbsp;{$count}&nbsp;篇</th></tr></thead>
+			<thead>
+				<tr>
+					<th style="text-align: center;min-width: 50px;">ID</th>
+					<th style="text-align: center;min-width: 50px;">学科</th>
+					<th style="text-align: center;min-width: 80px;">专题标题</th>
+					<th style="text-align: center;min-width: 50px;">简介</th>
+					<th style="text-align: center;min-width: 100px;">发布教师</th>					
+					<th style="text-align: center;min-width: 30px;">查看量</th>	
+					<th style="text-align: center;min-width: 100px;">发布时间</th>	
+					<th style="text-align: center;min-width: 30px;">综合评分</th>					
+					<th style="text-align: center;min-width: 38px;">平台精选（排序）</th>
+					<th style="text-align: center;min-width: 80px;">教师端链接</th>	
+					<th style="text-align: center;min-width: 80px;">学生端链接</th>	
+					<th style="text-align: center;min-width: 150px;">{:L('ACTIONS')}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="list" item="vo">
+				<tr>				
+					<td style="text-align: center;">{$vo.id}</td>
+					<td style="text-align: center;">{$vo.xueke}</td>
+					<td style="text-align: center;">{$vo.title}</td>
+					<td style="text-align: center;">{$vo.desc}</td>	
+					<td style="text-align: center;">{$vo.username}</td>					
+					<td style="text-align: center;">{$vo.clicknum}</td>					
+					<td style="text-align: center;">{$vo.createtime}</td>
+					<td style="text-align: center;">{$vo.compoint}</td>					
+					<td style="text-align: center;"><input type="text" style="width: 35px;height: 10px;" onblur="changeindex(this.value,{$vo.id})" value="{$vo.sortorder}"></td>
+					<td style="text-align: center;">{$vo.turl}</td>
+					<td style="text-align: center;">{$vo.surl}</td>
+					<td style="text-align: center;">
+						<a style="padding: 2px 15px;color: black;background-color: #bfc6cb;" class="btn btn-primary" href="{:U('zhuanti/detail',array('id'=>$vo['id']))}">查看详情</a>		
+						<a class="btn js-ajax-delete"  style="padding: 2px 15px;color: black;" href="{:U('zhuanti/delete',array('id'=>$vo['id']))}">{:L('DELETE')}</a>	
+					</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script>
+	function changeindex(val,id)
+	{
+		$.ajax({
+			url:"{:U('zhuanti/changesort')}",
+			data:{id:id,val:val},
+			type:"POST",
+			dataType:"json",
+			success:function (res) {
+				
+			}
+		   })
+	}
+	</script>
+</body>
+</html>

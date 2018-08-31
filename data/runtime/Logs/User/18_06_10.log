@@ -1,0 +1,84 @@
+[ 2018-06-10T08:41:04+08:00 ] 106.91.50.130 /index.php?g=user&m=center&a=mystudent
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 08:41:04 Use 1.045178 s 
+
+[ 2018-06-10T08:41:31+08:00 ] 106.91.50.130 /index.php?g=user&m=center&a=certify_info
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 08:41:31 Use 1.046454 s 
+
+[ 2018-06-10T08:42:38+08:00 ] 101.226.86.155 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 08:42:38 Use 1.044803 s 
+
+[ 2018-06-10T08:42:50+08:00 ] 101.226.113.48 /index.php?g=user&m=center&a=msg
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 08:42:50 Use 1.045468 s 
+
+[ 2018-06-10T09:27:58+08:00 ] 106.91.50.130 /index.php?g=user&m=center&a=changetruename
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 09:27:58 Use 1.045924 s 
+
+[ 2018-06-10T09:30:42+08:00 ] 14.106.231.103 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 09:30:42 Use 1.044757 s 
+
+[ 2018-06-10T09:31:26+08:00 ] 61.151.226.85 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 09:31:26 Use 1.046099 s 
+
+[ 2018-06-10T10:12:23+08:00 ] 14.106.160.230 /index.php?g=user&m=center&a=tcode
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 10:12:23 Use 1.127181 s 
+
+[ 2018-06-10T10:13:20+08:00 ] 101.226.113.48 /index.php?g=user&m=center&a=myteacher
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 10:13:20 Use 1.043677 s 
+
+[ 2018-06-10T11:43:52+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:43:52 Use 1.044842 s 
+
+[ 2018-06-10T11:44:06+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:44:06 Use 1.046483 s 
+
+[ 2018-06-10T11:44:24+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:44:24 Use 1.045070 s 
+
+[ 2018-06-10T11:44:53+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:44:53 Use 1.036355 s 
+
+[ 2018-06-10T11:45:09+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:45:09 Use 1.044121 s 
+
+[ 2018-06-10T11:45:35+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:45:35 Use 1.044961 s 
+
+[ 2018-06-10T11:45:47+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:45:47 Use 1.047329 s 
+
+[ 2018-06-10T11:45:59+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:45:59 Use 1.045620 s 
+
+[ 2018-06-10T11:46:12+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:46:12 Use 1.043877 s 
+
+[ 2018-06-10T11:46:13+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:46:13 Use 1.055652 s 
+
+[ 2018-06-10T11:46:41+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=yestixian
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:46:41 Use 1.045583 s 
+
+[ 2018-06-10T11:58:31+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:58:31 Use 1.045784 s 
+
+[ 2018-06-10T11:59:01+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:59:01 Use 1.057658 s 
+
+[ 2018-06-10T11:59:14+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:59:14 Use 1.044768 s 
+
+[ 2018-06-10T11:59:25+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:59:25 Use 1.057524 s 
+
+[ 2018-06-10T11:59:38+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:59:38 Use 1.061715 s 
+
+[ 2018-06-10T11:59:39+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=gettypeorders
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 11:59:39 Use 1.045955 s 
+
+[ 2018-06-10T18:27:09+08:00 ] 113.96.219.247 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 18:27:09 Use 1.045627 s 
+
+[ 2018-06-10T19:25:46+08:00 ] 101.132.193.68 /index.php?g=user&m=center&a=tcode
+ERR: Cron:测试执行定时任务 Runat 2018-06-10 19:25:46 Use 1.044714 s 
+

@@ -1,0 +1,6 @@
+[ 2018-06-12T06:54:39+08:00 ] 113.96.219.250 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-12 06:54:39 Use 1.046100 s 
+
+[ 2018-06-12T06:55:39+08:00 ] 101.226.79.244 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-12 06:55:39 Use 1.044756 s 
+

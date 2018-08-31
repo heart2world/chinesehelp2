@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+
+    <link href="__PUBLIC__/simpleboot/themes/{:C('SP_ADMIN_STYLE')}/theme.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/simpleboot/css/simplebootadmin.css" rel="stylesheet">
+    <link href="__PUBLIC__/js/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="__PUBLIC__/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+    <style>
+        form .input-order{margin-bottom: 0px;padding:3px;width:40px;}
+        .table-actions{margin-top: 5px; margin-bottom: 5px;padding:0px;}
+        .table-list{margin-bottom: 0px;}
+    </style>
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="__PUBLIC__/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <script type="text/javascript">
+    //全局变量
+    var GV = {
+        ROOT: "__ROOT__/",
+        WEB_ROOT: "__WEB_ROOT__/",
+        JS_ROOT: "public/js/",
+        APP:'{$Think.MODULE_NAME}'/*当前应用名*/
+    };
+    </script>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/wind.js"></script>
+    <script src="__PUBLIC__/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $("[data-toggle='tooltip']").tooltip();
+        });
+    </script>
+</head>
+<body>
+<div class="control-group">
+	<div class="controls" id="check_ship" style="width: 700px">
+        <table class="table table-hover table-bordered table-list">
+            <thead>
+            <tr>
+                <td colspan="6" style="text-align: center;">修理项目</td>                                
+            </tr>
+            <tr>
+				<td style="text-align: center;">序号</td>
+                <td style="text-align: center;">修理项目</td>
+                <td style="text-align: center;">维修技师</td>
+				<td style="text-align: center;">工时</td>
+                <td style="text-align: center;">工时费用</td>
+                <td style="text-align: center;">备注</td>
+            </tr>
+            </thead>
+            <tbody id="list-ship">
+            <volist name="plist" id="val" key="key">
+            <tr>
+                <td>{$key}</td>
+                <td>{$val.pname}</td>
+                <td>{$val.pman}</td>
+				<td>{$val.workhours}</td>
+                <td>{$val.workfee}</td>
+                <td>{$val.desc}</td>
+            </tr>
+            </volist>
+            </tbody>
+        </table>
+        <table class="table table-hover table-bordered table-list">
+            <thead>
+            <tr>
+                <td colspan="6" style="text-align: center;">配用材料</td>                                
+            </tr>
+            <tr>
+				<td style="text-align: center;">序号</td>
+                <td style="text-align: center;">配件名称</td>
+                <td style="text-align: center;">原价</td>
+				<td style="text-align: center;">会员价</td>
+                <td style="text-align: center;">数量</td>
+                <td style="text-align: center;">小计</td>
+            </tr>
+            </thead>
+            <tbody id="list-ship2">
+            <volist name="clist" id='va' key="key">
+            <tr>
+                <td>{$key}</td>
+                <td>{$va.mname}</td>
+                <td>{$va.oldprice}</td>
+				<td>{$va.nowprice}</td>
+                <td>{$va.number}</td>
+                <td>{$va.totalprice}</td>
+            </tr>
+            </volist>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

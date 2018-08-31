@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>举报内容</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="好问达">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="好问达学生端">
+	<meta name="description" content="好问达学生端">
+	<link rel="stylesheet" href="__PUBLIC__/style/base.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/style/app.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/weui.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/jquery-weui.css">
+	<script src="__PUBLIC__/libs/jq.min.js"></script>
+	<script src="__PUBLIC__/libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app">
+		<!--内容举报-->
+		<article class="content-panel tipoff">
+			<div class="content-list">
+				<div class="tipoff-title">举报内容：</div>
+				<div class="content-item" data-type="mrolesson">
+					<a href="{:U('Home/Problem/detail',array('id'=>$va['id']))}">
+						<div class="content-top app-flex app-vertical-center">
+							<h4 class="app-basis">《{$qinfo.title}》</h4>
+							<h5>问答</h5>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>回答满意度:  <span>{$qinfo.star}</span></h4>
+						</div>
+						<div class="content-info-num app-flex app-vertical-center">
+							<h4>查看次数: <span>{$qinfo.clicknum}<if condition="$qinfo['clicknum'] gt '999">+</if></span></h4>
+							<h5>收藏次数: <span>{$qinfo.colcount}<if condition="$qinfo['colcount'] gt '999'">+</if></span></h5>
+						</div>
+					</a>
+				</div>
+			</div>
+		</article>
+		<!--举报原因填写-->
+		<aside class="tip-reason">
+			<h4>举报原因：</h4>
+			<textarea name="reason" v-model="reason" placeholder="我们将进行匿名举报，请如实填写举报原因"></textarea>
+			<div class="tipoff-btn" @click="tipoff($event);">提 交</div>
+		</aside>
+	</section>
+</body>
+<script src="__PUBLIC__/libs/fixed.js"></script>
+<script src="__PUBLIC__/libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			aid:'1',
+			reason:''
+		},
+		methods:{
+			tipoff:function(evt){
+				//提交举报内容
+				if(this.reason == ''){
+					$.toptip("提交失败，举报原因内容未填写~",3000,'warning');
+					return;
+				}
+				$.showLoading("正在提交...");
+				var tid ='{$qinfo.id}';
+				$.ajax({
+					url:"{:U('Home/Problem/doreport')}",
+					data:{reason:this.reason,tid:tid},
+					type:"POST",
+					success:function(data){
+						if(data.status==1)
+						{
+							//提交成功
+							setTimeout(function(){
+								$.hideLoading();
+								$.toast("感谢您的反馈，我们会尽快处理~",1500,function(){
+									location.href=data.url;
+								});
+							},2000);
+						}
+					}
+				})
+				
+				
+			}
+		}
+	});
+</script>
+</html>

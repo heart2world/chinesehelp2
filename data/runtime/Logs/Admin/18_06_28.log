@@ -1,0 +1,93 @@
+[ 2018-06-28T00:00:10+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:00:10 Use 1.046303 s 
+
+[ 2018-06-28T00:00:41+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:00:41 Use 1.047810 s 
+
+[ 2018-06-28T00:01:16+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:01:16 Use 1.045326 s 
+
+[ 2018-06-28T00:01:51+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:01:51 Use 1.047699 s 
+
+[ 2018-06-28T00:02:23+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:02:23 Use 1.050980 s 
+
+[ 2018-06-28T00:02:38+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:02:38 Use 1.046645 s 
+
+[ 2018-06-28T00:03:04+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:03:04 Use 1.049392 s 
+
+[ 2018-06-28T00:03:35+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:03:35 Use 1.057839 s 
+
+[ 2018-06-28T00:04:17+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:04:17 Use 1.047205 s 
+
+[ 2018-06-28T00:04:55+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:04:55 Use 1.048383 s 
+
+[ 2018-06-28T00:05:28+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:05:28 Use 1.179308 s 
+
+[ 2018-06-28T00:05:40+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:05:40 Use 1.057946 s 
+
+[ 2018-06-28T00:06:04+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:06:04 Use 1.045462 s 
+
+[ 2018-06-28T00:06:39+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:06:39 Use 1.046638 s 
+
+[ 2018-06-28T00:07:14+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:07:14 Use 1.047178 s 
+
+[ 2018-06-28T00:08:05+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:08:05 Use 1.058193 s 
+
+[ 2018-06-28T00:08:42+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:08:42 Use 1.048440 s 
+
+[ 2018-06-28T00:09:19+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:09:19 Use 1.048181 s 
+
+[ 2018-06-28T00:09:51+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:09:51 Use 1.059715 s 
+
+[ 2018-06-28T00:10:24+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=add_post
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:10:24 Use 1.048464 s 
+
+[ 2018-06-28T00:11:29+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=index&p=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:11:29 Use 1.061023 s 
+
+[ 2018-06-28T00:11:53+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=index&p=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:11:53 Use 1.056807 s 
+
+[ 2018-06-28T00:12:51+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=index&p=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:12:51 Use 1.058014 s 
+
+[ 2018-06-28T00:13:03+08:00 ] 119.113.124.28 /index.php?g=admin&m=recommended&a=index&p=1
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 00:13:03 Use 1.058729 s 
+
+[ 2018-06-28T16:47:28+08:00 ] 113.251.23.58 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:47:28 Use 1.362680 s 
+
+[ 2018-06-28T16:47:40+08:00 ] 113.251.23.58 /index.php?g=admin&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:47:40 Use 1.158747 s 
+
+[ 2018-06-28T16:48:28+08:00 ] 61.151.226.165 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:48:28 Use 1.135483 s 
+
+[ 2018-06-28T16:48:43+08:00 ] 61.151.226.168 /index.php?g=admin&m=main&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:48:43 Use 1.051117 s 
+
+[ 2018-06-28T16:49:33+08:00 ] 113.251.23.58 /index.php?g=admin&m=teacher&a=delete&id=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:49:33 Use 1.058174 s 
+
+[ 2018-06-28T16:50:02+08:00 ] 113.251.23.58 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:50:02 Use 1.096104 s 
+
+[ 2018-06-28T16:50:33+08:00 ] 101.226.227.170 /index.php?g=admin&m=teacher&a=delete&id=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-28 16:50:33 Use 1.059274 s 
+

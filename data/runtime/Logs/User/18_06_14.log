@@ -1,0 +1,18 @@
+[ 2018-06-14T11:52:47+08:00 ] 223.104.249.243 /index.php?g=user&m=center&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 11:52:47 Use 1.059798 s 
+
+[ 2018-06-14T11:52:59+08:00 ] 223.104.249.243 /index.php?g=user&m=center&a=scode
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 11:52:59 Use 1.055733 s 
+
+[ 2018-06-14T11:53:59+08:00 ] 61.151.225.189 /index.php?g=user&m=center&a=scode
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 11:53:59 Use 1.056987 s 
+
+[ 2018-06-14T13:44:12+08:00 ] 101.227.143.150 /index.php?g=user&m=center&a=apply
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 13:44:12 Use 1.049274 s 
+
+[ 2018-06-14T18:46:09+08:00 ] 101.132.69.5 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=011SAE4z0MeFdh13w55z0juQ4z0SAE42&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 18:46:09 Use 1.047742 s 
+
+[ 2018-06-14T23:17:51+08:00 ] 61.151.226.61 /index.php?g=user&m=center&a=addmobile
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 23:17:51 Use 1.049323 s 
+

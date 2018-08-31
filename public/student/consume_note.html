@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>消费记录</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section class="consume-note" id="app">
+		<ul class="note-list">
+			<li class="note-cell">
+				<div class="note-top app-flex app-vertical-center app-content-justify">
+					<h4>卡卡西</h4>
+					<h5>为TA充电</h5>
+				</div>
+				<div class="note-btm app-flex app-vertical-center app-content-justify">
+					<h4>2018-1-23</h4>
+					<h5>￥2.00</h5>
+				</div>
+			</li>
+			<li class="note-cell">
+				<div class="note-top app-flex app-vertical-center app-content-justify">
+					<h4>卡卡西</h4>
+					<h5>购买微课</h5>
+				</div>
+				<div class="note-btm app-flex app-vertical-center app-content-justify">
+					<h4>2018-1-23</h4>
+					<h5>￥2.00</h5>
+				</div>
+			</li>
+			<li class="note-cell">
+				<div class="note-top app-flex app-vertical-center app-content-justify">
+					<h4>卡卡西</h4>
+					<h5>购买资源</h5>
+				</div>
+				<div class="note-btm app-flex app-vertical-center app-content-justify">
+					<h4>2018-1-23</h4>
+					<h5>￥2.00</h5>
+				</div>
+			</li>
+		</ul>
+		<div class="data-text" v-text="data_text"></div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script>
+	var app = new Vue({
+		el:'#app',
+		data:{
+			data_text:'没有更多了~'
+
+		},
+		methods:{
+			
+		}
+	});
+</script>
+</html>

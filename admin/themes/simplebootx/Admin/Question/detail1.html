@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Set render engine for 360 browser -->
+	<meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="__PUBLIC__/simpleboot/themes/{:C('SP_ADMIN_STYLE')}/theme.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/simpleboot/css/simplebootadmin.css" rel="stylesheet">
+    <link href="__PUBLIC__/js/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="__PUBLIC__/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+    <style>
+		form .input-order{margin-bottom: 0px;padding:3px;width:40px;}
+		.table-actions{margin-top: 5px; margin-bottom: 5px;padding:0px;}
+		.table-list{margin-bottom: 0px;}
+		.form-required{color:red;}
+	</style>
+	<script type="text/javascript">
+	//全局变量
+	var GV = {
+	    ROOT: "__ROOT__/",
+	    WEB_ROOT: "__WEB_ROOT__/",
+	    JS_ROOT: "public/js/",
+	    APP:'{$Think.MODULE_NAME}'/*当前应用名*/
+	};
+	</script>
+    
+</head>
+
+
+<style type="text/css">
+.form-horizontal .control-group{margin-bottom: 10px;}
+</style>
+<style type="text/css">
+		html {
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		}
+		.db {
+			display: block;
+		}
+		.weixinAudio {
+			line-height: 1.5;
+		}
+		.audio_area {
+			display: inline-block;
+		    width: 100%;
+		    vertical-align: top;
+		    margin: 0px 1px 0px 0;
+		    font-size: 0;
+		    position: relative;
+		    font-weight: 400;
+		    text-decoration: none;
+		    -ms-text-size-adjust: none;
+		    -webkit-text-size-adjust: none;
+		    text-size-adjust: none;
+		}
+		.audio_wrp {
+			border: 1px solid #ebebeb;
+			background-color: #fcfcfc;
+			overflow: hidden;
+			padding: 12px 20px 12px 12px;
+			border-radius: 15px;
+		}
+		.audio_play_area {
+			float: left;
+		    margin: -7px 18px 3px 3px;
+		    font-size: 0;
+		}
+		.playing .audio_play_area .icon_audio_default {
+			display: block;
+		}
+		.audio_play_area .icon_audio_default {
+			background: transparent url(__PUBLIC__/images/iconloop.png) no-repeat 0 0;
+			width: 18px;
+			height: 25px;
+			vertical-align: middle;
+			display: inline-block;
+			-webkit-background-size: 54px 25px;
+			background-size: 54px 25px;
+			background-position: -36px center;
+		}
+		.audio_play_area .icon_audio_playing {
+			background: transparent url(__PUBLIC__/images/iconloop.png) no-repeat 0 0;
+			width: 18px;
+			height: 25px;
+			vertical-align: middle;
+			display: inline-block;
+			-webkit-background-size: 54px 25px;
+			background-size: 54px 25px;
+			-webkit-animation: audio_playing 1s infinite;
+			background-position: 0px center;
+			display: none;
+		}
+		.audio_area .pic_audio_default {
+			display: none;
+			width: 18px;
+		}
+		.tips_global {
+			color: #8c8c8c;
+		}
+		.audio_area .audio_length {
+			float: right;
+		    font-size: 14px;
+		    /* margin-top: 3px; */
+		    /* margin-left: 1em; */
+		    line-height: 13px;
+		}
+		.audio_info_area {
+			overflow: hidden;
+		}
+		.audio_area .audio_title {
+			font-weight: 400;
+			font-size: 14px;
+		}
+		.audio_area .audio_source {
+			font-size: 14px;
+		}
+		.audio_area .progress_bar {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			background-color: #0cbb08;
+			height: 2px;
+		}
+		.playing .audio_play_area .icon_audio_default {
+			display: none;
+		}
+		.playing .audio_play_area .icon_audio_playing {
+			display: inline-block;
+		}
+		@-webkit-keyframes audio_playing {
+			30% {
+				background-position: 0px center;
+			}
+			31% {
+				background-position: -18px center;
+			}
+			61% {
+				background-position: -18px center;
+			}
+			61.5% {
+				background-position: -36px center;
+			}
+			100% {
+				background-position: -36px center;
+			}
+		}
+</style>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a>问题详情</a></li>
+			<li><a href="javascript:history.go(-1);">返回</a></li>
+		</ul>
+		<form class="form-horizontal js-ajax-form" method="post">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">指定答题教师：</label>
+					<div class="controls">
+					</div>
+				</div>	
+				<div class="control-group">
+					<label class="control-label"><img src="{$tinfo.headimg}"  width="100" height="100" style="cursor: hand" /></label>
+					<div class="controls">
+						<label style="margin-top: 15px;">{$tinfo.nicename}<br/>{$tinfo.honors}<br/>综合评分:{$tinfo.star}<br/>{$tinfo.answercount}次答题，{$tinfo.collectcount}人关注</label>
+					</div>
+				</div>
+			</fieldset>
+			<hr/>
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">问题：</label>
+					<div class="controls">
+						<label style="margin-top:5px;font-weight: bold;">{$info.title}</label>
+					</div>
+				</div>				
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+						<label style="margin-top: 5px;">
+							{$info.content}
+							<br/>
+							<p class="weixinAudio">
+					            <audio src="./data/upload/luyin/abc.mp3" id="media" width="1" height="1" preload></audio>
+					            <span id="audio_area" class="db audio_area">
+								<span class="audio_wrp db" style="width: 220px;height: 12px;">
+								<span class="audio_play_area">
+									<i class="icon_audio_default"></i>
+									<i class="icon_audio_playing"></i>
+					            </span>
+					            <span id="audio_length" class="audio_length tips_global"></span>
+					            <span class="db audio_info_area" style="line-height: 13px;">
+					            <strong class="db audio_title">点击收听</strong>
+					            
+					            </span>
+					            <span id="audio_progress" class="progress_bar" style="width: 0%;"></span>
+					            </span>
+					            </span>
+					        </p>
+					        <p class="weixinAudio" style="margin-top: 10px">
+					            <audio src="./data/upload/luyin/abc.mp3" id="media" width="1" height="1" preload></audio>
+					            <span id="audio_area" class="db audio_area">
+					            <span class="audio_wrp db" style="width: 220px;height: 12px;">
+					            <span class="audio_play_area">
+					                <i class="icon_audio_default"></i>
+					                <i class="icon_audio_playing"></i>
+					            </span>
+					            <span id="audio_length" class="audio_length tips_global"></span>
+					            <span class="db audio_info_area" style="line-height: 13px;">
+					            <strong class="db audio_title">点击收听</strong>
+					           
+					            </span>
+					            <span id="audio_progress" class="progress_bar" style="width: 0%;"></span>
+					            </span>
+					            </span>
+					        </p>
+						</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">提问时间：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$info.addtime|date='Y-m-d H:i',###}</label>
+					</div>
+				</div>		
+				<if condition="$answerinfo['id'] gt 0">
+				<div class="control-group">
+					<label class="control-label">老师回答：</label>
+					<div class="controls">
+						<label style="margin-top:5px;font-weight: bold;">{$answerinfo.title}</label>
+					</div>
+				</div>				
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$answerinfo.content}</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">回答时间：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$answerinfo.addtime|date='Y-m-d H:i',###}</label>
+					</div>
+				</div>		
+				<if condition="$againinfo['id'] gt 0">
+				<div class="control-group">
+					<label class="control-label">追问问题：</label>
+					<div class="controls">
+						<label style="margin-top:5px;font-weight: bold;">{$againinfo.title}</label>
+					</div>
+				</div>				
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$againinfo.content}</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">追问时间：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$againinfo.addtime|date='Y-m-d H:i',###}</label>
+					</div>
+				</div>	
+				<?php if(!empty($againanswer)){?>
+				<div class="control-group">
+					<label class="control-label">追问回答：</label>
+					<div class="controls">
+						<label style="margin-top:5px;font-weight: bold;"><?php echo $againanswer['title'];?></label>
+					</div>
+				</div>				
+				<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+						<label style="margin-top: 5px;"><?php echo $againanswer['content'];?></label>
+					</div>
+				</div>	
+				<div class="control-group">
+					<label class="control-label">回答时间：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;"><?php echo date('Y-m-d H:i',$againanswer['addtime']);?></label>
+					</div>
+				</div>	
+				<?php }?>
+				</if>
+				</if>									
+			</fieldset>
+			<hr/>		
+			<fieldset>
+			<div class="control-group">
+					<label class="control-label">回答满意度：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;">3.6</label>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="__PUBLIC__/js/weixinAudio.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+// 修改了返回的对象,以前的无法接收
+var weixinAudioObj = $('.weixinAudio').weixinAudio();
+// 添加单一播放的逻辑
+$('.weixinAudio').on('click',function(event) {
+    var $this = $(this);
+    var currentIndex = $this.index();
+    // 遍历所有对象，找到非当前点击，执行pause()方法;
+    $.each(weixinAudioObj,function(i, el) {
+        if(i != 'weixinAudio'+currentIndex){
+            el.pause();
+        }
+    });
+});
+</script>
+</body>
+</html>

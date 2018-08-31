@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>教师端-首页</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮教师端">
+	<meta name="description" content="语文帮教师端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/swiper/css/swiper.min.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/swiper/js/swiper.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<!--教师端首页-->
+	<!--教师端头部-->
+	<header class="index-top">
+		<section class="swiper-container">
+			<div class="swiper-wrapper">
+				<a class="swiper-slide" href="#">
+					<img src="../assets/banner2@2x.png" alt="picture">
+				</a>
+				<a class="swiper-slide" href="#">
+					<img src="../assets/banner2@2x.png" alt="picture">
+				</a>
+			</div>
+			<div class="swiper-pagination"></div>
+		</section>
+	</header>
+	<!--首页导航板块-->
+	<nav class="index-nav2">
+		<div class="nav-cell app-flex app-vertical-center">
+			<a class="app-basis app-flex app-vertical-center" href="pub_lesson.html">
+				<img src="../assets/fabiaoweike@2x.png" alt="img">
+				发表微课
+			</a>
+			<a class="app-basis app-flex app-vertical-center" href="pub_resource.html">
+				<img src="../assets/fabuziyuan@2x.png" alt="img">
+				发布资源
+			</a>
+		</div>
+		<div class="nav-cell app-flex app-vertical-center">
+			<a class="app-basis app-flex app-vertical-center" href="myproblem.html">
+				<img src="../assets/wodejieda@2x.png" alt="img">
+				我的解答<i class="point"></i>
+			</a>
+			<a class="app-basis app-flex app-vertical-center" href="tel:400-123-789">
+				<img src="../assets/zaixiankefu@2x.png" alt="img">
+				在线客服
+			</a>
+		</div>
+	</nav>
+	<!--平台公告-->
+	<section class="notice-content">
+		<div class="title-panel app-flex app-vertical-center app-content-justify">
+			<h4>平台公告</h4>
+		</div>
+		<ul class="notice-list">
+			<li class="notice-item">
+				<a href="notice_detail.html?nid=100">
+					<div class="nt-top app-flex app-vertical-center">
+						<h4 class="app-basis">学生自愿付费购买微课须知</h4>
+						<h5>2018-1-18</h5>
+					</div>
+					<p>本平台秉持自愿付费原则进行付费学习，一经付费概不退还</p>
+				</a>
+			</li>
+			<li class="notice-item">
+				<a href="#">
+					<div class="nt-top app-flex app-vertical-center">
+						<h4 class="app-basis">学生自愿付费购买微课须知</h4>
+						<h5>2018-1-18</h5>
+					</div>
+					<p>本平台秉持自愿付费原则进行付费学习，一经付费概不退还</p>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+	<!--应用固定导航-->
+	<section class="app-nav app-flex">
+		<a class="app-basis active" href="#" data-home>
+			<p>首页</p>
+		</a>
+		<a class="app-basis" href="centre.html" data-centre2>
+			<p>个人中心</p>
+		</a>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script>
+	//轮播图展示
+	var swiper_config = {
+			speed:700,
+			autoplay:3500,
+			pagination:'.swiper-pagination',
+			loop:true,
+			autoplayDisableOnInteraction : false,
+
+		}
+		try{
+			var mySwiper = new Swiper('.swiper-container',swiper_config);
+		}catch(e){
+			console.warn(e);
+		}
+</script>
+</html>

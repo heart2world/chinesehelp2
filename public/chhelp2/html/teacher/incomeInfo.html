@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>收入明细</title>
+		<link rel="stylesheet" href="../../lib/weui/jquery-weui.css" />
+		<link rel="stylesheet" href="../../lib/weui/weui.min.css" />
+		<link rel="stylesheet" href="../../css/public.css" />
+		<link rel="stylesheet" href="../../css/style.css" />
+		<script type="text/javascript" src="../../lib/jq/jquery-1.10.2.js" ></script>
+		<script type="text/javascript" src="../../lib/weui/jquery-weui.js" ></script>
+	</head>
+	<style>
+		.meng{ position: fixed; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0,0,0,0); z-index: 0; display: none;}
+	</style>
+	<body>
+		
+		<section class="stuListSec">
+			<div class="selsetBox disbox weui-cell">
+				<div class="disflex lxBox" style="min-width: 75px;">
+					<span class="lxName" style="min-width: 55px; display: inline-block; text-align: center;">收入类型</span>
+					<i></i>
+					<ul class="lxUl shoppay" style="display: none;">
+						<li>收入类型</li>
+						<li>打赏</li>
+						<li>购买微课</li>
+						<li>购买资源</li>
+						<li>消费分红</li>
+						<li>代理分红</li>
+					</ul>
+				</div>
+				<div class="disflex">
+					<input class="weui-input dateInput" style="text-align: center;" type="text" id="choseDate1" placeholder="年/月/日" >
+					<i></i>
+				</div>
+				<div class="disflex" style="min-width: 15px;">~</div>
+				<div class="disflex">
+					<input class="weui-input dateInput" style="text-align: center;" type="text" id="choseDate2" placeholder="年/月/日" >
+					<i></i>
+				</div>
+			</div>
+			<div class="weui-cells">
+	            <div class="weui-cell">
+	                <div class="weui-cell__bd">
+	                    <p>孔子的夫人是谁？</p>
+	                    <p style="color: #999;">2018-04-28 16:00</p>
+	                </div>
+	                <div class="weui-cell__ft">
+	                	<p style="font-size: .9em;">打赏</p>
+	                	<p style="color: #3CC8FE; font-size: .8rem;">￥2.00</p>
+	                </div>
+	            </div>
+        	</div>
+        	<div class="meng"></div>
+		</section>
+		
+	</body>
+</html>
+<script>
+	$("#choseDate1").calendar();
+	$("#choseDate2").calendar();
+	$(function(){		
+		$('.lxBox').click(function(){
+			if($('.lxUl').is(':hidden')){
+				$('.lxUl').show();
+				$('.meng').show();
+			}
+			else{
+				$('.lxUl').hide();
+				$('.meng').hide();
+			}
+		})
+		$('.lxUl li').click(function(){
+			$('.lxName').html($(this).html());
+		})
+		$('.meng').click(function(){
+			$('.meng').hide();
+			$('.lxUl').hide();
+		})
+		$('.dateInput').change(function(){
+			var time1=Date.parse($('#choseDate1').val());
+			var time2=Date.parse($('#choseDate2').val());
+			console.log(time1);
+			console.log(time2);
+			if(time1!=NaN&&time2!=NaN){
+				if(time1>=time2){
+					//项目里面有该提示语
+					//$.toast("结束日期应大于起始日期",'text');
+					alert("结束日期应大于起始日期");
+					$('#choseDate1').val('');
+				}
+			}
+		})
+	})
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

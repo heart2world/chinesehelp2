@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>消息提醒</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮教师端">
+	<meta name="description" content="语文帮教师端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<!--消息提醒列表-->
+	<section id="app">
+		<ul class="msg-list">
+			<li class="msg-item app-flex app-vertical-center">
+				<div class="msg-info app-basis">
+					<h4>2017-12-29 16:00</h4>
+					<p>你发布的微课: 归去来兮辞已被删除</p>
+					<p>删除原因: 里面包含不良信息</p>
+				</div>
+				<div class="del-msg" @click="del_msg($event,'1');"></div>
+			</li>
+			<li class="msg-item app-flex app-vertical-center">
+				<div class="msg-info app-basis">
+					<h4>2017-12-29 16:00</h4>
+					<p>你发布的微课: 归去来兮辞已被删除</p>
+					<p>删除原因: 里面包含不良信息</p>
+				</div>
+				<div class="del-msg" @click="del_msg($event,'2');"></div>
+			</li>
+			<li class="msg-item app-flex app-vertical-center">
+				<div class="msg-info app-basis">
+					<h4>2017-12-29 16:00</h4>
+					<p>你发布的微课: 归去来兮辞已被删除</p>
+					<p>删除原因: 里面包含不良信息</p>
+				</div>
+				<div class="del-msg" @click="del_msg($event,'3');"></div>
+			</li>
+			<li class="msg-item app-flex app-vertical-center">
+				<div class="msg-info app-basis">
+					<h4>2017-12-29 16:00</h4>
+					<p>你发布的微课: 归去来兮辞已被删除</p>
+					<p>删除原因: 里面包含不良信息</p>
+				</div>
+				<div class="del-msg"></div>
+			</li>
+		</ul>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			
+		},
+		methods:{
+			del_msg:function(evt,mid){
+				$.showLoading("正在删除...");
+				//提交信息成功
+				setTimeout(function(){
+					$.hideLoading();
+					setTimeout(function(){
+						$.toast("已成功删除~",'text',function(){
+							$(evt.target).parents("li").remove();
+						});
+					});
+				},1500);
+			}
+		}
+	});
+</script>
+</html>

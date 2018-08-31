@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>修改密码</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮教师端">
+	<meta name="description" content="语文帮教师端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<!--修改密码-->
+	<section class="form-container" id="app" style="padding-top: 2.5rem;">
+		<div class="input-cell app-flex app-vertical-center">
+			<label>密码:</label>
+			<div class="input-control app-basis">
+				<input type="password" name="pwd" placeholder="请输入密码" maxlength="20" v-model="pwd">
+			</div>
+		</div>
+		<div class="input-cell app-flex app-vertical-center">
+			<label>确认密码:</label>
+			<div class="input-control app-basis">
+				<input type="password" name="pwd2" placeholder="请再次输入密码" maxlength="20" v-model="pwd2">
+			</div>
+		</div>
+		<div class="input-cell app-flex app-vertical-center">
+			<label>验证码:</label>
+			<div class="input-control app-basis">
+				<input type="text" name="yzcode" placeholder="请输入验证码" maxlength="6" v-model="yzcode">
+			</div>
+			<div :class="{'disabled':!canuse}" class="send-code-btn" @click="send_code($event);">获取验证码</div>
+		</div>
+		<div class="form-btn regsiter-btn">
+			<button type="button" @click="update($event);">确 认</button>
+		</div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../script/common.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			pwd:'',
+			pwd2:'',
+			yzcode:'',
+			canuse:true,
+		},
+		methods:{
+			send_code:function(evt){
+				if($(evt.target).hasClass("disabled"))return;
+				comJs._sending(evt.target,60,this.canuse,60);
+			},
+			update:function(evt){
+				if(this.pwd == ''){
+					$.toptip("输入密码",1500,'warning');
+					return;
+				}
+				if(this.pwd2 == ''){
+					$.toptip("再次输入密码",1500,'warning');
+					return;
+				}
+				if(this.pwd != this.pwd2){
+					$.toptip("前后密码不一致",1500,'warning');
+					return;
+				}
+				if(this.yzcode == ''){
+					$.toptip("输入验证码",1500,'warning');
+					return;
+				}
+				
+				$.showLoading("正在提交");
+
+				setTimeout(function(){
+					//提交信息成功
+					$.hideLoading();
+					$.toast("修改成功",'text',function(){
+						//重新登录
+						location.href="login.html?type=relogin";
+					});
+				},1500);
+			}
+		}
+	});
+</script>
+</html>

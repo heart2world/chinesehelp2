@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>微课详情</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app">
+		<!--教师头部信息-->
+		<header class="teacher-hd-info">
+			<div class="teacher-top app-flex app-vertical-center">
+				<div class="teacher-image">
+					<img src="../assets/touxiang@2x.png" alt="img">
+				</div>
+				<div class="info-content app-basis">
+					<h4>卡卡西</h4>
+					<div class="info-btm app-flex">
+						<h4>299次答题</h4>
+						<h5>299人关注</h5>
+					</div>
+				</div>
+				<div class="favar-btn" @click="add_favar_or_cancel($event);"></div>
+			</div>
+			<aside class="teacher-detail-info">
+				<div class="info-cell app-flex">
+					<h4>教龄:  </h4>
+					<h5>9年</h5>
+				</div>
+				<div class="info-cell app-flex">
+					<h4>职称:  </h4>
+					<h5>高级培训</h5>
+				</div>
+				<div class="info-cell app-flex">
+					<h4>所在学校: </h4>
+					<h5 class="app-basis">重庆市人和实验学校</h5>
+				</div>
+				<div class="info-cell app-flex">
+					<h4>擅长题型: </h4>
+					<h5 class="app-basis">中国文化趣谈；西方文化趣谈；基础知识应试技巧；</h5>
+				</div>
+				<div class="info-cell app-flex">
+					<h4>所获荣誉: </h4>
+					<h5 class="app-basis">全国中小学公开课备课赛一等奖、参与中考出题，全
+                 国朗诵比赛一等奖</h5>
+				</div>
+			</aside>
+		</header>
+		<!--内容板块-->
+		<section class="content-module" style="padding-bottom: 0;">
+			<!--微课-->
+			<article class="content-panel">
+				<ul class="content-list">
+					<li class="content-item" data-type="mrolesson">
+						<a href="javascript:void(0);">
+							<div class="content-top app-flex app-vertical-center">
+								<h4 class="app-basis">《文言文常见通假字释义》</h4>
+							</div>
+							<div class="content-inner-item app-flex">
+								<h4>微课类型:  </h4>
+								<h5 class="app-basis">名校真题</h5>
+							</div>
+							<div class="content-inner-item app-flex">
+								<h4>课程简介:  </h4>
+								<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+							</div>
+							<div class="content-info-num app-flex app-vertical-center">
+								<h4>查看次数: <span>999+</span></h4>
+								<h5>收藏次数: <span>299</span></h5>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<!--微克具体详情内容 语音、图片、文字-->
+				<section class="lesson-detail-main">
+					<!--语音板块-->
+					<section class="audio-wrap">
+						<div class="audio app-flex app-vertical-center" data-resource-src="12.mp3">
+							<span>点击收听</span>
+							<i>60"</i>
+						</div>
+						<div class="audio app-flex app-vertical-center" data-resource-src="12.mp3">
+							<span>点击收听</span>
+							<i>60"</i>
+						</div>
+						<div class="audio app-flex app-vertical-center" data-resource-src="12.mp3">
+							<span>点击收听</span>
+							<i>60"</i>
+						</div>
+					</section>
+					<!--问题解答-->
+					<section class="reply-content">
+						<h4>上面是相关通假字的读法，接下来文字带来相关释义</h4>
+						<p>两小儿辩日（《列子·汤问》） 孔子/东游，见/两小儿/辩斗，问
+							/其故。 一儿曰：“我以/日始出时/去人近，而/日中时/远也。”
+							一儿/以日初远，而/日中时/近也。 一儿曰：“日初出/大如车盖
+							，及日中/则如盘盂，此不为/远者小/而近者大乎？” 一儿曰：
+							“日初出/沧沧凉凉，及其日中/如探汤，此不为/近者热/而远者
+							凉乎？” 孔子/不能决也。 两小儿/笑曰：“孰为汝/多知乎？”</p>
+					</section>
+				</section>
+			</article>
+		</section>
+		<!--平台公告-->
+	<section class="notice-content">
+		<div class="title-panel app-flex app-vertical-center app-content-justify">
+			<h4>相关推荐</h4>
+		</div>
+		<ul class="content-list">
+			<li class="content-item" data-type="mrolesson">
+				<a href="javascript:void(0);">
+					<div class="content-top app-flex app-vertical-center">
+						<h4 class="app-basis">《文言文常见通假字释义》</h4>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>微课类型:  </h4>
+						<h5 class="app-basis">名校真题</h5>
+					</div>
+					<div class="content-inner-item app-flex">
+						<h4>课程简介:  </h4>
+						<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+					</div>
+					<div class="content-info-num app-flex app-vertical-center">
+						<h4>查看次数: <span>999+</span></h4>
+						<h5>收藏次数: <span>299</span></h5>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<div class="more">
+			<a href="platform_prompt.html">查看更多</a>
+		</div>
+		<div class="tip-me">
+			<a href="tipoff.html?contentid=100">举报此内容</a>
+		</div>
+	</section>
+		<div class="btm-btn" @click="add_favar_or_cancel($event);">收藏微课</div>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			cur_index:1,
+			data_text:'没有更多了~~',
+			show_layer:false
+
+		},
+		methods:{
+			pay:function(evt){
+				//这里调用微信支付接口 支付成功后跳转至相应的详情展示页
+				location.href="lesson_success_pay.html";
+			},
+			add_favar_or_cancel:function(evt){
+				console.log(evt);
+				if($(evt.target).hasClass('favared')){
+					//数据操作
+					$(evt.target).removeClass("favared");
+					$.toast("你已取消对TA的收藏",3000);
+				}else{
+					//数据操作
+					$(evt.target).addClass("favared");
+					$.toast("你已成功收藏TA~",3000);
+				}
+			}
+		}
+	});
+</script>
+</html>

@@ -1,0 +1,136 @@
+[ 2018-07-05T09:28:19+08:00 ] 123.151.77.81 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 09:28:19 Use 1.037363 s 
+
+[ 2018-07-05T09:28:46+08:00 ] 123.151.77.81 /index.php?g=user&m=center&a=msg
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 09:28:46 Use 1.046661 s 
+
+[ 2018-07-05T09:28:58+08:00 ] 123.151.77.81 /index.php?g=user&m=center&a=scode
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 09:28:58 Use 1.045935 s 
+
+[ 2018-07-05T09:29:50+08:00 ] 101.226.79.234 /index.php?g=user&m=center&a=certify_info
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 09:29:50 Use 1.047464 s 
+
+[ 2018-07-05T09:30:18+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=0219GxMm1lq8Yj0RItLm1t3xMm19GxMg&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754218','0','2018-09','###5d31a27f6bd2dc4f935b90b591a6bee6','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754218','0','2018-09','###5d31a27f6bd2dc4f935b90b591a6bee6','0')
+
+[ 2018-07-05T09:30:29+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=011XvAFU1CChJW07nyGU1V0BFU1XvAFw&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754229','0','2018-09','###7c644e4e1770e1c1af35bed0815b97cf','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754229','0','2018-09','###7c644e4e1770e1c1af35bed0815b97cf','0')
+
+[ 2018-07-05T09:30:38+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=081MU7Ba10G7sQ1g1eEa10k7Ba1MU7B-&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 09:30:38 Use 1.046166 s 
+
+[ 2018-07-05T09:30:38+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=081MU7Ba10G7sQ1g1eEa10k7Ba1MU7B-&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754238','0','2018-09','###6973f2af7f70944a34bea97bc71ef50a','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754238','0','2018-09','###6973f2af7f70944a34bea97bc71ef50a','0')
+
+[ 2018-07-05T09:30:49+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=021njTRl1wPSql0oP6Ql19JSRl1njTR3&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754249','0','2018-09','###90a699a119419f5f9dbc301e2d9afb9c','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754249','0','2018-09','###90a699a119419f5f9dbc301e2d9afb9c','0')
+
+[ 2018-07-05T09:32:05+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=011yNam92ZpoyQ0Redn926gbm92yNamM&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754325','0','2018-09','###d7b98185dbed9a3810ea860dc4d59337','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754325','0','2018-09','###d7b98185dbed9a3810ea860dc4d59337','0')
+
+[ 2018-07-05T09:32:16+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=011vUabu1lO6rb0zuj8u1Nj1bu1vUab7&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754336','0','2018-09','###30fbe4de97274d6b44e5af16c3ab1a66','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754336','0','2018-09','###30fbe4de97274d6b44e5af16c3ab1a66','0')
+
+[ 2018-07-05T09:32:56+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=001ZFBfT0huh9Y1GlddT0AGnfT0ZFBfr&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754376','0','2018-09','###578645dff8c82eb53754050617977948','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754376','0','2018-09','###578645dff8c82eb53754050617977948','0')
+
+[ 2018-07-05T09:33:22+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=061jxMns0R26We1k6Wks09rzns0jxMnk&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754402','0','2018-09','###bad8fa6828bf5437e48b94800dd82ae2','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754402','0','2018-09','###bad8fa6828bf5437e48b94800dd82ae2','0')
+
+[ 2018-07-05T09:34:22+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=081QP2fE1uu8m10nfLdE15d2fE1QP2fo&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754462','0','2018-09','###0106610863072d75627640fb682d9bd3','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754462','0','2018-09','###0106610863072d75627640fb682d9bd3','0')
+
+[ 2018-07-05T09:35:01+08:00 ] 223.104.249.245 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=061ZRwSi0Ac3Rn1w3jWi0tiwSi0ZRwSm&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754501','0','2018-09','###b9492d508dd74c60ee980d0833fb3376','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0vMBvchlCbBFr4K856n_lXs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoIzlWZO6kKouiaIiah0oNyFOj4pdwdkPLMNE49EqEkWt4DdTNiaqaP6u7wicc5ymRZD8TEfQmNUYoFkg/132','1530754501','0','2018-09','###b9492d508dd74c60ee980d0833fb3376','0')
+
+[ 2018-07-05T09:51:18+08:00 ] 101.227.132.28 /index.php?g=User&m=Wexin&a=get_user&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 09:51:18 Use 1.048002 s 
+
+[ 2018-07-05T09:51:18+08:00 ] 101.227.132.28 /index.php?g=User&m=Wexin&a=get_user&parentid=0
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','',NULL,NULL,'1530755478','0','2018-09','###131ea4d0374bbf05935ce7e5c420958b','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','',NULL,NULL,'1530755478','0','2018-09','###131ea4d0374bbf05935ce7e5c420958b','0')
+
+[ 2018-07-05T09:52:58+08:00 ] 223.104.250.62 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=0712A0f108pTlE1EGqf10ZScf102A0fo&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0ngWLIdr3NHHezQXdMR--lo','http://thirdwx.qlogo.cn/mmopen/vi_32/icD3j8Uhe4xNtOQCa2KMRJPIY8azfLeOUdONcJv2ibeJouTvAuOkM7HYnQNfZPqQzq41S4SdE6yvS50OF8PF0W2w/132','1530755578','0','2018-09','###e6c17a2542e8aea1ce797bfcd0d0176a','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0ngWLIdr3NHHezQXdMR--lo','http://thirdwx.qlogo.cn/mmopen/vi_32/icD3j8Uhe4xNtOQCa2KMRJPIY8azfLeOUdONcJv2ibeJouTvAuOkM7HYnQNfZPqQzq41S4SdE6yvS50OF8PF0W2w/132','1530755578','0','2018-09','###e6c17a2542e8aea1ce797bfcd0d0176a','0')
+
+[ 2018-07-05T10:06:49+08:00 ] 183.3.255.28 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=021KP20t0bDCKd1xSP0t0Vh00t0KP20K&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0q2s7M1vnxfBCv2ItY1idFE','http://thirdwx.qlogo.cn/mmopen/vi_32/oPLzoMPiaNkPeKVw0bziavp5lGP0Y9ESN1OqYF1GExO8mkLnwxT1WmBpSWQicqnfegB8Aw8RriaWdYwiavhtp6NXstA/132','1530756409','0','2018-09','###9e3142b1bbcfe084e2b9f0b96fc71938','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0q2s7M1vnxfBCv2ItY1idFE','http://thirdwx.qlogo.cn/mmopen/vi_32/oPLzoMPiaNkPeKVw0bziavp5lGP0Y9ESN1OqYF1GExO8mkLnwxT1WmBpSWQicqnfegB8Aw8RriaWdYwiavhtp6NXstA/132','1530756409','0','2018-09','###9e3142b1bbcfe084e2b9f0b96fc71938','0')
+
+[ 2018-07-05T10:07:01+08:00 ] 183.3.255.28 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=021KP20t0bDCKd1xSP0t0Vh00t0KP20K&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 10:07:01 Use 1.076713 s 
+
+[ 2018-07-05T10:07:02+08:00 ] 183.3.255.28 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=021KP20t0bDCKd1xSP0t0Vh00t0KP20K&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','',NULL,NULL,'1530756422','0','2018-09','###b1f1ffbaf7ef8dd3d87a6d92afff4b3c','0')
+
+[ 2018-07-05T10:08:49+08:00 ] 183.3.255.28 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=021KP20t0bDCKd1xSP0t0Vh00t0KP20K&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 10:08:49 Use 1.062446 s 
+
+[ 2018-07-05T10:23:41+08:00 ] 223.104.249.245 /index.php?g=user&m=center&a=dologinmobile
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 10:23:41 Use 1.046734 s 
+
+[ 2018-07-05T10:24:50+08:00 ] 117.135.173.80 /index.php?g=user&m=center&a=apply
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 10:24:50 Use 1.044674 s 
+
+[ 2018-07-05T11:51:51+08:00 ] 101.226.79.225 /index.php?g=User&m=Wexin&a=get_user&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 11:51:51 Use 1.047238 s 
+
+[ 2018-07-05T15:54:58+08:00 ] 113.96.219.249 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=021h4At22m99rX0qkEs22lttt22h4At8&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 15:54:58 Use 1.047329 s 
+
+[ 2018-07-05T15:55:27+08:00 ] 123.147.250.28 /index.php?g=user&m=center&a=dologinmobile
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 15:55:27 Use 1.046048 s 
+
+[ 2018-07-05T15:56:16+08:00 ] 123.147.250.20 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 15:56:16 Use 1.037516 s 
+
+[ 2018-07-05T15:56:16+08:00 ] 223.104.249.255 /index.php?g=user&m=center&a=dologinmobile
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 15:56:16 Use 1.060189 s 
+
+[ 2018-07-05T15:56:34+08:00 ] 61.151.225.241 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 15:56:34 Use 1.045235 s 
+
+[ 2018-07-05T15:57:42+08:00 ] 117.185.117.59 /index.php?g=user&m=center&a=addmobile
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 15:57:42 Use 1.045583 s 
+
+[ 2018-07-05T16:02:44+08:00 ] 123.147.250.28 /index.php?g=user&m=center&a=addmobile
+ERR: Cron:测试执行定时任务 Runat 2018-07-05 16:02:44 Use 1.046403 s 
+

@@ -1,0 +1,1 @@
+a:8:{s:9:"site_name";s:9:"语文帮";s:23:"site_admin_url_password";s:0:"";s:8:"site_tpl";s:11:"simplebootx";s:15:"site_adminstyle";s:4:"flat";s:8:"site_icp";s:0:"";s:16:"site_admin_email";s:16:"649180397@qq.com";s:11:"site_tongji";s:0:"";s:14:"site_copyright";s:0:"";}

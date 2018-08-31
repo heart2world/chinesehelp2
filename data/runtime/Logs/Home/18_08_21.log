@@ -1,0 +1,84 @@
+[ 2018-08-21T01:53:19+08:00 ] 124.161.38.112 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 01:53:19 Use 1.047682 s 
+
+[ 2018-08-21T01:54:23+08:00 ] 61.151.225.191 /index.php?g=home&m=public&a=login&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 01:54:23 Use 1.054843 s 
+
+[ 2018-08-21T11:25:25+08:00 ] 183.136.190.40 /
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:25:25 Use 1.141638 s 
+
+[ 2018-08-21T11:41:16+08:00 ] 113.96.219.247 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:41:16 Use 1.061657 s 
+
+[ 2018-08-21T11:41:28+08:00 ] 113.96.219.247 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:41:28 Use 1.054890 s 
+
+[ 2018-08-21T11:41:49+08:00 ] 113.96.219.247 /index.php?g=home&m=problem&a=detail&id=54&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:41:49 Use 1.055054 s 
+
+[ 2018-08-21T11:42:09+08:00 ] 113.96.219.247 /index.php?g=home&m=problem&a=detail&id=64&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:42:09 Use 1.055926 s 
+
+[ 2018-08-21T11:42:51+08:00 ] 61.151.226.62 /index.php?g=home&m=problem&a=detail&id=54&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:42:51 Use 1.058043 s 
+
+[ 2018-08-21T11:43:08+08:00 ] 101.226.113.48 /index.php?g=home&m=problem&a=detail&id=64&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:43:08 Use 1.063848 s 
+
+[ 2018-08-21T11:44:10+08:00 ] 113.96.219.247 /index.php?g=home&m=problem&a=detail&id=65&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:44:10 Use 1.055862 s 
+
+[ 2018-08-21T11:45:10+08:00 ] 61.151.226.64 /index.php?g=home&m=problem&a=detail&id=65&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:45:10 Use 1.058879 s 
+
+[ 2018-08-21T11:47:12+08:00 ] 113.96.219.247 /index.php?g=home&m=problem&a=detail&id=70&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:47:12 Use 1.055587 s 
+
+[ 2018-08-21T11:47:51+08:00 ] 113.96.219.247 /index.php?g=home&m=problem&a=detail&id=73&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:47:51 Use 1.057792 s 
+
+[ 2018-08-21T11:48:12+08:00 ] 61.151.226.53 /index.php?g=home&m=problem&a=detail&id=70&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:48:12 Use 1.047160 s 
+
+[ 2018-08-21T11:48:25+08:00 ] 113.96.219.247 /index.php?g=home&m=index&a=getbang&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:48:25 Use 1.055060 s 
+
+[ 2018-08-21T11:48:52+08:00 ] 101.226.79.232 /index.php?g=home&m=problem&a=detail&id=73&tid=2
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:48:52 Use 1.056661 s 
+
+[ 2018-08-21T11:49:04+08:00 ] 113.96.219.247 /index.php?g=home&m=index&a=getbang&type=9
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:49:04 Use 1.057158 s 
+
+[ 2018-08-21T11:49:15+08:00 ] 113.96.219.247 /index.php?g=home&m=task&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:49:15 Use 1.060804 s 
+
+[ 2018-08-21T11:49:26+08:00 ] 101.226.79.226 /index.php?g=home&m=index&a=getbang&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:49:26 Use 1.056917 s 
+
+[ 2018-08-21T11:49:51+08:00 ] 113.96.219.247 /index.php?g=home&m=teacher&a=teacher_info&id=55
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:49:51 Use 1.050033 s 
+
+[ 2018-08-21T11:50:04+08:00 ] 61.151.178.177 /index.php?g=home&m=index&a=getbang&type=9
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:50:04 Use 1.071639 s 
+
+[ 2018-08-21T11:50:05+08:00 ] 113.96.219.247 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:50:05 Use 1.055176 s 
+
+[ 2018-08-21T11:50:31+08:00 ] 61.151.178.174 /index.php?g=home&m=problem&a=detail&id=51&tid=34
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 11:50:31 Use 1.060402 s 
+
+[ 2018-08-21T13:49:33+08:00 ] 120.79.184.41 /
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 13:49:33 Use 1.060630 s 
+
+[ 2018-08-21T14:06:16+08:00 ] 125.82.18.187 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 14:06:16 Use 1.057864 s 
+
+[ 2018-08-21T17:06:55+08:00 ] 106.81.231.173 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 17:06:55 Use 1.055498 s 
+
+[ 2018-08-21T17:07:59+08:00 ] 101.226.79.223 /index.php?g=home&m=public&a=login&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 17:07:59 Use 1.055871 s 
+
+[ 2018-08-21T23:11:43+08:00 ] 58.217.192.54 /
+ERR: Cron:测试执行定时任务 Runat 2018-08-21 23:11:43 Use 1.057952 s 
+

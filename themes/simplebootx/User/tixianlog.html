@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>提现记录</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="好问达">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="好问达教师端">
+	<meta name="description" content="好问达教师端">
+	<link rel="stylesheet" href="__PUBLIC__/style/base.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/style/app.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/weui.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/jquery-weui.css">
+	<script src="__PUBLIC__/libs/jq.min.js"></script>
+	<script src="__PUBLIC__/libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<!--提现记录列表-->
+	<section id="app">
+		<ul class="widthdrawls-list">
+			<!--<if condition="count($tixianlog) neq 0">-->
+			<volist name="tixianlog" id="va">
+			<li class="list-item app-flex app-vertical-center">
+				<h4 class="app-basis">{$va.addtime|date='Y-m-d H:i',###}</h4>
+				<h5>￥{$va.price}</h5>
+			</li>
+			</volist>
+			<!--<else/>
+			<center style="padding: 10px;font-size: 16px;">没有提现记录</center>
+			</if>-->		
+		</ul>
+		<if condition="count($tixianlog) neq 0">
+		<div style="text-align: center; font-size: 0.8rem; color: #595959; line-height: 2.2rem;">没有更多了~</div>
+		<else/>
+		<div style="text-align: center; font-size: 0.8rem; color: #595959; line-height: 2.2rem;">暂无提现记录~</div>
+		</if>
+	</section>
+</body>
+<script src="__PUBLIC__/libs/fixed.js"></script>
+<script src="__PUBLIC__/script/common.js"></script>
+<script src="__PUBLIC__/libs/weui/jquery-weui.js"></script>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>我的专题</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="好问达">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="好问达学生端">
+	<meta name="description" content="好问达学生端">
+	<link rel="stylesheet" href="__PUBLIC__/style/base.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/style/app.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/weui.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/libs/weui/jquery-weui.css">
+	<script src="__PUBLIC__/libs/jq.min.js"></script>
+	<script src="__PUBLIC__/libs/v.min.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	
+	<style>
+		body #form-content-wrap img{ max-width:100%}
+		body .toolbar .picker-button{ color:#3cc8fe;}
+		body .weui-cells_checkbox .weui-check:checked+.weui-icon-checked:before{ color:#3cc8fe;}
+		body .weui-picker-overlay, .weui-picker-container{ top:0;bottom:0; height:100%}
+	</style>
+	
+</head>
+<body data-app="ChineseBang">
+	<section id="app" style="padding-bottom: 2.65rem;">
+		<!--我的专题列表-->
+		<section class="mylesson" v-cloak>
+			<ul class="listview">
+				<li class="list-item">
+					<div class="list-top app-flex app-vertical-center app-content-justify">
+						<h4 style="font-size:.8rem">2018-05-02</h4>
+						<h5>操作<i></i></h5
+					</div>
+					<a href="javascript:;">
+						<div class="list-middle">
+							<div class="list-title app-flex app-vertical-center app-content-justify">
+								<h4 style="font-size:.8rem">{$va.title}</h4>
+								<h5>已发布</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>微课类型 :</h4>
+								<h5>课内古诗文导读</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>课程简介 :</h4>
+								<h5 class="Line2">课程简介课程简介课程简介课程简介课程简介课程简介课程简介</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>综合评分 :</h4>
+								<h5>暂无</h5>
+							</div>
+							<div class="list-type app-flex">
+								<h4>购买价格 :</h4>
+								<h5>{$va.price}元</h5>
+							</div>
+							<div class="app-flex countBtn">
+								<h4 class="cksl">{$va.clicknum}<if condition="$va['clicknum'] gt '999'">+</if></h4>
+								<h4 class="scsl">{$va.colcount}<if condition="$va['colcount'] gt '999'">+</if></h4>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</section>
+</html>
+<script>
+	
+</script>
+

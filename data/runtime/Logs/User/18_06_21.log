@@ -1,0 +1,24 @@
+[ 2018-06-21T11:05:17+08:00 ] 61.151.226.61 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-06-21 11:05:17 Use 1.046123 s 
+
+[ 2018-06-21T17:33:11+08:00 ] 113.251.18.241 /index.php?g=user&m=center&a=dologinmobile
+ERR: Cron:测试执行定时任务 Runat 2018-06-21 17:33:11 Use 1.047385 s 
+
+[ 2018-06-21T17:34:18+08:00 ] 61.151.226.67 /index.php?g=user&m=center&a=apply
+ERR: Cron:测试执行定时任务 Runat 2018-06-21 17:34:18 Use 1.047109 s 
+
+[ 2018-06-21T17:48:12+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=tixian
+ERR: Cron:测试执行定时任务 Runat 2018-06-21 17:48:12 Use 1.046420 s 
+
+[ 2018-06-21T17:48:25+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=dotixianlog
+ERR: Cron:测试执行定时任务 Runat 2018-06-21 17:48:25 Use 1.046559 s 
+
+[ 2018-06-21T17:49:02+08:00 ] 61.151.178.165 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-21 17:49:02 Use 1.044094 s 
+
+[ 2018-06-21T17:50:53+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=dotixianlog
+ERR: Cron:测试执行定时任务 Runat 2018-06-21 17:50:53 Use 1.048054 s 
+
+[ 2018-06-21T20:13:26+08:00 ] 47.98.60.52 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-06-21 20:13:26 Use 1.049439 s 
+

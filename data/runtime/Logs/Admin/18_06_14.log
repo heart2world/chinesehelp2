@@ -1,0 +1,66 @@
+[ 2018-06-14T11:04:38+08:00 ] 183.69.234.236 /index.php?g=admin&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 11:04:38 Use 1.049580 s 
+
+[ 2018-06-14T11:04:57+08:00 ] 183.69.234.236 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 11:04:57 Use 1.039888 s 
+
+[ 2018-06-14T11:05:14+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 11:05:14 Use 1.055297 s 
+
+[ 2018-06-14T11:05:27+08:00 ] 183.69.234.236 /index.php?g=admin&m=question&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 11:05:27 Use 1.044396 s 
+
+[ 2018-06-14T12:06:06+08:00 ] 183.69.234.236 /index.php?g=admin&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:06:06 Use 1.038385 s 
+
+[ 2018-06-14T12:06:18+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:06:18 Use 1.060330 s 
+
+[ 2018-06-14T12:12:33+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=changesort
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:12:33 Use 1.047743 s 
+
+[ 2018-06-14T12:12:33+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:12:33 Use 1.236620 s 
+
+[ 2018-06-14T12:17:15+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:17:15 Use 1.048907 s 
+
+[ 2018-06-14T12:17:30+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=changesort
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:17:30 Use 1.046192 s 
+
+[ 2018-06-14T12:18:13+08:00 ] 183.69.234.236 /index.php?g=admin&m=zhuanti&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:18:13 Use 1.037354 s 
+
+[ 2018-06-14T12:25:00+08:00 ] 183.69.234.236 /index.php?g=admin&m=zhuanti&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:25:00 Use 1.040823 s 
+
+[ 2018-06-14T12:25:14+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=changesort
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:25:14 Use 1.055358 s 
+
+[ 2018-06-14T12:25:15+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=changesort
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:25:15 Use 1.047844 s 
+
+[ 2018-06-14T12:25:30+08:00 ] 183.69.234.236 /index.php?g=admin&m=zhuanti&a=changesort
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:25:30 Use 1.036704 s 
+
+[ 2018-06-14T12:25:48+08:00 ] 106.120.160.114 /index.php?g=admin&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:25:48 Use 1.048091 s 
+
+[ 2018-06-14T12:26:05+08:00 ] 183.69.234.236 /index.php?g=admin&m=wclass&a=index&p=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 12:26:05 Use 1.049205 s 
+
+[ 2018-06-14T13:02:14+08:00 ] 183.69.234.236 /index.php?g=admin&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 13:02:14 Use 1.059714 s 
+
+[ 2018-06-14T13:02:29+08:00 ] 183.69.234.236 /index.php?g=admin&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 13:02:29 Use 1.049708 s 
+
+[ 2018-06-14T13:18:01+08:00 ] 183.69.234.236 /index.php?g=admin&m=zhuanti&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 13:18:01 Use 1.047779 s 
+
+[ 2018-06-14T13:18:29+08:00 ] 183.69.234.236 /index.php?g=admin&m=zhuanti&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 13:18:29 Use 1.047087 s 
+
+[ 2018-06-14T13:18:53+08:00 ] 183.69.234.236 /index.php?g=admin&m=zhuanti&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-14 13:18:53 Use 1.045795 s 
+

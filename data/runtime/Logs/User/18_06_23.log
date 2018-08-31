@@ -1,0 +1,9 @@
+[ 2018-06-23T14:14:55+08:00 ] 125.82.167.18 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-06-23 14:14:55 Use 1.058086 s 
+
+[ 2018-06-23T14:15:51+08:00 ] 61.151.226.62 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-23 14:15:51 Use 1.046826 s 
+
+[ 2018-06-23T15:08:08+08:00 ] 183.3.255.28 /index.php?g=user&m=center&a=addmobile
+ERR: Cron:测试执行定时任务 Runat 2018-06-23 15:08:08 Use 1.047242 s 
+

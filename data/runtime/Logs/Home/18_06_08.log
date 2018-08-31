@@ -1,0 +1,1028 @@
+[ 2018-06-08T08:40:56+08:00 ] 113.251.16.208 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:40:56 Use 1.152301 s 
+
+[ 2018-06-08T08:41:11+08:00 ] 113.251.16.208 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:41:11 Use 1.042964 s 
+
+[ 2018-06-08T08:41:19+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:41:24+08:00 ] 113.251.16.208 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:41:24 Use 1.044547 s 
+
+[ 2018-06-08T08:41:52+08:00 ] 113.251.16.208 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:41:52 Use 1.078029 s 
+
+[ 2018-06-08T08:41:52+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:41:56+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:43:30+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:43:30 Use 1.047028 s 
+
+[ 2018-06-08T08:43:31+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:43:31 Use 1.039106 s 
+
+[ 2018-06-08T08:43:31+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:43:42+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:43:42 Use 1.043116 s 
+
+[ 2018-06-08T08:43:42+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:43:42 Use 1.044156 s 
+
+[ 2018-06-08T08:43:54+08:00 ] 113.251.16.208 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=061MZvuy1nY72i06gAuy1KEiuy1MZvuk&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:43:54 Use 1.043396 s 
+
+[ 2018-06-08T08:43:57+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:44:00+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:44:02+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:44:13+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:44:13 Use 1.064330 s 
+
+[ 2018-06-08T08:44:13+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:44:13 Use 1.057455 s 
+
+[ 2018-06-08T08:44:13+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:48:57+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:48:57 Use 1.046999 s 
+
+[ 2018-06-08T08:48:57+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:48:57 Use 1.042376 s 
+
+[ 2018-06-08T08:48:58+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:50:01+08:00 ] 113.251.16.208 /index.php?g=home&m=problem&a=detail&id=123
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:50:01 Use 1.044519 s 
+
+[ 2018-06-08T08:50:01+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:50:25+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:50:25 Use 1.045250 s 
+
+[ 2018-06-08T08:50:25+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:50:25+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:50:28+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:50:32+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:51:45+08:00 ] 113.251.16.208 /index.php?g=home&m=task&a=lesson_info&id=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:51:45 Use 1.044368 s 
+
+[ 2018-06-08T08:51:46+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:52:33+08:00 ] 113.251.16.208 /index.php?g=home&m=task&a=lesson_info&id=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:52:33 Use 1.044339 s 
+
+[ 2018-06-08T08:52:34+08:00 ] 113.251.16.208 /index.php?g=home&m=task&a=lesson_info&id=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:52:34 Use 1.053197 s 
+
+[ 2018-06-08T08:52:34+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:55:18+08:00 ] 113.251.16.208 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=061IWc6y06r3qg1lO98y0Fx66y0IWc6l&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:55:18 Use 1.079118 s 
+
+[ 2018-06-08T08:55:32+08:00 ] 113.251.16.208 /index.php?g=home&m=task&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:55:32 Use 1.045199 s 
+
+[ 2018-06-08T08:55:50+08:00 ] 113.251.16.208 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:55:50 Use 1.036881 s 
+
+[ 2018-06-08T08:55:55+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:56:32+08:00 ] 101.226.79.235 /index.php?g=home&m=task&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:56:32 Use 1.044537 s 
+
+[ 2018-06-08T08:56:43+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:56:43 Use 1.044516 s 
+
+[ 2018-06-08T08:56:43+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:56:56+08:00 ] 61.151.218.118 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:56:56 Use 1.046773 s 
+
+[ 2018-06-08T08:57:28+08:00 ] 113.251.16.208 /index.php?g=home&m=task&a=lesson_info&id=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:57:28 Use 1.254266 s 
+
+[ 2018-06-08T08:57:28+08:00 ] 113.251.16.208 /index.php?g=home&m=task&a=lesson_info&id=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:57:28 Use 1.068667 s 
+
+[ 2018-06-08T08:57:29+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:58:21+08:00 ] 113.251.16.208 /index.php?g=home&m=task&a=lesson_info&id=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:58:21 Use 1.051151 s 
+
+[ 2018-06-08T08:58:21+08:00 ] 113.251.16.208 /index.php?g=home&m=task&a=lesson_info&id=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:58:21 Use 1.054460 s 
+
+[ 2018-06-08T08:58:22+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:58:58+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:58:58 Use 1.046783 s 
+
+[ 2018-06-08T08:58:58+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:59:13+08:00 ] 113.251.16.208 /index.php?g=home&m=resource&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 08:59:13 Use 1.249423 s 
+
+[ 2018-06-08T08:59:16+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T08:59:21+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:00:05+08:00 ] 113.251.16.208 /index.php?g=home&m=resource&a=lesson_info&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:00:05 Use 1.043595 s 
+
+[ 2018-06-08T09:00:06+08:00 ] 113.251.16.208 /index.php?g=home&m=resource&a=lesson_info&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:00:06 Use 1.053813 s 
+
+[ 2018-06-08T09:00:06+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:00:20+08:00 ] 113.251.16.208 /index.php?g=home&m=resource&a=lesson_info&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:00:20 Use 1.043002 s 
+
+[ 2018-06-08T09:00:20+08:00 ] 113.251.16.208 /index.php?g=home&m=resource&a=lesson_info&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:00:20 Use 1.042969 s 
+
+[ 2018-06-08T09:00:20+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:00:32+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:00:32 Use 1.044200 s 
+
+[ 2018-06-08T09:00:32+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:00:43+08:00 ] 113.251.16.208 /index.php?g=home&m=zhuantis&a=ztinfo&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:00:43 Use 1.043842 s 
+
+[ 2018-06-08T09:00:49+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:00:54+08:00 ] 113.251.16.208 /index.php?g=home&m=teacher&a=teacher_info&id=18
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:00:54 Use 1.044691 s 
+
+[ 2018-06-08T09:01:09+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:01:09 Use 1.042114 s 
+
+[ 2018-06-08T09:01:09+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:01:26+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:03:23+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:03:23+08:00 ] 113.251.16.208 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-08T09:03:33+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:03:33 Use 1.251145 s 
+
+[ 2018-06-08T09:03:33+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:03:42+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:03:45+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:03:45 Use 1.042548 s 
+
+[ 2018-06-08T09:03:45+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:03:51+08:00 ] 113.251.16.208 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-08T09:03:56+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:03:56 Use 1.053023 s 
+
+[ 2018-06-08T09:03:56+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:04:07+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:04:07 Use 1.044813 s 
+
+[ 2018-06-08T09:04:07+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:04:24+08:00 ] 183.3.226.234 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:04:24 Use 1.045642 s 
+
+[ 2018-06-08T09:04:37+08:00 ] 183.3.226.234 /index.php?g=home&m=problem&a=detail&id=129
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:04:37 Use 1.043586 s 
+
+[ 2018-06-08T09:04:52+08:00 ] 183.3.226.234 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:04:52 Use 1.047908 s 
+
+[ 2018-06-08T09:05:08+08:00 ] 183.3.226.234 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:05:08 Use 1.221676 s 
+
+[ 2018-06-08T09:05:28+08:00 ] 61.151.225.155 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:05:28 Use 1.175615 s 
+
+[ 2018-06-08T09:05:52+08:00 ] 183.3.226.234 /index.php?g=home&m=problem&a=questionaddinfo
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:05:52 Use 1.050785 s 
+
+[ 2018-06-08T09:06:01+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:06:08+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:06:14+08:00 ] 61.151.226.156 /index.php?g=home&m=problem&a=online_select_teacher&xk=%E6%95%B0%E5%AD%A6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:06:14 Use 1.044492 s 
+
+[ 2018-06-08T09:06:14+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:06:14 Use 1.051055 s 
+
+[ 2018-06-08T09:06:14+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:06:33+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:06:46+08:00 ] 183.3.226.234 /index.php?g=home&m=teacher&a=teacher_info&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:06:46 Use 1.108742 s 
+
+[ 2018-06-08T09:07:02+08:00 ] 183.3.226.234 /index.php?g=home&m=problem&a=questionaddinfo
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:07:02 Use 1.044351 s 
+
+[ 2018-06-08T09:07:13+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:07:13 Use 1.240240 s 
+
+[ 2018-06-08T09:07:13+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:07:17+08:00 ] 113.251.16.208 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-08T09:07:17+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:07:33+08:00 ] 113.251.16.208 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-08T09:07:46+08:00 ] 61.151.226.61 /index.php?g=home&m=teacher&a=teacher_info&id=16
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:07:46 Use 1.045906 s 
+
+[ 2018-06-08T09:08:59+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:08:59+08:00 ] 113.251.16.208 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-08T09:09:25+08:00 ] 183.3.226.234 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:09:25 Use 1.043368 s 
+
+[ 2018-06-08T09:09:37+08:00 ] 183.3.226.234 /index.php?g=home&m=problem&a=detail&id=133
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:09:37 Use 1.042995 s 
+
+[ 2018-06-08T09:09:48+08:00 ] 183.3.226.234 /index.php?g=home&m=problem&a=docore
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:09:48 Use 1.110972 s 
+
+[ 2018-06-08T09:10:05+08:00 ] 113.251.16.208 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-08T09:10:30+08:00 ] 113.251.16.208 /media/9797.mp3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:10:30 Use 1.050358 s 
+
+[ 2018-06-08T09:10:30+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:10:30 Use 1.045726 s 
+
+[ 2018-06-08T09:10:30+08:00 ] 113.251.16.208 /media/9797.mp3
+ERR: 无法加载控制器:Media
+
+[ 2018-06-08T09:10:30+08:00 ] 113.251.16.208 /public/libs/maps/swiper.jquery.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:10:30+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T09:10:43+08:00 ] 140.207.118.16 /index.php?g=home&m=problem&a=give_score&id=133
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 09:10:43 Use 1.045736 s 
+
+[ 2018-06-08T14:24:37+08:00 ] 61.151.178.173 /index.php
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528431877' ) 
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528431877' ) 
+
+[ 2018-06-08T14:33:06+08:00 ] 113.96.219.249 /index.php
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528432386' ) 
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528432386' ) 
+
+[ 2018-06-08T14:33:08+08:00 ] 112.90.75.121 /
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528432388' ) 
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528432388' ) 
+
+[ 2018-06-08T14:33:09+08:00 ] 121.51.14.23 /
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528432389' ) 
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528432389' ) 
+
+[ 2018-06-08T14:33:36+08:00 ] 113.96.219.249 /index.php
+ERR: 1054:Unknown column 'isfree' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528432416' ) 
+
+[ 2018-06-08T14:34:33+08:00 ] 113.96.219.249 /index.php
+ERR: 1054:Unknown column 'scoretime' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `chh_question` WHERE ( isfree=0 and parentid=0 and isend=1 and scoretime <= '1528432473' ) 
+
+[ 2018-06-08T14:36:42+08:00 ] 113.96.219.249 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:36:42 Use 1.081402 s 
+
+[ 2018-06-08T14:36:56+08:00 ] 113.96.219.249 /index.php?g=Home&m=Center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:36:56 Use 1.076527 s 
+
+[ 2018-06-08T14:37:19+08:00 ] 113.96.219.249 /index.php?g=Home&m=Center&a=setting_profile
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:37:19 Use 1.071893 s 
+
+[ 2018-06-08T14:37:28+08:00 ] 113.96.219.249 /index.php?g=Home&m=Center&a=doedit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002569s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007613s ]
+SQL: SHOW COLUMNS FROM `chh_member` [ RunTime:0.0138s ]
+SQL: UPDATE `chh_member` SET `nicename`='高帅',`sex`='男',`age`='15',`classname`='初二',`schoolname`='重庆实验中学',`mobile`='13594811685',`id`='5' WHERE ( id='5' ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chh_question` [ RunTime:0.0100s ]
+SQL: UPDATE `chh_question` SET `nicename`='高帅' WHERE ( userid='5' ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `chh_orders` [ RunTime:0.0080s ]
+SQL: UPDATE `chh_orders` SET `username`='高帅' WHERE ( userid='5' ) [ RunTime:0.0006s ]
+
+[ 2018-06-08T14:37:35+08:00 ] 113.96.219.249 /index.php?g=Home&m=Center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:37:35 Use 1.069715 s 
+
+[ 2018-06-08T14:37:50+08:00 ] 113.96.219.249 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:37:50 Use 1.077449 s 
+
+[ 2018-06-08T14:38:07+08:00 ] 113.96.219.249 /index.php?g=Home&m=Problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:38:07 Use 1.071137 s 
+
+[ 2018-06-08T14:38:19+08:00 ] 61.151.226.61 /index.php?g=Home&m=Center&a=setting_profile
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:38:19 Use 1.068262 s 
+
+[ 2018-06-08T14:41:48+08:00 ] 113.251.16.208 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:41:48 Use 1.144627 s 
+
+[ 2018-06-08T14:56:03+08:00 ] 113.251.16.208 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:56:03 Use 1.036532 s 
+
+[ 2018-06-08T14:56:17+08:00 ] 113.251.16.208 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:56:17 Use 1.045457 s 
+
+[ 2018-06-08T14:56:32+08:00 ] 113.251.16.208 /index.php?g=home&m=center&a=setting_profile
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:56:32 Use 1.046129 s 
+
+[ 2018-06-08T14:56:46+08:00 ] 113.251.16.208 /index.php?g=home&m=center&a=doedit
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:56:46 Use 1.045205 s 
+
+[ 2018-06-08T14:56:58+08:00 ] 113.251.16.208 /index.php?g=home&m=center&a=setting_profile
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 14:56:58 Use 1.043736 s 
+
+[ 2018-06-08T15:03:38+08:00 ] 106.14.217.247 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 15:03:38 Use 1.046135 s 
+
+[ 2018-06-08T15:13:00+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T15:14:13+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T15:17:32+08:00 ] 113.251.16.208 /public/libs/swiper/js/maps/swiper.min.js.map
+ERR: 非法操作:libs
+
+[ 2018-06-08T15:23:38+08:00 ] 157.255.172.126 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 15:23:38 Use 1.289857 s 
+
+[ 2018-06-08T15:26:22+08:00 ] 183.3.255.28 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 15:26:22 Use 1.046562 s 
+
+[ 2018-06-08T15:26:55+08:00 ] 183.3.255.28 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 15:26:55 Use 1.045580 s 
+
+[ 2018-06-08T17:02:26+08:00 ] 112.90.78.123 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:02:26 Use 1.050786 s 
+
+[ 2018-06-08T17:02:26+08:00 ] 183.3.227.100 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:02:26 Use 1.051551 s 
+
+[ 2018-06-08T17:02:40+08:00 ] 183.3.227.100 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:02:40 Use 1.046583 s 
+
+[ 2018-06-08T17:03:14+08:00 ] 183.3.227.100 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:03:14 Use 1.045286 s 
+
+[ 2018-06-08T17:03:28+08:00 ] 183.3.227.100 /index.php?g=home&m=teacher&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:03:28 Use 1.174447 s 
+
+[ 2018-06-08T17:03:46+08:00 ] 140.207.118.16 /index.php?g=home&m=problem&a=detail&id=43
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:03:46 Use 1.045459 s 
+
+[ 2018-06-08T17:04:24+08:00 ] 61.151.226.65 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:04:24 Use 1.035326 s 
+
+[ 2018-06-08T17:11:25+08:00 ] 223.104.249.252 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:11:25 Use 1.044673 s 
+
+[ 2018-06-08T17:12:15+08:00 ] 223.104.249.252 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:12:15 Use 1.043145 s 
+
+[ 2018-06-08T17:12:29+08:00 ] 101.227.143.150 /index.php?g=home&m=public&a=login&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:12:29 Use 1.045602 s 
+
+[ 2018-06-08T17:13:21+08:00 ] 117.144.245.12 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:13:21 Use 1.045785 s 
+
+[ 2018-06-08T17:13:32+08:00 ] 61.151.225.190 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:13:32 Use 1.045062 s 
+
+[ 2018-06-08T17:13:52+08:00 ] 120.204.200.83 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:13:52 Use 1.045986 s 
+
+[ 2018-06-08T17:14:26+08:00 ] 14.116.133.169 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:14:26 Use 1.043874 s 
+
+[ 2018-06-08T17:14:40+08:00 ] 14.116.133.169 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:14:40 Use 1.034747 s 
+
+[ 2018-06-08T17:14:54+08:00 ] 157.255.172.16 /index.php?g=home&m=teacher&a=getteacherlist
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:14:54 Use 1.044172 s 
+
+[ 2018-06-08T17:38:15+08:00 ] 157.255.172.17 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:38:15 Use 1.048352 s 
+
+[ 2018-06-08T17:38:15+08:00 ] 121.51.14.25 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 17:38:15 Use 1.037526 s 
+
+[ 2018-06-08T18:05:45+08:00 ] 106.91.63.114 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:05:45 Use 1.046209 s 
+
+[ 2018-06-08T18:05:58+08:00 ] 106.91.63.114 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:05:58 Use 1.046459 s 
+
+[ 2018-06-08T18:06:48+08:00 ] 61.151.225.242 /index.php?g=home&m=public&a=login&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:06:48 Use 1.044594 s 
+
+[ 2018-06-08T18:06:59+08:00 ] 117.185.117.59 /index.php?g=home&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:06:59 Use 1.044627 s 
+
+[ 2018-06-08T18:12:42+08:00 ] 106.11.222.215 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:12:42 Use 1.068879 s 
+
+[ 2018-06-08T18:43:01+08:00 ] 183.219.107.97 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:43:01 Use 1.045543 s 
+
+[ 2018-06-08T18:43:59+08:00 ] 183.219.107.97 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:43:59 Use 1.045978 s 
+
+[ 2018-06-08T18:44:26+08:00 ] 183.219.107.97 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:44:26 Use 1.045200 s 
+
+[ 2018-06-08T18:44:41+08:00 ] 183.219.107.97 /index.php?g=home&m=teacher&a=getteacherlist
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:44:41 Use 1.044751 s 
+
+[ 2018-06-08T18:45:32+08:00 ] 61.151.178.165 /index.php?g=home&m=teacher&a=index&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 18:45:32 Use 1.044934 s 
+
+[ 2018-06-08T20:15:46+08:00 ] 113.96.219.248 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:15:46 Use 1.047867 s 
+
+[ 2018-06-08T20:16:40+08:00 ] 113.96.219.248 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:16:40 Use 1.045256 s 
+
+[ 2018-06-08T20:16:51+08:00 ] 113.96.219.248 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:16:51 Use 1.044070 s 
+
+[ 2018-06-08T20:17:02+08:00 ] 113.96.219.248 /index.php?g=home&m=teacher&a=teacher_info&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:17:02 Use 1.045370 s 
+
+[ 2018-06-08T20:17:14+08:00 ] 113.96.219.248 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:17:14 Use 1.043997 s 
+
+[ 2018-06-08T20:17:25+08:00 ] 163.177.69.111 /index.php?g=home&m=resource&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:17:25 Use 1.046024 s 
+
+[ 2018-06-08T20:17:51+08:00 ] 117.185.117.59 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:17:51 Use 1.046378 s 
+
+[ 2018-06-08T20:18:02+08:00 ] 61.151.226.167 /index.php?g=home&m=teacher&a=teacher_info&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:18:02 Use 1.045652 s 
+
+[ 2018-06-08T20:18:25+08:00 ] 61.151.226.77 /index.php?g=home&m=resource&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:18:25 Use 1.046749 s 
+
+[ 2018-06-08T20:28:41+08:00 ] 14.116.133.170 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:28:41 Use 1.045785 s 
+
+[ 2018-06-08T20:29:04+08:00 ] 157.255.172.126 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:29:04 Use 1.046834 s 
+
+[ 2018-06-08T20:29:20+08:00 ] 157.255.172.126 /index.php?g=home&m=task&a=lesson_info&id=383
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:29:20 Use 1.045589 s 
+
+[ 2018-06-08T20:29:21+08:00 ] 14.116.133.170 /index.php?g=home&m=task&a=lesson_info&id=383
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:29:21 Use 1.043785 s 
+
+[ 2018-06-08T20:29:32+08:00 ] 183.3.227.100 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:29:32 Use 1.047028 s 
+
+[ 2018-06-08T20:30:12+08:00 ] 14.116.133.170 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:30:12 Use 1.045330 s 
+
+[ 2018-06-08T20:32:00+08:00 ] 101.227.139.161 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:32:00 Use 1.046532 s 
+
+[ 2018-06-08T20:32:01+08:00 ] 101.227.139.161 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:32:01 Use 1.054873 s 
+
+[ 2018-06-08T20:34:04+08:00 ] 61.129.6.151 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:34:04 Use 1.045280 s 
+
+[ 2018-06-08T20:34:19+08:00 ] 61.129.8.199 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:34:19 Use 1.043380 s 
+
+[ 2018-06-08T20:35:18+08:00 ] 183.3.227.100 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:35:18 Use 1.044587 s 
+
+[ 2018-06-08T20:35:50+08:00 ] 14.116.133.170 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:35:50 Use 1.043614 s 
+
+[ 2018-06-08T20:36:01+08:00 ] 14.116.133.170 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:36:01 Use 1.045912 s 
+
+[ 2018-06-08T20:36:42+08:00 ] 182.131.10.54 /index.php?from=timeline&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:36:42 Use 1.044976 s 
+
+[ 2018-06-08T20:37:17+08:00 ] 123.147.250.203 /index.php?from=timeline&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:37:17 Use 1.045160 s 
+
+[ 2018-06-08T20:37:34+08:00 ] 14.116.133.170 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:37:34 Use 1.044792 s 
+
+[ 2018-06-08T20:38:54+08:00 ] 61.151.207.252 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:38:54 Use 1.044297 s 
+
+[ 2018-06-08T20:39:26+08:00 ] 58.247.212.98 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:39:26 Use 1.054327 s 
+
+[ 2018-06-08T20:39:26+08:00 ] 61.151.207.252 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:39:26 Use 1.056678 s 
+
+[ 2018-06-08T20:39:26+08:00 ] 223.166.151.233 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:39:26 Use 1.041711 s 
+
+[ 2018-06-08T20:39:49+08:00 ] 14.116.133.171 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:39:49 Use 1.034904 s 
+
+[ 2018-06-08T20:40:16+08:00 ] 14.116.133.171 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=071yW54M1KtG1616FZ4M1fJ54M1yW54n&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:40:16 Use 1.046545 s 
+
+[ 2018-06-08T20:40:49+08:00 ] 101.226.79.232 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:40:49 Use 1.046655 s 
+
+[ 2018-06-08T20:41:01+08:00 ] 14.116.137.170 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:41:01 Use 1.044328 s 
+
+[ 2018-06-08T20:41:26+08:00 ] 218.205.55.113 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:41:26 Use 1.044833 s 
+
+[ 2018-06-08T20:42:25+08:00 ] 61.151.225.179 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:42:25 Use 1.046487 s 
+
+[ 2018-06-08T20:43:24+08:00 ] 163.177.66.21 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:43:24 Use 1.044941 s 
+
+[ 2018-06-08T20:46:43+08:00 ] 61.129.6.74 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:46:43 Use 1.046767 s 
+
+[ 2018-06-08T20:47:32+08:00 ] 163.177.73.200 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:47:32 Use 1.046802 s 
+
+[ 2018-06-08T20:47:55+08:00 ] 119.86.39.147 /index.php?from=timeline&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:47:55 Use 1.046510 s 
+
+[ 2018-06-08T20:48:32+08:00 ] 61.129.6.74 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:48:32 Use 1.043867 s 
+
+[ 2018-06-08T20:48:56+08:00 ] 14.109.192.202 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:48:56 Use 1.047251 s 
+
+[ 2018-06-08T20:49:09+08:00 ] 14.106.191.117 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:49:09 Use 1.045336 s 
+
+[ 2018-06-08T20:49:23+08:00 ] 14.106.191.117 /index.php?g=home&m=teacher&a=index&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:49:23 Use 1.200538 s 
+
+[ 2018-06-08T20:50:40+08:00 ] 14.106.191.117 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:50:40 Use 1.045412 s 
+
+[ 2018-06-08T20:50:52+08:00 ] 14.106.191.117 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:50:52 Use 1.045234 s 
+
+[ 2018-06-08T20:51:05+08:00 ] 14.106.191.117 /index.php?g=home&m=center&a=setting_profile
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:51:05 Use 1.045696 s 
+
+[ 2018-06-08T20:54:14+08:00 ] 59.42.3.60 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:54:14 Use 1.044761 s 
+
+[ 2018-06-08T20:55:54+08:00 ] 183.3.227.100 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 20:55:54 Use 1.046423 s 
+
+[ 2018-06-08T21:01:46+08:00 ] 14.116.133.170 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:01:46 Use 1.044943 s 
+
+[ 2018-06-08T21:05:44+08:00 ] 183.36.112.205 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:05:44 Use 1.057112 s 
+
+[ 2018-06-08T21:06:29+08:00 ] 183.36.112.205 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:06:29 Use 1.044690 s 
+
+[ 2018-06-08T21:07:30+08:00 ] 61.151.178.177 /index.php?g=home&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:07:30 Use 1.046630 s 
+
+[ 2018-06-08T21:08:01+08:00 ] 183.36.112.205 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:08:01 Use 1.044211 s 
+
+[ 2018-06-08T21:08:32+08:00 ] 183.36.112.205 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:08:32 Use 1.045288 s 
+
+[ 2018-06-08T21:08:43+08:00 ] 183.36.112.205 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:08:43 Use 1.048684 s 
+
+[ 2018-06-08T21:08:57+08:00 ] 183.36.112.205 /index.php?g=home&m=problem&a=pub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:08:57 Use 1.049458 s 
+
+[ 2018-06-08T21:09:09+08:00 ] 183.36.112.205 /index.php?g=home&m=index&a=articlelist
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:09:09 Use 1.057605 s 
+
+[ 2018-06-08T21:09:09+08:00 ] 183.36.112.205 /index.php?g=home&m=index&a=articlelist
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:09:09 Use 1.047807 s 
+
+[ 2018-06-08T21:09:20+08:00 ] 183.36.112.205 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:09:20 Use 1.048518 s 
+
+[ 2018-06-08T21:09:50+08:00 ] 183.36.112.205 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:09:50 Use 1.050602 s 
+
+[ 2018-06-08T21:10:15+08:00 ] 183.36.112.205 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:10:15 Use 1.048644 s 
+
+[ 2018-06-08T21:10:42+08:00 ] 183.36.112.205 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:10:42 Use 1.046218 s 
+
+[ 2018-06-08T21:11:01+08:00 ] 106.91.185.35 /index.php?from=timeline&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:11:01 Use 1.044917 s 
+
+[ 2018-06-08T21:11:37+08:00 ] 183.36.112.205 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:11:37 Use 1.044088 s 
+
+[ 2018-06-08T21:11:48+08:00 ] 101.226.86.162 /index.php?g=home&m=public&a=login&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:11:48 Use 1.055394 s 
+
+[ 2018-06-08T21:12:39+08:00 ] 14.116.133.170 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:12:39 Use 1.044622 s 
+
+[ 2018-06-08T21:13:42+08:00 ] 14.116.133.170 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:13:42 Use 1.036656 s 
+
+[ 2018-06-08T21:13:56+08:00 ] 101.227.139.172 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:13:56 Use 1.044675 s 
+
+[ 2018-06-08T21:13:56+08:00 ] 14.116.133.170 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:13:56 Use 1.047326 s 
+
+[ 2018-06-08T21:14:15+08:00 ] 101.227.139.161 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:14:15 Use 1.044258 s 
+
+[ 2018-06-08T21:14:27+08:00 ] 183.3.227.100 /index.php?from=groupmessage
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:14:27 Use 1.045539 s 
+
+[ 2018-06-08T21:15:01+08:00 ] 183.36.112.205 /index.php?from=groupmessage
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:15:01 Use 1.045624 s 
+
+[ 2018-06-08T21:15:37+08:00 ] 183.3.227.100 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:15:37 Use 1.045452 s 
+
+[ 2018-06-08T21:15:49+08:00 ] 113.96.219.248 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=081en0Ut0jBO8c1k3fUt0cV2Ut0en0Ub&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:15:49 Use 1.045727 s 
+
+[ 2018-06-08T21:16:12+08:00 ] 183.3.227.100 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:16:12 Use 1.044280 s 
+
+[ 2018-06-08T21:16:28+08:00 ] 14.106.205.200 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:16:28 Use 1.106479 s 
+
+[ 2018-06-08T21:17:05+08:00 ] 183.3.227.100 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:17:05 Use 1.045442 s 
+
+[ 2018-06-08T21:17:19+08:00 ] 218.205.55.156 /index.php?from=timeline&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:17:19 Use 1.045209 s 
+
+[ 2018-06-08T21:17:30+08:00 ] 157.255.172.20 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:17:30 Use 1.044748 s 
+
+[ 2018-06-08T21:18:59+08:00 ] 113.96.231.120 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:18:59 Use 1.057627 s 
+
+[ 2018-06-08T21:19:53+08:00 ] 14.116.133.169 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:19:53 Use 1.095666 s 
+
+[ 2018-06-08T21:20:54+08:00 ] 101.226.113.48 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:20:54 Use 1.045716 s 
+
+[ 2018-06-08T21:22:37+08:00 ] 183.3.226.234 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:22:37 Use 1.045191 s 
+
+[ 2018-06-08T21:27:38+08:00 ] 182.131.10.54 /index.php?from=timeline&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:27:38 Use 1.125729 s 
+
+[ 2018-06-08T21:28:47+08:00 ] 106.91.191.98 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:28:47 Use 1.045681 s 
+
+[ 2018-06-08T21:45:26+08:00 ] 113.96.219.248 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:45:26 Use 1.054847 s 
+
+[ 2018-06-08T21:57:07+08:00 ] 113.205.157.48 /index.php?from=timeline&isappinstalled=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:57:07 Use 1.045435 s 
+
+[ 2018-06-08T21:58:09+08:00 ] 183.3.255.28 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:58:09 Use 1.034510 s 
+
+[ 2018-06-08T21:58:22+08:00 ] 157.255.172.24 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:58:22 Use 1.032803 s 
+
+[ 2018-06-08T21:58:35+08:00 ] 183.3.255.28 /index.php?g=home&m=teacher&a=index&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:58:35 Use 1.046636 s 
+
+[ 2018-06-08T21:58:46+08:00 ] 183.3.255.28 /index.php?g=home&m=resource&a=index&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:58:46 Use 1.044470 s 
+
+[ 2018-06-08T21:59:14+08:00 ] 183.3.255.28 /index.php?g=home&m=index&a=articlelist
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:59:14 Use 1.046151 s 
+
+[ 2018-06-08T21:59:31+08:00 ] 120.204.200.83 /index.php?g=home&m=index&a=getbang&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:59:31 Use 1.044795 s 
+
+[ 2018-06-08T21:59:45+08:00 ] 183.3.255.28 /index.php?g=home&m=task&a=dopay&tid=383&teacherid=30
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:59:45 Use 1.044505 s 
+
+[ 2018-06-08T21:59:46+08:00 ] 61.151.226.62 /index.php?g=home&m=resource&a=index&type=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 21:59:46 Use 1.046482 s 
+
+[ 2018-06-08T22:00:04+08:00 ] 157.255.172.24 /index.php?g=home&m=task&a=lesson_info&id=383
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:00:04 Use 1.046784 s 
+
+[ 2018-06-08T22:00:19+08:00 ] 101.226.227.170 /index.php?g=home&m=index&a=getbang&type=7
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:00:19 Use 1.044686 s 
+
+[ 2018-06-08T22:00:31+08:00 ] 183.3.255.28 /index.php?g=home&m=task&a=lesson_info&id=350
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:00:31 Use 1.044908 s 
+
+[ 2018-06-08T22:00:32+08:00 ] 101.227.132.28 /index.php?g=home&m=task&a=lesson_info&id=349
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:00:32 Use 1.044021 s 
+
+[ 2018-06-08T22:00:45+08:00 ] 183.3.255.28 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=0710qCcl1C9NQk0ILNbl1kBrcl10qCcY&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:00:45 Use 1.046212 s 
+
+[ 2018-06-08T22:00:45+08:00 ] 61.151.225.190 /index.php?g=home&m=task&a=dopay&tid=383&teacherid=30
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:00:45 Use 1.046335 s 
+
+[ 2018-06-08T22:00:45+08:00 ] 61.151.225.190 /index.php?g=home&m=task&a=dopay&tid=383&teacherid=30
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `chh_orders` (`userid`,`username`,`title`,`teachername`,`teacherid`,`tid`,`type`,`orderprice`,`commission`,`commission2`,`tccoin`,`ordersn`,`orderstatus`,`addtime`) VALUES (NULL,NULL,'标题：2017重庆某巴蜀中学语文真卷（一）','魏娉','30','383','购买微课','0.5','0.03','0.05','0.35','CH2018060810010156','0','1528466445')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `chh_orders` (`userid`,`username`,`title`,`teachername`,`teacherid`,`tid`,`type`,`orderprice`,`commission`,`commission2`,`tccoin`,`ordersn`,`orderstatus`,`addtime`) VALUES (NULL,NULL,'标题：2017重庆某巴蜀中学语文真卷（一）','魏娉','30','383','购买微课','0.5','0.03','0.05','0.35','CH2018060810010156','0','1528466445')
+
+[ 2018-06-08T22:01:02+08:00 ] 183.3.255.28 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:01:02 Use 1.035327 s 
+
+[ 2018-06-08T22:01:48+08:00 ] 157.255.172.24 /index.php?g=Home&m=Task&a=lesson_info&id=17
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:01:48 Use 1.062813 s 
+
+[ 2018-06-08T22:02:07+08:00 ] 157.255.172.24 /index.php?g=home&m=task&a=lesson_info&id=383
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:02:07 Use 1.046953 s 
+
+[ 2018-06-08T22:02:21+08:00 ] 183.3.255.28 /index.php?g=Home&m=Task&a=lesson_info&id=17
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:02:21 Use 1.045684 s 
+
+[ 2018-06-08T22:03:11+08:00 ] 117.185.117.60 /index.php?g=&m=wx_js_a_p_i&a=jsapicall&orderNum=CH2018060850535010
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:03:11 Use 1.044756 s 
+
+[ 2018-06-08T22:04:34+08:00 ] 157.255.172.17 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:04:34 Use 1.045322 s 
+
+[ 2018-06-08T22:12:04+08:00 ] 47.92.138.160 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=021YaEIh1WxA7x0KcJJh16LPIh1YaEIg&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:12:04 Use 1.044981 s 
+
+[ 2018-06-08T22:18:16+08:00 ] 117.185.117.54 /index.php?g=home&m=task&a=dopay&tid=383&teacherid=30
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:18:16 Use 1.045443 s 
+
+[ 2018-06-08T22:18:16+08:00 ] 117.185.117.54 /index.php?g=home&m=task&a=dopay&tid=383&teacherid=30
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `chh_orders` (`userid`,`username`,`title`,`teachername`,`teacherid`,`tid`,`type`,`orderprice`,`commission`,`commission2`,`tccoin`,`ordersn`,`orderstatus`,`addtime`) VALUES (NULL,NULL,'标题：2017重庆某巴蜀中学语文真卷（一）','魏娉','30','383','购买微课','0.5','0.03','0.05','0.35','CH2018060856569755','0','1528467496')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `chh_orders` (`userid`,`username`,`title`,`teachername`,`teacherid`,`tid`,`type`,`orderprice`,`commission`,`commission2`,`tccoin`,`ordersn`,`orderstatus`,`addtime`) VALUES (NULL,NULL,'标题：2017重庆某巴蜀中学语文真卷（一）','魏娉','30','383','购买微课','0.5','0.03','0.05','0.35','CH2018060856569755','0','1528467496')
+
+[ 2018-06-08T22:28:19+08:00 ] 61.129.6.148 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:28:19 Use 1.046767 s 
+
+[ 2018-06-08T22:29:28+08:00 ] 113.96.219.247 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:29:28 Use 1.101617 s 
+
+[ 2018-06-08T22:29:28+08:00 ] 157.255.172.22 /
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:29:28 Use 1.227524 s 
+
+[ 2018-06-08T22:36:58+08:00 ] 112.90.78.15 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 22:36:58 Use 1.045432 s 
+
+[ 2018-06-08T23:08:54+08:00 ] 183.3.227.100 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:08:54 Use 1.047144 s 
+
+[ 2018-06-08T23:10:48+08:00 ] 101.226.225.59 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:10:48 Use 1.045242 s 
+
+[ 2018-06-08T23:11:42+08:00 ] 14.116.137.167 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:11:42 Use 1.045186 s 
+
+[ 2018-06-08T23:20:45+08:00 ] 47.100.100.21 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=061vBrsf1YbClz003Zsf142Msf1vBrsw&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:20:45 Use 1.045842 s 
+
+[ 2018-06-08T23:21:14+08:00 ] 47.98.37.19 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:21:14 Use 1.044358 s 
+
+[ 2018-06-08T23:22:06+08:00 ] 47.92.5.11 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=021ZpzAs1hP7En0HbPAs1AyLAs1ZpzAj&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:22:06 Use 1.045811 s 
+
+[ 2018-06-08T23:22:19+08:00 ] 47.92.95.89 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=071vfh9I0xdS1j2hHuaI0v9i9I0vfh92&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:22:19 Use 1.045935 s 
+
+[ 2018-06-08T23:25:18+08:00 ] 157.255.172.22 /index.php?from=timeline
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:25:18 Use 1.054520 s 
+
+[ 2018-06-08T23:31:58+08:00 ] 113.96.219.250 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:31:58 Use 1.046005 s 
+
+[ 2018-06-08T23:32:54+08:00 ] 113.96.219.250 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:32:54 Use 1.044802 s 
+
+[ 2018-06-08T23:36:49+08:00 ] 113.96.219.250 /index.php?g=home&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:36:49 Use 1.056371 s 
+
+[ 2018-06-08T23:37:38+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:37:38 Use 1.138245 s 
+
+[ 2018-06-08T23:38:02+08:00 ] 113.96.219.250 /index.php?g=home&m=task&a=lesson_info&id=349
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:38:02 Use 1.044410 s 
+
+[ 2018-06-08T23:38:20+08:00 ] 113.96.219.250 /index.php?g=home&m=task&a=lesson_info&id=349
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:38:20 Use 1.046120 s 
+
+[ 2018-06-08T23:38:36+08:00 ] 113.96.219.250 /index.php?g=home&m=task&a=index&type=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:38:36 Use 1.043166 s 
+
+[ 2018-06-08T23:38:47+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:38:47 Use 1.045205 s 
+
+[ 2018-06-08T23:38:59+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=getbang&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:38:59 Use 1.044675 s 
+
+[ 2018-06-08T23:39:18+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=tasklist&type=4
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:39:18 Use 1.251904 s 
+
+[ 2018-06-08T23:39:32+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:39:32 Use 1.045717 s 
+
+[ 2018-06-08T23:39:58+08:00 ] 113.96.219.250 /index.php?g=home&m=teacher&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:39:58 Use 1.043995 s 
+
+[ 2018-06-08T23:40:14+08:00 ] 113.96.219.250 /index.php?g=home&m=teacher&a=teacher_info&id=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:40:14 Use 1.046159 s 
+
+[ 2018-06-08T23:41:30+08:00 ] 113.96.219.250 /index.php?g=home&m=teacher&a=getteacherlist
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:41:30 Use 1.045511 s 
+
+[ 2018-06-08T23:41:48+08:00 ] 113.96.219.250 /index.php?g=home&m=problem&a=detail&id=43&tid=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:41:48 Use 1.044422 s 
+
+[ 2018-06-08T23:41:49+08:00 ] 113.96.219.250 /index.php?g=home&m=problem&a=detail&id=43&tid=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:41:49 Use 1.044654 s 
+
+[ 2018-06-08T23:42:00+08:00 ] 58.251.112.211 /index.php?g=Home&m=Wexin&a=get_user&parentid=0&code=011byK3h2p2ZrI0dnV0h253G3h2byK3a&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:42:00 Use 1.044718 s 
+
+[ 2018-06-08T23:42:48+08:00 ] 101.226.79.223 /index.php?g=home&m=problem&a=detail&id=43&tid=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:42:48 Use 1.269454 s 
+
+[ 2018-06-08T23:43:10+08:00 ] 113.96.219.250 /index.php?g=home&m=problem&a=collect2
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:43:10 Use 1.044491 s 
+
+[ 2018-06-08T23:44:03+08:00 ] 113.96.219.250 /index.php?g=home&m=teacher&a=teacher_info&id=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:44:03 Use 1.044413 s 
+
+[ 2018-06-08T23:44:19+08:00 ] 113.96.219.250 /index.php?g=home&m=task&a=lesson_info&id=383
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:44:19 Use 1.045175 s 
+
+[ 2018-06-08T23:44:47+08:00 ] 113.96.219.250 /index.php?g=home&m=teacher&a=teacher_info&id=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:44:47 Use 1.045868 s 
+
+[ 2018-06-08T23:45:01+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=hotrecommend&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:45:01 Use 1.045679 s 
+
+[ 2018-06-08T23:45:13+08:00 ] 61.151.178.166 /index.php?g=home&m=task&a=lesson_info&id=2
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:45:13 Use 1.146082 s 
+
+[ 2018-06-08T23:45:27+08:00 ] 113.96.219.250 /index.php?g=home&m=task&a=lesson_info&id=349
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:45:27 Use 1.044490 s 
+
+[ 2018-06-08T23:45:45+08:00 ] 113.96.219.250 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:45:45 Use 1.045345 s 
+
+[ 2018-06-08T23:45:58+08:00 ] 113.96.219.250 /index.php
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:45:58 Use 1.044791 s 
+
+[ 2018-06-08T23:46:12+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=getbang&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:46:12 Use 1.043284 s 
+
+[ 2018-06-08T23:46:24+08:00 ] 113.96.219.250 /index.php?g=home&m=teacher&a=index&type=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:46:24 Use 1.046471 s 
+
+[ 2018-06-08T23:46:36+08:00 ] 113.96.219.250 /index.php?g=home&m=center&a=mypub
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:46:36 Use 1.043585 s 
+
+[ 2018-06-08T23:46:48+08:00 ] 113.96.219.250 /index.php?g=home&m=teacher&a=index&type=8
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:46:48 Use 1.045683 s 
+
+[ 2018-06-08T23:46:59+08:00 ] 113.96.219.250 /index.php?g=home&m=index&a=getbang&type=9
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:46:59 Use 1.048562 s 
+
+[ 2018-06-08T23:47:10+08:00 ] 113.96.219.250 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:47:10 Use 1.048311 s 
+
+[ 2018-06-08T23:47:10+08:00 ] 183.3.226.234 /index.php?g=home&m=teacher&a=teacher_info&id=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:47:10 Use 1.054423 s 
+
+[ 2018-06-08T23:47:24+08:00 ] 113.96.219.250 /index.php?g=home&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:47:24 Use 1.046036 s 
+
+[ 2018-06-08T23:47:59+08:00 ] 61.151.226.110 /index.php?g=home&m=index&a=getbang&type=9
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:47:59 Use 1.045821 s 
+
+[ 2018-06-08T23:48:10+08:00 ] 101.226.233.150 /index.php?g=home&m=teacher&a=teacher_info&id=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:48:10 Use 1.046460 s 
+
+[ 2018-06-08T23:48:21+08:00 ] 183.3.226.234 /index.php?g=home&m=index&a=getbang&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:48:21 Use 1.044117 s 
+
+[ 2018-06-08T23:48:32+08:00 ] 183.3.226.234 /index.php?g=home&m=task&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:48:32 Use 1.046245 s 
+
+[ 2018-06-08T23:48:53+08:00 ] 183.3.226.234 /index.php?g=home&m=teacher&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:48:53 Use 1.131338 s 
+
+[ 2018-06-08T23:49:08+08:00 ] 183.3.226.234 /index.php?g=home&m=teacher&a=teacher_info&id=6
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:49:08 Use 1.266603 s 
+
+[ 2018-06-08T23:49:32+08:00 ] 117.135.173.80 /index.php?g=home&m=task&a=index&type=3
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:49:32 Use 1.045404 s 
+
+[ 2018-06-08T23:49:43+08:00 ] 183.3.226.234 /index.php?g=home&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:49:43 Use 1.046442 s 
+
+[ 2018-06-08T23:50:05+08:00 ] 183.3.226.234 /index.php?g=home&m=public&a=login&parentid=0
+ERR: Cron:测试执行定时任务 Runat 2018-06-08 23:50:05 Use 1.046205 s 
+

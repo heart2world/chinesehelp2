@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>select</title>
+	    <link rel="stylesheet" href="lib/weui/jquery-weui.css" />
+	    <link rel="stylesheet" href="lib/weui/weui.min.css" />
+	    <script type="text/javascript" src="lib/jq/jquery-1.10.2.js" ></script>
+	    <script type="text/javascript" src="lib/weui/jquery-weui.js" ></script>
+	    <script type="text/javascript" src="http://jqweui.com/dist/js/city-picker.js" ></script>
+	    <script type="text/javascript" src="http://jqweui.com/dist/js/swiper.js" ></script>
+	</head>
+	<style>
+	</style>
+	<body>
+		<a href="javascript:;" class="weui-btn weui-btn_default" id="showDatePicker">日期选择器</a>
+		<div class="weui-cell">
+            <div class="weui-cell__hd"><label class="weui-label">input-date</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="date" placeholder="请选择日期">
+            </div>
+        </div>
+		<div class="weui-cell">
+            <div class="weui-cell__hd"><label class="weui-label">只有年月日</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text" id="choseDate" placeholder="请选择日期">
+            </div>
+        </div>
+		<div class="weui-cell">
+            <div class="weui-cell__hd"><label class="weui-label">单项选择器</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text" id="choseType" placeholder="请选择">
+            </div>
+        </div>
+        
+		<a href="javascript:;" class="weui-btn weui-btn_default" id="showCityPicker1">城市选择器(含地区)</a>
+		<a href="javascript:;" class="weui-btn weui-btn_default" id="showCityPicker2">城市选择器(不含地区)</a>
+		
+		<a href="javascript:;" class="weui-btn weui-btn_default open-popup"  data-target="" id="showActionSheet">bottom popup</a>
+		<a href="javascript:;" class="weui-btn weui-btn_default" id="showIOSActionSheet">iOS ActionSheet</a>
+		<div id="" class="weui-popup__container popup-bottom">
+		    <div class="weui-popup__overlay"></div>
+		    <div class="weui-popup__modal">
+		     	你的内容放在这里...
+		    </div>
+		</div>
+		
+	</body>
+</html>
+
+<script>
+	$("#showDatePicker").datetimePicker();
+	$("#choseDate").calendar();
+	$("#showCityPicker1").cityPicker();
+	$("#showCityPicker2").cityPicker({
+	    showDistrict: false
+	});
+	$("#showActionSheet").popup();
+	$("#choseType").picker({
+		title: "请选择学科",
+		cols: [
+		    {
+		      textAlign: 'center',
+		      values: ['iPhone 4', 'iPhone 4S', 'iPhone 5', 'iPhone 5S', 'iPhone 6', 'iPhone 6 Plus', 'iPad 2', 'iPad Retina', 'iPad Air', 'iPad mini', 'iPad mini 2', 'iPad mini 3']
+		    }
+		]
+	});
+</script>
+

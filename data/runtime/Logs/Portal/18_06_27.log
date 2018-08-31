@@ -1,0 +1,24 @@
+[ 2018-06-27T07:46:20+08:00 ] 125.82.160.254 /index.php?g=portal&m=index&a=article&id=24
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 07:46:20 Use 1.046938 s 
+
+[ 2018-06-27T07:47:10+08:00 ] 101.226.86.152 /index.php?g=portal&m=index&a=article&id=24
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 07:47:10 Use 1.047131 s 
+
+[ 2018-06-27T15:09:22+08:00 ] 222.182.125.3 /index.php?g=portal&m=index&a=article&id=24
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 15:09:22 Use 1.049071 s 
+
+[ 2018-06-27T15:10:23+08:00 ] 222.182.125.3 /index.php?g=portal&m=index&a=article&id=18
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 15:10:23 Use 1.155189 s 
+
+[ 2018-06-27T15:10:24+08:00 ] 222.182.125.3 /index.php?g=portal&m=index&a=article&id=18
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 15:10:24 Use 1.062446 s 
+
+[ 2018-06-27T15:18:15+08:00 ] 101.226.79.238 /index.php?g=portal&m=index&a=article&id=18
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 15:18:15 Use 1.059643 s 
+
+[ 2018-06-27T17:13:21+08:00 ] 113.96.219.248 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 17:13:21 Use 1.052151 s 
+
+[ 2018-06-27T17:20:22+08:00 ] 61.151.226.165 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 17:20:22 Use 1.046112 s 
+

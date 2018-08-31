@@ -1,0 +1,53 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('Tcomein/index')}">教师收入</a></li>
+		</ul>
+        <form class="well form-search" method="post" action="{:U('Tcomein/index')}">
+        	时间：<input type="text" name="starttime"  class="js-date"  value="{:I('request.starttime')}" style="width: 90px;" autocomplete="off">-
+                      <input type="text" name="endtime" class="js-date" value="{:I('request.endtime')}" style="width: 90px;" autocomplete="off">
+            教师:
+            <input type="text" name="nicename" style="width: 100px;" value="{:I('request.nicename/s','')}" placeholder="请输入教师姓名">&nbsp;
+            
+            <input type="submit" class="btn btn-primary" value="查询" />
+            <a class="btn btn-danger" href="{:U('Tcomein/index')}">清空</a>
+            <input type="submit" name="export" class="btn btn-primary" value="导出Excel" />
+        </form>
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th style="text-align: center;">ID</th>
+					<th style="text-align: center;">教师姓名</th>
+					<th style="text-align: center;">账号</th>
+					<th style="text-align: center;">收入金额（总）</th>
+					<th style="text-align: center;">已提现金额</th>	
+					<th style="text-align: center;">未提现金额</th>	
+					<th style="text-align: center;">{:L('ACTIONS')}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="list" item="vo">
+				<tr>
+				
+					<td style="text-align: center;">{$vo.id}</td>
+					<td style="text-align: center;">{$vo.nicename}</td>
+					<td style="text-align: center;">{$vo.mobile}</td>					
+					<td style="text-align: center;">{$vo.totalin}</td>
+					<td style="text-align: center;">{$vo.tixianprice}</td>
+					<td style="text-align: center;">{$vo.coin}</td>
+					<td style="text-align: center;">
+					
+							<a href='{:U("Tcomein/dlist",array("id"=>$vo["id"]))}' style="padding: 2px 15px;color: black;background-color: #bfc6cb;" class="btn btn-primary">收入明细</a> 
+							<a style="padding: 2px 15px;color: black;background-color: #bfc6cb;" class="btn btn-primary" href="{:U('Tcomein/tixianlist',array('id'=>$vo['id']))}">提现记录</a>		
+					</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

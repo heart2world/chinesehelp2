@@ -1,0 +1,42 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('Tcomein/index')}">教师收入</a></li>
+			<li class="active"><a>提现明细</a></li>
+		</ul>
+       
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th style="text-align: center;">ID</th>
+					<th style="text-align: center;">单号</th>
+					<th style="text-align: center;">收入时间</th>
+					<th style="text-align: center;">教师姓名</th>
+					<th style="text-align: center;">教师账号</th>	
+					<th style="text-align: center;">支付会员</th>
+					<th style="text-align: center;">收入类型</th>
+					<th style="text-align: center;">收入金额</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="list" item="vo">
+				<tr>				
+					<td style="text-align: center;">{$vo.id}</td>
+					<td style="text-align: center;">{$vo.ordersn}</td>
+					<td style="text-align: center;">{$vo.addtime|date='Y-m-d H:i',###}</td>					
+					<td style="text-align: center;">{$vo.teachername}</td>
+					<td style="text-align: center;">{$vo.mobile}</td>
+					<td style="text-align: center;">{$vo.username}</td>	
+					<td style="text-align: center;">{$vo.type}</td>
+					<td style="text-align: center;">{$vo.orderprice}</td>						
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

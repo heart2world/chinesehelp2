@@ -1,0 +1,6 @@
+[ 2018-07-11T19:27:00+08:00 ] 14.215.160.22 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-11 19:27:00 Use 1.061711 s 
+
+[ 2018-07-11T19:36:21+08:00 ] 14.152.69.206 /index.php?g=admin&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-07-11 19:36:21 Use 1.048190 s 
+

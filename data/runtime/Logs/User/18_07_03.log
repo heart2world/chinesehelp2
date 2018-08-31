@@ -1,0 +1,6 @@
+[ 2018-07-03T11:12:43+08:00 ] 113.96.231.120 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=081r3wlZ1Pvy711V0kmZ1GFnlZ1r3wlg&state=STATE
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0mmhNiQwKtvDAk8VGolbGD8','http://thirdwx.qlogo.cn/mmopen/vi_32/7D6J4PA3J717W98BpfTRWzdNRRVZib9FfB7v6qzJ2vSeFOsokgx11CccQTHp4W6n2boTPTGVtmiaVqiakmWyK6Fcg/132','1530587563','0','2018-09','###5f437743289d30dbafa2fa1885da4b05','0')
+ERR: 1364:Field 'xueke' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `chh_teacher` (`nicename`,`mobile`,`openid`,`headimg`,`addtime`,`parentid`,`tyear`,`password`,`status`) VALUES ('','','oRONC0mmhNiQwKtvDAk8VGolbGD8','http://thirdwx.qlogo.cn/mmopen/vi_32/7D6J4PA3J717W98BpfTRWzdNRRVZib9FfB7v6qzJ2vSeFOsokgx11CccQTHp4W6n2boTPTGVtmiaVqiakmWyK6Fcg/132','1530587563','0','2018-09','###5f437743289d30dbafa2fa1885da4b05','0')
+

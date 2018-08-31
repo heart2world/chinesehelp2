@@ -1,0 +1,1 @@
+a:7:{i:0;s:6:"rec_id";i:1;s:6:"userid";i:2;s:6:"taskid";i:3;s:7:"addtime";i:4;s:4:"type";s:3:"_pk";s:6:"rec_id";s:5:"_type";a:5:{s:6:"rec_id";s:21:"mediumint(8) unsigned";s:6:"userid";s:21:"mediumint(8) unsigned";s:6:"taskid";s:21:"mediumint(8) unsigned";s:7:"addtime";s:16:"int(11) unsigned";s:4:"type";s:11:"varchar(10)";}}

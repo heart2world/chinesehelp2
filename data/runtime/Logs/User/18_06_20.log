@@ -1,0 +1,9 @@
+[ 2018-06-20T16:31:16+08:00 ] 223.104.249.244 /index.php?g=user&m=center&a=mystudent
+ERR: Cron:测试执行定时任务 Runat 2018-06-20 16:31:16 Use 1.046430 s 
+
+[ 2018-06-20T16:32:09+08:00 ] 61.151.226.65 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-20 16:32:09 Use 1.046251 s 
+
+[ 2018-06-20T18:56:39+08:00 ] 223.104.250.40 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-20 18:56:39 Use 1.046797 s 
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>举报内容</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="泊车">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="keywords" content="语文帮学生端">
+	<meta name="description" content="语文帮学生端">
+	<link rel="stylesheet" href="../style/base.min.css">
+	<link rel="stylesheet" href="../style/app.css">
+	<link rel="stylesheet" href="../libs/weui/weui.min.css">
+	<link rel="stylesheet" href="../libs/weui/jquery-weui.css">
+	<script src="../libs/jq.min.js"></script>
+	<script src="../libs/v.min.js"></script>
+</head>
+<body data-app="ChineseBang">
+	<section id="app">
+		<!--内容举报-->
+		<article class="content-panel tipoff">
+			<div class="content-list">
+				<div class="tipoff-title">举报内容：</div>
+				<div class="content-item" data-type="mrolesson">
+					<a href="#">
+						<div class="content-top app-flex app-vertical-center">
+							<h4 class="app-basis">《文言文常见通假字释义》</h4>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>微课类型:  </h4>
+							<h5 class="app-basis">名校真题</h5>
+						</div>
+						<div class="content-inner-item app-flex">
+							<h4>课程简介:  </h4>
+							<h5 class="app-basis">主要讲解文言文中常见的通假字读音、拼写、解释含义，常见的考题形式</h5>
+						</div>
+						<div class="content-info-num app-flex app-vertical-center">
+							<h4>查看次数: <span>999+</span></h4>
+							<h5>收藏次数: <span>299</span></h5>
+						</div>
+					</a>
+				</div>
+			</div>
+		</article>
+		<!--举报原因填写-->
+		<aside class="tip-reason">
+			<h4>举报原因：</h4>
+			<textarea name="reason" v-model="reason" placeholder="我们将进行匿名举报，请如实填写举报原因"></textarea>
+			<div class="tipoff-btn" @click="tipoff($event);">提 交</div>
+		</aside>
+	</section>
+</body>
+<script src="../libs/fixed.js"></script>
+<script src="../libs/weui/jquery-weui.js"></script>
+<script>
+	$.toast.prototype.defaults.duration = 3000;
+	var app = new Vue({
+		el:'#app',
+		data:{
+			aid:'1',
+			reason:''
+		},
+		methods:{
+			tipoff:function(evt){
+				//提交举报内容
+				if(this.reason == ''){
+					$.toptip("提交失败，举报原因内容未填写~",3000,'warning');
+					return;
+				}
+				$.showLoading("正在提交...");
+
+				//提交成功
+				setTimeout(function(){
+					$.hideLoading();
+					$.toast("感谢您的反馈，我们会尽快处理~",1500,function(){
+						history.back();
+					});
+				},2000);
+				
+			}
+		}
+	});
+</script>
+</html>

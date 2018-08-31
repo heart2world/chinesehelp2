@@ -1,0 +1,759 @@
+[ 2018-06-29T08:39:09+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:39:09 Use 1.056730 s 
+
+[ 2018-06-29T08:39:28+08:00 ] 183.3.255.28 /index.php?g=portal&m=task&a=detail&id=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:39:28 Use 1.052550 s 
+
+[ 2018-06-29T08:39:39+08:00 ] 183.3.255.28 /index.php?g=portal&m=task&a=detail&id=546
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:39:39 Use 1.049238 s 
+
+[ 2018-06-29T08:40:02+08:00 ] 183.3.255.28 /index.php?g=portal&m=task&a=detail&id=18
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:40:02 Use 1.048038 s 
+
+[ 2018-06-29T08:40:28+08:00 ] 117.185.117.57 /index.php?g=portal&m=task&a=detail&id=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:40:28 Use 1.133289 s 
+
+[ 2018-06-29T08:40:39+08:00 ] 101.226.113.48 /index.php?g=portal&m=task&a=detail&id=546
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:40:39 Use 1.069213 s 
+
+[ 2018-06-29T08:41:02+08:00 ] 61.151.226.62 /index.php?g=portal&m=task&a=detail&id=18
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:41:02 Use 1.050290 s 
+
+[ 2018-06-29T08:51:15+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:51:15 Use 1.048257 s 
+
+[ 2018-06-29T08:52:15+08:00 ] 101.226.86.162 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:52:15 Use 1.047742 s 
+
+[ 2018-06-29T08:53:13+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:53:13 Use 1.048939 s 
+
+[ 2018-06-29T08:57:46+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:57:46 Use 1.050250 s 
+
+[ 2018-06-29T08:59:01+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 08:59:01 Use 1.059030 s 
+
+[ 2018-06-29T09:00:41+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:00:41 Use 1.047266 s 
+
+[ 2018-06-29T09:07:13+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:07:13 Use 1.413556 s 
+
+[ 2018-06-29T09:07:42+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:07:42 Use 1.120043 s 
+
+[ 2018-06-29T09:13:19+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:13:19 Use 1.136022 s 
+
+[ 2018-06-29T09:13:19+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:13:19 Use 1.156849 s 
+
+[ 2018-06-29T09:48:32+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:48:32 Use 1.048132 s 
+
+[ 2018-06-29T09:49:13+08:00 ] 113.251.23.58 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:49:13 Use 1.100995 s 
+
+[ 2018-06-29T09:50:23+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:50:23 Use 1.048313 s 
+
+[ 2018-06-29T09:51:25+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:51:25 Use 1.048898 s 
+
+[ 2018-06-29T09:51:40+08:00 ] 113.251.23.58 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:51:40 Use 1.049092 s 
+
+[ 2018-06-29T09:52:08+08:00 ] 113.251.23.58 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:52:08 Use 1.050193 s 
+
+[ 2018-06-29T09:52:28+08:00 ] 101.227.131.219 /index.php?g=portal&m=problem&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:52:28 Use 1.093205 s 
+
+[ 2018-06-29T09:52:46+08:00 ] 113.251.23.58 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:52:46 Use 1.047582 s 
+
+[ 2018-06-29T09:53:06+08:00 ] 113.251.23.58 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:53:06 Use 1.049919 s 
+
+[ 2018-06-29T09:54:40+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:54:40 Use 1.048825 s 
+
+[ 2018-06-29T09:54:52+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 09:54:52 Use 1.056012 s 
+
+[ 2018-06-29T10:00:59+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:00:59 Use 1.055424 s 
+
+[ 2018-06-29T10:01:19+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:01:19 Use 1.058598 s 
+
+[ 2018-06-29T10:01:38+08:00 ] 101.226.93.198 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:01:38 Use 1.072020 s 
+
+[ 2018-06-29T10:01:56+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:01:56 Use 1.047860 s 
+
+[ 2018-06-29T10:02:07+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:02:07 Use 1.049265 s 
+
+[ 2018-06-29T10:02:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:02:24 Use 1.063657 s 
+
+[ 2018-06-29T10:02:36+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:02:36 Use 1.088240 s 
+
+[ 2018-06-29T10:02:56+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:02:56 Use 1.094484 s 
+
+[ 2018-06-29T10:03:07+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:03:07 Use 1.124109 s 
+
+[ 2018-06-29T10:03:29+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:03:29 Use 1.074247 s 
+
+[ 2018-06-29T10:03:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:03:44 Use 1.129094 s 
+
+[ 2018-06-29T10:03:57+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:03:57 Use 1.057497 s 
+
+[ 2018-06-29T10:04:13+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:04:13 Use 1.280628 s 
+
+[ 2018-06-29T10:04:14+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:04:14 Use 1.049832 s 
+
+[ 2018-06-29T10:04:33+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:04:33 Use 1.059462 s 
+
+[ 2018-06-29T10:04:51+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:04:51 Use 1.066674 s 
+
+[ 2018-06-29T10:05:03+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=detail&id=1273
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:05:03 Use 1.056952 s 
+
+[ 2018-06-29T10:05:13+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1273
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:05:13 Use 1.146490 s 
+
+[ 2018-06-29T10:06:03+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:06:03 Use 1.123472 s 
+
+[ 2018-06-29T10:07:03+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:07:03 Use 1.136340 s 
+
+[ 2018-06-29T10:08:28+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=answerline&id=56
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:08:28 Use 1.290917 s 
+
+[ 2018-06-29T10:08:41+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:08:41 Use 1.059704 s 
+
+[ 2018-06-29T10:08:42+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:08:42 Use 1.049544 s 
+
+[ 2018-06-29T10:09:34+08:00 ] 101.226.86.164 /index.php?g=portal&m=problem&a=answerline&id=56
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:09:34 Use 1.065392 s 
+
+[ 2018-06-29T10:09:46+08:00 ] 61.151.225.190 /index.php?g=portal&m=resource&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:09:46 Use 1.061676 s 
+
+[ 2018-06-29T10:10:00+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=detail&id=1272
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:10:00 Use 1.099153 s 
+
+[ 2018-06-29T10:10:58+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:10:58 Use 1.092044 s 
+
+[ 2018-06-29T10:11:53+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:11:53 Use 1.058765 s 
+
+[ 2018-06-29T10:12:22+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=doanswer
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:12:22 Use 1.049378 s 
+
+[ 2018-06-29T10:14:47+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=detail&id=1272
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:14:47 Use 1.133376 s 
+
+[ 2018-06-29T10:19:21+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:19:21 Use 1.214611 s 
+
+[ 2018-06-29T10:19:21+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:19:21 Use 1.069493 s 
+
+[ 2018-06-29T10:19:34+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:19:34 Use 1.062608 s 
+
+[ 2018-06-29T10:19:51+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:19:51 Use 1.048011 s 
+
+[ 2018-06-29T10:20:11+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:20:11 Use 1.048404 s 
+
+[ 2018-06-29T10:20:31+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:20:31 Use 1.070602 s 
+
+[ 2018-06-29T10:20:51+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:20:51 Use 1.068718 s 
+
+[ 2018-06-29T10:21:20+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:21:20 Use 1.062242 s 
+
+[ 2018-06-29T10:23:32+08:00 ] 113.96.219.249 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:23:32 Use 1.048886 s 
+
+[ 2018-06-29T10:25:40+08:00 ] 113.96.219.249 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:25:40 Use 1.048906 s 
+
+[ 2018-06-29T10:26:10+08:00 ] 113.96.219.249 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:26:10 Use 1.047693 s 
+
+[ 2018-06-29T10:26:54+08:00 ] 113.96.219.249 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:26:54 Use 1.046104 s 
+
+[ 2018-06-29T10:27:15+08:00 ] 113.96.219.249 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:27:15 Use 1.048529 s 
+
+[ 2018-06-29T10:27:32+08:00 ] 113.96.219.249 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:27:32 Use 1.048085 s 
+
+[ 2018-06-29T10:28:07+08:00 ] 113.96.219.249 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:28:07 Use 1.047940 s 
+
+[ 2018-06-29T10:28:23+08:00 ] 113.96.219.249 /index.php?g=portal&m=task&a=fabu
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:28:23 Use 1.176982 s 
+
+[ 2018-06-29T10:29:34+08:00 ] 101.226.79.239 /index.php?g=portal&m=task&a=detail&id=1275
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:29:34 Use 1.120201 s 
+
+[ 2018-06-29T10:30:59+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:30:59 Use 1.059964 s 
+
+[ 2018-06-29T10:31:11+08:00 ] 223.104.25.77 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:31:11 Use 1.047714 s 
+
+[ 2018-06-29T10:32:20+08:00 ] 61.151.226.63 /index.php?g=portal&m=task&a=index&id=1269
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:32:20 Use 1.048059 s 
+
+[ 2018-06-29T10:33:03+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:33:03 Use 1.048670 s 
+
+[ 2018-06-29T10:33:23+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:33:23 Use 1.046771 s 
+
+[ 2018-06-29T10:33:24+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:33:24 Use 1.046580 s 
+
+[ 2018-06-29T10:33:43+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:33:43 Use 1.049408 s 
+
+[ 2018-06-29T10:34:18+08:00 ] 183.3.255.28 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:34:18 Use 1.049108 s 
+
+[ 2018-06-29T10:34:29+08:00 ] 183.3.255.28 /index.php?g=portal&m=task&a=detail&id=1276
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:34:29 Use 1.047389 s 
+
+[ 2018-06-29T10:35:26+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:35:26 Use 1.048366 s 
+
+[ 2018-06-29T10:35:45+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:35:45 Use 1.046649 s 
+
+[ 2018-06-29T10:36:05+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:36:05 Use 1.047156 s 
+
+[ 2018-06-29T10:36:19+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:36:19 Use 1.046973 s 
+
+[ 2018-06-29T10:36:35+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:36:35 Use 1.046424 s 
+
+[ 2018-06-29T10:36:50+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:36:50 Use 1.046923 s 
+
+[ 2018-06-29T10:37:50+08:00 ] 101.226.86.156 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:37:50 Use 1.050039 s 
+
+[ 2018-06-29T10:39:29+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:39:29 Use 1.056684 s 
+
+[ 2018-06-29T10:40:12+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:40:12 Use 1.048091 s 
+
+[ 2018-06-29T10:40:25+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:40:25 Use 1.047473 s 
+
+[ 2018-06-29T10:41:36+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:41:36 Use 1.047274 s 
+
+[ 2018-06-29T10:41:36+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:41:36 Use 1.047312 s 
+
+[ 2018-06-29T10:45:17+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=detail&id=1274
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:45:17 Use 1.048250 s 
+
+[ 2018-06-29T10:46:13+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:46:13 Use 1.046948 s 
+
+[ 2018-06-29T10:46:27+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:46:27 Use 1.046837 s 
+
+[ 2018-06-29T10:46:39+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:46:39 Use 1.089707 s 
+
+[ 2018-06-29T10:47:08+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:47:08 Use 1.057005 s 
+
+[ 2018-06-29T10:47:08+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:47:08 Use 1.046348 s 
+
+[ 2018-06-29T10:47:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:47:24 Use 1.047557 s 
+
+[ 2018-06-29T10:47:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:47:24 Use 1.047562 s 
+
+[ 2018-06-29T10:47:38+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:47:38 Use 1.281362 s 
+
+[ 2018-06-29T10:48:42+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:48:42 Use 1.070791 s 
+
+[ 2018-06-29T10:50:22+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:50:22 Use 1.046263 s 
+
+[ 2018-06-29T10:51:18+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=detail&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:51:18 Use 1.197844 s 
+
+[ 2018-06-29T10:51:31+08:00 ] 101.226.79.232 /index.php?g=portal&m=task&a=detail&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:51:31 Use 1.048913 s 
+
+[ 2018-06-29T10:53:33+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:53:33 Use 1.046903 s 
+
+[ 2018-06-29T10:53:33+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:53:33 Use 1.040515 s 
+
+[ 2018-06-29T10:54:09+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:54:09 Use 1.058387 s 
+
+[ 2018-06-29T10:54:09+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:54:09 Use 1.050562 s 
+
+[ 2018-06-29T10:54:33+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:54:33 Use 1.049470 s 
+
+[ 2018-06-29T10:54:34+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1277
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:54:34 Use 1.057809 s 
+
+[ 2018-06-29T10:55:25+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:55:25 Use 1.047636 s 
+
+[ 2018-06-29T10:55:38+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:55:38 Use 1.057300 s 
+
+[ 2018-06-29T10:56:08+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:56:08 Use 1.137513 s 
+
+[ 2018-06-29T10:56:20+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:56:20 Use 1.047648 s 
+
+[ 2018-06-29T10:56:40+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:56:40 Use 1.051027 s 
+
+[ 2018-06-29T10:56:59+08:00 ] 113.251.23.132 /index.php?g=portal&m=resource&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:56:59 Use 1.048947 s 
+
+[ 2018-06-29T10:57:32+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:57:32 Use 1.047941 s 
+
+[ 2018-06-29T10:59:11+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:59:11 Use 1.048183 s 
+
+[ 2018-06-29T10:59:45+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:59:45 Use 1.077526 s 
+
+[ 2018-06-29T10:59:57+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 10:59:57 Use 1.047246 s 
+
+[ 2018-06-29T11:00:10+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:00:10 Use 1.046177 s 
+
+[ 2018-06-29T11:00:21+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:00:21 Use 1.046088 s 
+
+[ 2018-06-29T11:00:59+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:00:59 Use 1.046884 s 
+
+[ 2018-06-29T11:01:21+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:01:21 Use 1.059147 s 
+
+[ 2018-06-29T11:02:16+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:02:16 Use 1.047018 s 
+
+[ 2018-06-29T11:02:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:02:44 Use 1.045518 s 
+
+[ 2018-06-29T11:03:04+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:03:04 Use 1.039972 s 
+
+[ 2018-06-29T11:03:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:03:24 Use 1.048136 s 
+
+[ 2018-06-29T11:03:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:03:44 Use 1.059087 s 
+
+[ 2018-06-29T11:04:04+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:04:04 Use 1.056637 s 
+
+[ 2018-06-29T11:04:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:04:24 Use 1.048839 s 
+
+[ 2018-06-29T11:04:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:04:44 Use 1.049289 s 
+
+[ 2018-06-29T11:05:04+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:05:04 Use 1.056734 s 
+
+[ 2018-06-29T11:05:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:05:24 Use 1.047740 s 
+
+[ 2018-06-29T11:05:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:05:44 Use 1.057865 s 
+
+[ 2018-06-29T11:06:04+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:06:04 Use 1.058952 s 
+
+[ 2018-06-29T11:06:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:06:24 Use 1.047901 s 
+
+[ 2018-06-29T11:06:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:06:44 Use 1.059131 s 
+
+[ 2018-06-29T11:07:04+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:07:04 Use 1.049182 s 
+
+[ 2018-06-29T11:07:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:07:24 Use 1.048549 s 
+
+[ 2018-06-29T11:07:35+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:07:35 Use 1.048917 s 
+
+[ 2018-06-29T11:07:54+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:07:54 Use 1.048281 s 
+
+[ 2018-06-29T11:08:13+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:08:13 Use 1.053911 s 
+
+[ 2018-06-29T11:08:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:08:24 Use 1.050044 s 
+
+[ 2018-06-29T11:08:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:08:44 Use 1.047037 s 
+
+[ 2018-06-29T11:09:00+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:09:00 Use 1.047543 s 
+
+[ 2018-06-29T11:09:14+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:09:14 Use 1.057510 s 
+
+[ 2018-06-29T11:09:34+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:09:34 Use 1.047250 s 
+
+[ 2018-06-29T11:09:48+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:09:48 Use 1.129732 s 
+
+[ 2018-06-29T11:10:04+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:10:04 Use 1.059173 s 
+
+[ 2018-06-29T11:10:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:10:24 Use 1.048321 s 
+
+[ 2018-06-29T11:10:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:10:44 Use 1.046855 s 
+
+[ 2018-06-29T11:11:04+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:11:04 Use 1.056065 s 
+
+[ 2018-06-29T11:11:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:11:24 Use 1.048364 s 
+
+[ 2018-06-29T11:11:44+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:11:44 Use 1.049908 s 
+
+[ 2018-06-29T11:12:03+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:12:03 Use 1.048631 s 
+
+[ 2018-06-29T11:12:14+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:12:14 Use 1.048564 s 
+
+[ 2018-06-29T11:12:34+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:12:34 Use 1.046931 s 
+
+[ 2018-06-29T11:16:39+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:16:39 Use 1.047772 s 
+
+[ 2018-06-29T11:17:04+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:17:04 Use 1.048152 s 
+
+[ 2018-06-29T11:17:16+08:00 ] 113.251.23.132 /index.php?g=portal&m=resource&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:17:16 Use 1.049651 s 
+
+[ 2018-06-29T11:17:29+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:17:29 Use 1.048898 s 
+
+[ 2018-06-29T11:18:06+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:18:06 Use 1.059193 s 
+
+[ 2018-06-29T11:18:39+08:00 ] 101.227.131.139 /index.php?g=Portal&m=Task&a=index&id=1281
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:18:39 Use 1.067860 s 
+
+[ 2018-06-29T11:19:28+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:19:28 Use 1.047556 s 
+
+[ 2018-06-29T11:19:28+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:19:28 Use 1.047325 s 
+
+[ 2018-06-29T11:19:55+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1281
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:19:55 Use 1.047264 s 
+
+[ 2018-06-29T11:20:21+08:00 ] 163.177.66.101 /index.php?g=portal&m=problem&a=answerinfo&id=58
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:20:21 Use 1.047624 s 
+
+[ 2018-06-29T11:20:36+08:00 ] 163.177.66.101 /index.php?g=portal&m=problem&a=answerline&id=58
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:20:36 Use 1.058174 s 
+
+[ 2018-06-29T11:21:21+08:00 ] 101.226.86.155 /index.php?g=portal&m=problem&a=answerinfo&id=58
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:21:21 Use 1.046324 s 
+
+[ 2018-06-29T11:21:36+08:00 ] 101.227.131.219 /index.php?g=portal&m=problem&a=answerline&id=58
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:21:36 Use 1.045826 s 
+
+[ 2018-06-29T11:22:06+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1281
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:22:06 Use 1.047706 s 
+
+[ 2018-06-29T11:22:06+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1281
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:22:06 Use 1.045394 s 
+
+[ 2018-06-29T11:22:18+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:22:18 Use 1.046756 s 
+
+[ 2018-06-29T11:23:23+08:00 ] 61.151.178.165 /index.php?g=portal&m=problem&a=detail&id=56
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:23:23 Use 1.046743 s 
+
+[ 2018-06-29T11:23:57+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:23:57 Use 1.051812 s 
+
+[ 2018-06-29T11:25:27+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:25:27 Use 1.046693 s 
+
+[ 2018-06-29T11:26:00+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:26:00 Use 1.047516 s 
+
+[ 2018-06-29T11:26:26+08:00 ] 101.226.93.198 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:26:26 Use 1.038030 s 
+
+[ 2018-06-29T11:26:41+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:26:41 Use 1.047669 s 
+
+[ 2018-06-29T11:31:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:31:09 Use 1.048423 s 
+
+[ 2018-06-29T11:31:27+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:31:27 Use 1.046949 s 
+
+[ 2018-06-29T11:32:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:32:09 Use 1.057500 s 
+
+[ 2018-06-29T11:32:33+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:32:33 Use 1.045772 s 
+
+[ 2018-06-29T11:33:08+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:33:08 Use 1.046316 s 
+
+[ 2018-06-29T11:34:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:34:09 Use 1.053083 s 
+
+[ 2018-06-29T11:35:08+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:35:08 Use 1.047274 s 
+
+[ 2018-06-29T11:35:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:35:09 Use 1.046186 s 
+
+[ 2018-06-29T11:35:36+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:35:36 Use 1.046537 s 
+
+[ 2018-06-29T11:36:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:36:09 Use 1.046762 s 
+
+[ 2018-06-29T11:36:20+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:36:20 Use 1.058057 s 
+
+[ 2018-06-29T11:37:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:37:09 Use 1.049070 s 
+
+[ 2018-06-29T11:38:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:38:09 Use 1.048034 s 
+
+[ 2018-06-29T11:39:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:39:09 Use 1.047713 s 
+
+[ 2018-06-29T11:40:08+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:40:08 Use 1.045489 s 
+
+[ 2018-06-29T11:41:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:41:08 Use 1.047077 s 
+
+[ 2018-06-29T11:43:09+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 11:43:09 Use 1.046917 s 
+
+[ 2018-06-29T12:07:19+08:00 ] 14.108.12.144 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:07:19 Use 1.047442 s 
+
+[ 2018-06-29T12:07:33+08:00 ] 14.108.12.144 /index.php?g=portal&m=task&a=detail&id=1270
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:07:33 Use 1.057047 s 
+
+[ 2018-06-29T12:10:19+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:10:19 Use 1.054384 s 
+
+[ 2018-06-29T12:11:25+08:00 ] 183.3.255.28 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:11:25 Use 1.048001 s 
+
+[ 2018-06-29T12:11:52+08:00 ] 183.3.255.28 /index.php?g=portal&m=task&a=detail&id=546
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:11:52 Use 1.050081 s 
+
+[ 2018-06-29T12:12:34+08:00 ] 101.226.233.150 /index.php?g=portal&m=task&a=detail&id=1269
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:12:34 Use 1.047490 s 
+
+[ 2018-06-29T12:12:52+08:00 ] 101.226.227.170 /index.php?g=portal&m=task&a=detail&id=546
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:12:52 Use 1.047649 s 
+
+[ 2018-06-29T12:13:05+08:00 ] 183.3.255.28 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:13:05 Use 1.045948 s 
+
+[ 2018-06-29T12:13:19+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:13:19 Use 1.046760 s 
+
+[ 2018-06-29T12:13:36+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:13:36 Use 1.048713 s 
+
+[ 2018-06-29T12:14:44+08:00 ] 183.3.255.28 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:14:44 Use 1.047235 s 
+
+[ 2018-06-29T12:20:25+08:00 ] 183.3.255.28 /index.php?g=portal&m=resource&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:20:25 Use 1.049772 s 
+
+[ 2018-06-29T12:20:39+08:00 ] 183.3.255.28 /index.php?g=portal&m=zhuantis&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:20:39 Use 1.058451 s 
+
+[ 2018-06-29T12:26:25+08:00 ] 222.178.220.225 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:26:25 Use 1.057665 s 
+
+[ 2018-06-29T12:26:36+08:00 ] 222.178.220.225 /index.php?g=portal&m=task&a=index&id=1270
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:26:36 Use 1.038861 s 
+
+[ 2018-06-29T12:27:36+08:00 ] 61.151.226.53 /index.php?g=portal&m=task&a=index&id=1270
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:27:36 Use 1.057721 s 
+
+[ 2018-06-29T12:27:37+08:00 ] 222.178.220.225 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:27:37 Use 1.048275 s 
+
+[ 2018-06-29T12:27:55+08:00 ] 222.178.220.225 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:27:55 Use 1.048049 s 
+
+[ 2018-06-29T12:28:17+08:00 ] 222.178.220.225 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:28:17 Use 1.047590 s 
+
+[ 2018-06-29T12:28:36+08:00 ] 222.178.220.225 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:28:36 Use 1.046154 s 
+
+[ 2018-06-29T12:29:23+08:00 ] 222.178.220.225 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:29:23 Use 1.097606 s 
+
+[ 2018-06-29T12:30:23+08:00 ] 222.178.220.225 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:30:23 Use 1.048533 s 
+
+[ 2018-06-29T12:31:41+08:00 ] 222.178.220.225 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:31:41 Use 1.047046 s 
+
+[ 2018-06-29T12:31:57+08:00 ] 222.178.220.225 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:31:57 Use 1.047337 s 
+
+[ 2018-06-29T12:32:41+08:00 ] 222.178.220.225 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:32:41 Use 1.048754 s 
+
+[ 2018-06-29T12:32:58+08:00 ] 222.178.220.225 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:32:58 Use 1.045640 s 
+
+[ 2018-06-29T12:33:10+08:00 ] 222.178.220.225 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:33:10 Use 1.047473 s 
+
+[ 2018-06-29T12:33:36+08:00 ] 222.178.220.225 /index.php?g=portal&m=task&a=index&id=1285
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:33:36 Use 1.047199 s 
+
+[ 2018-06-29T12:34:18+08:00 ] 101.226.113.56 /index.php?g=portal&m=task&a=index&id=1285
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 12:34:18 Use 1.046146 s 
+
+[ 2018-06-29T13:43:10+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:43:10 Use 1.046681 s 
+
+[ 2018-06-29T13:44:05+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:44:05 Use 1.048664 s 
+
+[ 2018-06-29T13:44:19+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:44:19 Use 1.048354 s 
+
+[ 2018-06-29T13:45:24+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:45:24 Use 1.056140 s 
+
+[ 2018-06-29T13:45:54+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:45:54 Use 1.058794 s 
+
+[ 2018-06-29T13:47:01+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getimgpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:47:01 Use 1.046337 s 
+
+[ 2018-06-29T13:47:14+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:47:14 Use 1.048180 s 
+
+[ 2018-06-29T13:48:42+08:00 ] 113.251.23.132 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:48:42 Use 1.048296 s 
+
+[ 2018-06-29T13:49:02+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1286
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:49:02 Use 1.048265 s 
+
+[ 2018-06-29T13:49:19+08:00 ] 113.251.23.132 /index.php?g=portal&m=problem&a=getpost
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:49:19 Use 1.046606 s 
+
+[ 2018-06-29T13:49:32+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:49:32 Use 1.047402 s 
+
+[ 2018-06-29T13:50:19+08:00 ] 113.251.23.132 /index.php?g=portal&m=task&a=fabu
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:50:19 Use 1.049254 s 
+
+[ 2018-06-29T13:50:30+08:00 ] 113.251.23.132 /index.php?g=Portal&m=Task&a=index&id=1287
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:50:30 Use 1.045518 s 
+
+[ 2018-06-29T13:51:30+08:00 ] 101.227.131.247 /index.php?g=Portal&m=Task&a=index&id=1287
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:51:30 Use 1.059285 s 
+
+[ 2018-06-29T13:52:07+08:00 ] 113.96.219.249 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:52:07 Use 1.053486 s 
+
+[ 2018-06-29T13:52:18+08:00 ] 113.96.219.249 /index.php?g=Portal&m=Task&a=index&id=1275
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:52:18 Use 1.303517 s 
+
+[ 2018-06-29T13:53:14+08:00 ] 113.96.219.249 /index.php?g=portal&m=task&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 13:53:14 Use 1.036861 s 
+
+[ 2018-06-29T15:45:31+08:00 ] 119.86.97.161 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 15:45:31 Use 1.050125 s 
+
+[ 2018-06-29T15:45:46+08:00 ] 119.86.97.161 /index.php?g=portal&m=task&a=index&id=1285
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 15:45:46 Use 1.046506 s 
+
+[ 2018-06-29T15:46:46+08:00 ] 117.185.117.59 /index.php?g=portal&m=task&a=index&id=1285
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 15:46:46 Use 1.048857 s 
+
+[ 2018-06-29T20:21:19+08:00 ] 101.132.177.30 /index.php?g=portal&m=task&a=detail&id=5
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 20:21:19 Use 1.050870 s 
+
+[ 2018-06-29T23:09:09+08:00 ] 14.106.163.61 /index.php?g=portal&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-29 23:09:09 Use 1.058042 s 
+

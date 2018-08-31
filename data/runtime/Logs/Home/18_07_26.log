@@ -1,0 +1,9 @@
+[ 2018-07-26T13:59:37+08:00 ] 183.136.190.62 /
+ERR: Cron:测试执行定时任务 Runat 2018-07-26 13:59:37 Use 1.221197 s 
+
+[ 2018-07-26T19:15:49+08:00 ] 125.62.5.61 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-26 19:15:49 Use 1.050533 s 
+
+[ 2018-07-26T19:16:49+08:00 ] 61.151.179.83 /index.php?g=home&m=public&a=login&parentid=112
+ERR: Cron:测试执行定时任务 Runat 2018-07-26 19:16:49 Use 1.063048 s 
+

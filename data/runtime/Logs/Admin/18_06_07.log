@@ -1,0 +1,54 @@
+[ 2018-06-07T08:57:02+08:00 ] 113.251.16.208 /index.php?g=admin&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 08:57:02 Use 1.054091 s 
+
+[ 2018-06-07T08:58:03+08:00 ] 117.135.173.78 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 08:58:03 Use 1.062149 s 
+
+[ 2018-06-07T11:44:13+08:00 ] 113.251.16.208 /index.php?g=admin&m=index&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 11:44:13 Use 1.047273 s 
+
+[ 2018-06-07T11:44:27+08:00 ] 113.251.16.208 /index.php?g=admin&m=public&a=dologin
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 11:44:27 Use 1.046058 s 
+
+[ 2018-06-07T11:44:39+08:00 ] 113.251.16.208 /index.php?g=admin&m=wclass&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 11:44:39 Use 1.044078 s 
+
+[ 2018-06-07T11:44:53+08:00 ] 113.251.16.208 /index.php?g=admin&m=question&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 11:44:53 Use 1.044273 s 
+
+[ 2018-06-07T11:45:14+08:00 ] 61.151.218.119 /index.php?g=admin&m=public&a=login
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 11:45:14 Use 1.049867 s 
+
+[ 2018-06-07T11:45:14+08:00 ] 113.251.16.208 /index.php?g=admin&m=member&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 11:45:14 Use 1.051586 s 
+
+[ 2018-06-07T11:45:27+08:00 ] 113.251.16.208 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 11:45:27 Use 1.051898 s 
+
+[ 2018-06-07T11:46:20+08:00 ] 61.151.178.173 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 11:46:20 Use 1.044637 s 
+
+[ 2018-06-07T14:32:57+08:00 ] 113.251.16.208 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 14:32:57 Use 1.055090 s 
+
+[ 2018-06-07T14:34:00+08:00 ] 101.227.143.143 /index.php?g=admin&m=teacher&a=detail&id=24
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 14:34:00 Use 1.202919 s 
+
+[ 2018-06-07T14:49:37+08:00 ] 113.251.16.208 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 14:49:37 Use 1.043776 s 
+
+[ 2018-06-07T14:55:44+08:00 ] 113.251.16.208 /index.php?g=admin&m=total&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 14:55:44 Use 1.035127 s 
+
+[ 2018-06-07T14:55:57+08:00 ] 113.251.16.208 /index.php?g=admin&m=fset&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 14:55:57 Use 1.043687 s 
+
+[ 2018-06-07T14:56:44+08:00 ] 101.226.93.191 /index.php?g=admin&m=total&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 14:56:44 Use 1.045869 s 
+
+[ 2018-06-07T14:56:57+08:00 ] 101.226.113.53 /index.php?g=admin&m=fset&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 14:56:57 Use 1.044231 s 
+
+[ 2018-06-07T15:02:07+08:00 ] 113.251.16.208 /index.php?g=admin&m=teacher&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-06-07 15:02:07 Use 1.044597 s 
+

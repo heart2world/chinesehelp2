@@ -1,0 +1,21 @@
+[ 2018-07-15T09:03:12+08:00 ] 219.151.35.92 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-15 09:03:12 Use 1.040290 s 
+
+[ 2018-07-15T09:03:26+08:00 ] 219.151.35.92 /index.php?g=user&m=center&a=yestixian
+ERR: Cron:测试执行定时任务 Runat 2018-07-15 09:03:26 Use 1.048141 s 
+
+[ 2018-07-15T09:03:53+08:00 ] 101.226.79.240 /index.php?g=user&m=login&a=index&redirect=
+ERR: Cron:测试执行定时任务 Runat 2018-07-15 09:03:53 Use 1.050022 s 
+
+[ 2018-07-15T09:04:21+08:00 ] 117.135.173.80 /index.php?g=user&m=center&a=myincome
+ERR: Cron:测试执行定时任务 Runat 2018-07-15 09:04:21 Use 1.049482 s 
+
+[ 2018-07-15T16:27:26+08:00 ] 61.151.225.242 /index.php?g=user&m=center&a=addmobile
+ERR: Cron:测试执行定时任务 Runat 2018-07-15 16:27:26 Use 1.048306 s 
+
+[ 2018-07-15T21:08:03+08:00 ] 113.96.219.243 /index.php?g=user&m=center&a=apply
+ERR: Cron:测试执行定时任务 Runat 2018-07-15 21:08:03 Use 1.049084 s 
+
+[ 2018-07-15T21:09:01+08:00 ] 117.185.117.57 /index.php?g=user&m=center&a=index
+ERR: Cron:测试执行定时任务 Runat 2018-07-15 21:09:01 Use 1.047460 s 
+

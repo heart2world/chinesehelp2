@@ -1,0 +1,6 @@
+[ 2018-06-27T02:05:59+08:00 ] 47.97.216.82 /index.php?g=User&m=Wexin&a=get_user&parentid=0&code=071fHtNW0zJhcV1f7VLW0YnxNW0fHtNh&state=STATE
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 02:05:59 Use 1.052704 s 
+
+[ 2018-06-27T17:19:01+08:00 ] 61.151.225.192 /index.php?g=user&m=center&a=addmobile
+ERR: Cron:测试执行定时任务 Runat 2018-06-27 17:19:01 Use 1.047515 s 
+

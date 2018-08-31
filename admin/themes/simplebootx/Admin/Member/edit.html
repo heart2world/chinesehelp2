@@ -1,0 +1,218 @@
+<admintpl file="header" />
+</head>
+<style>
+    .row-fluid{
+        display:none;position: absolute;  top: 20%;border-radius: 3px;  left: 28%; width: 44%; overflow:hidden; overflow-y: auto;  padding: 8px;  border: 1px solid #E8E9F7;  background-color: white;  z-index:10003;
+    }
+    #bg{ display: none;  position: fixed;  top: 0%;  left: 0%;  width: 100%;  height: 100%;  background-color: black;  z-index:1001;  -moz-opacity: 0.7;  opacity:.70;  filter: alpha(opacity=70);}
+
+    .table tr th,.table tr td{
+        text-align: center;
+    }
+    .add-btn{
+        margin-left: 22px;
+    }
+    .form-horizontal .controls{
+        margin-left: 20px;
+    }
+
+</style>
+<body>
+	<div class="wrap" id="app">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('member/index')}">{:L('ADMIN_USER_INDEX')}</a></li>
+			<li class="active"><a>编辑会员</a></li>
+		</ul>
+		<form class="form-horizontal" id="tagforms" method="post" enctype="multipart/form-data">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">微信昵称：</label>
+					<div class="controls">
+						<label style="margin-top: 5px;">{$nicename}</label>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">性别：</label>
+					<div class="controls">
+						<input type="text" name="sex" value="{$sex}">
+					</div>
+				</div>				
+				<div class="control-group">
+					<label class="control-label">年龄：</label>
+					<div class="controls">
+						<input type="number" name="age" min="1" value="{$age}">
+					</div>
+				</div>	
+				<div class="control-group">
+					<label class="control-label">年级：</label>
+					<div class="controls">
+						<input type="text" name="classname" maxlength="20" value="{$classname}">
+					</div>
+				</div>									
+				<div class="control-group">
+					<label class="control-label">学校：</label>
+					<div class="controls">
+						<input type="text" name="schoolname" maxlength="20" value="{$schoolname}">
+					</div>
+				</div>		
+				<div class="control-group">
+					<label class="control-label">TA的教师：</label>
+					<div class="controls">
+						<input type="text" readonly id="teachername" maxlength="20" value="{$teachername}">
+						<a class="btn changeeidt" onclick="show_div()" style="background-color:#1abc9c;">修改</a>
+						<if condition="$agentid gt 0">
+						<a class="btn changeeidt" onclick="delparent()" style="background-color:#1abc9c;">删除上级</a>
+						</if>
+					</div>
+				</div>
+				<div class="control-group" id="category-list">
+					
+				
+					<div class="row-fluid" style="display: none">
+						<div><center style="font-size: 18px;margin-bottom: 10px;">选择教师</center></div>
+						<div style="margin-bottom: 10px">
+							<input type="text" placeholder="输入教师姓名/电话" id="keyword" >
+							<input type="button"  class="btn" id="search" style="background-color:#1abc9c;" value="搜索">
+						</div>
+						<div style="height: 450px;overflow-y: scroll;border-bottom: 1px solid #ccc;">
+						<table class="table table-bordered" width="100%">
+							<th>选择</th>
+							<th>姓名</th>
+							<th>电话</th>								
+							<tbody id="list-box">
+							</tbody>
+						</table>
+						</div>
+						<div style="text-align: center;margin-top: 10px;">
+							<a href="javascript:;" class="btn btn-primary" onclick="close_div()">取消</a>&nbsp;&nbsp;&nbsp;
+							<a href="javascript:;" class="btn btn-primary" onclick="eachSelect()">确认</a>
+						</div>
+						<div class="row" id="page-info">
+						</div>
+					</div>
+					<input type="hidden" name="agentid" id="good_ids" value="{$agentid}">
+				</div>
+			</fieldset>
+			<div class="form-actions">
+				<input type="hidden" name="id" value="{$id}" />
+				<input type="button" @click="add()" class="btn btn-primary" value="保存"/>
+				<a class="btn" href="javascript:history.back(-1);">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<div id="bg" onclick="close_div()"></div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script src="__PUBLIC__/js/vue.js"></script>
+	<script src="__PUBLIC__/js/content_addtop.js"></script>
+	<script src="__PUBLIC__/js/define_my.js"></script>
+	<script src="__PUBLIC__/js/artDialog/artDialog.js"></script>
+	<script>
+	var goods_ids =$("#good_ids").val();
+	function close_div() {
+        $('.row-fluid').css('display','none');
+        $('#bg').css('display','none');
+    }
+	function delparent()
+	{
+		$("#good_ids").val(0);
+		$("#teachername").val('');
+	}
+    function eachSelect(){
+           
+	    check_val='';
+        var name_str='';
+        $('#list-ship').empty();
+        $("input[type=radio]").each(function(){
+            if($(this).is(':checked')){
+                var g_name= $(this).parents().siblings("td").eq(0).html();
+                var id=$(this).val();
+                check_val=id;
+                name_str=g_name;
+            }
+        });
+        
+        $('#good_ids').val(check_val);
+        $('#teachername').val(name_str);
+        $("#bg").css('display','none');
+        $('.row-fluid').css('display','none');
+        return check_val;
+    }
+	function show_div() {
+        $("#bg").css('display','block');
+        $('#qg_check').css('display','none');
+        $('.row-fluid').css('display','block');
+        var keyword =$("#keyword").val();
+		$.ajax({
+			url:'{:U("member/getteachers")}',
+			data:{keyword:keyword},
+			type:"POST",
+			dataType:"json",
+			success:function (arr) {
+				var str = '';
+				data = arr.list;
+				for(var o in data) {
+					var is_check=goods_ids==data[o].value ? 'checked':'';
+					str+="<tr><td><input type=\"radio\" name=\"userid\" "+is_check+" value="+data[o].value+"></td><td>"+data[o].text+"</td><td>"+data[o].text1+"</td></tr>";
+				}
+				document.getElementById('list-box').innerHTML=str;
+			}
+		})
+    }
+	$(function () {       
+        $('#search').click(function () {
+            var keyword =$("#keyword").val();
+			$.ajax({
+				url:'{:U("member/getteachers")}',
+				data:{keyword:keyword},
+				type:"POST",
+				dataType:"json",
+				success:function (arr) {
+					var str = '';
+					data = arr.list;
+					for(var o in data) {
+						var is_check=goods_ids==data[o].value ? 'checked':'';
+						str+="<tr><td><input type=\"radio\" name=\"userid\" "+is_check+" value="+data[o].value+"></td><td>"+data[o].text+"</td><td>"+data[o].text1+"</td></tr>";
+					}
+					document.getElementById('list-box').innerHTML=str;
+				}
+			})
+        });
+
+    });
+	</script>
+	<script>
+		var app = new Vue({
+			el:"#app",
+			data:{
+				info:{},				
+			},
+			created:function () {
+			},
+			methods:{
+				add:function () {	
+				     var tagvals=$('#tagforms').serialize();				
+					$.ajax({
+						url:'{:U("Member/edit_post")}',
+						data:tagvals,
+						type:"POST",
+						dataType:"json",
+						success:function (res) {							
+							if(res.status==0){
+								$.dialog({id: 'popup', lock: true,icon:"succeed", content: res.msg, time: 2});
+								setInterval(function(){
+									location.href='{:U("Member/index")}';
+								},3000)
+							}
+							else {
+								$.dialog({id: 'popup', lock: true,icon:"warning", content: res.msg, time: 2});
+							}
+						}
+
+					})
+				}
+			}
+		});	
+
+	</script>
+</body>
+</html>
